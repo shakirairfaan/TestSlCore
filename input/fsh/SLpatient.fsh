@@ -2,8 +2,8 @@ Profile: SLCorePatient
 Parent: Patient
 Id: SLCorePatient
 Description: "Defines the LK Core constraints and extensions on the Patient resource for the minimal set of data to query and retrieve an individual’s demographic information."
-* ^meta.lastUpdated = "2020-12-24T10:03:51.220+00:00"
-* ^url = "http://example.org/fhir/SLcore/StructureDefinition/SLCorePatient"
+* ^meta.lastUpdated = "2022-07-15T15:03:51.220+00:00"
+* ^url = "http://fhir.health.gov.lk/fhir/SLcore/StructureDefinition/SLCorePatient"
 * ^version = "0.1"
 * ^status = #draft
 * identifier ^slicing.discriminator.type = #value
@@ -12,27 +12,23 @@ Description: "Defines the LK Core constraints and extensions on the Patient reso
 * identifier contains
     PHN 1..* and
     NIC 0..1 and
-    PPN 0..*
+    SSN 0..*
 * identifier[PHN].type 1..
-* identifier[PHN] ^short = "this is the patient's PHN"
-* identifier[PHN] ^definition = "this is the longer description patient's PHN that appears in the tool tip"
+* identifier[PHN] ^short = "PHN"
+* identifier[PHN] ^definition = "Personal Health Number"
 * identifier[PHN].type = http://terminology.hl7.org/CodeSystem/v2-0203#JHN (exactly)
 * identifier[PHN].system 1..
 * identifier[PHN].system = "http://fhir.health.gov.lk/ns/phn" (exactly)
 * identifier[PHN].value 1..
-//this value should not be set exactly since this is the profile 
-//* identifier[PHN].value = "123456" (exactly)
 * identifier[NIC].type 1..
 * identifier[NIC].type = http://terminology.hl7.org/CodeSystem/v2-0203#NI (exactly)
 * identifier[NIC].system 1..
 * identifier[NIC].system = "http://fhir.health.gov.lk/ns/nic" (exactly)
 * identifier[NIC].value 1..
-// Commented identifer[NIC] out because it should not be set exactly
-//* identifier[NIC].value = "123456" (exactly)
-* identifier[PPN] ^short = "An Passport number for this patient"
-* identifier[PPN] ^definition = "An passport number for this patient."
-* identifier[PPN].type = http://terminology.hl7.org/CodeSystem/v2-0203#PPN (exactly)
-* identifier[PPN].system = "http://fhir.health.gov.lk/ns/ppn" (exactly)
+* identifier[SSN] ^short = "Senior Citizen number"
+* identifier[SSN] ^definition = "SSN for this client."
+* identifier[SSN].type = http://terminology.hl7.org/CodeSystem/v2-0203#SSN (exactly)
+* identifier[SSN].system = "http://fhir.health.gov.lk/ns/SSN" (exactly)
 * name 1..
 * contact.organization obeys ref-1
 * contact.organization ^constraint[1].source = "http://hl7.org/fhir/StructureDefinition/Encounter"

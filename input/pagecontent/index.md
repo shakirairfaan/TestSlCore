@@ -1,6 +1,8 @@
 Feel free to modify this index page with your own awesome content!
 
-### This is a header at H3
+# THIS IS HEADER
+
+## This is a header at H3
 
 IGs start at H3
 

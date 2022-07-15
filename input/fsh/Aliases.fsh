@@ -1,7 +1,4 @@
-//Example Alias file, you can add other aliases here 
-//Extensions 
+Alias: SLFacilityRegistry = http://slfacilityreg.health.gov.lk
+Alias: SLCodes = http://sldic.fhir.health.gov.lk
+Alias: SLURL = http://health.gov.lk
 Alias: $SLAddressExt = http://example.org/fhir/SLcore/StructureDefinition/SLAddressExt
-
-//Terminology Systems (can add more)
-Alias:   UCUM = http://unitsofmeasure.org
-Alias:   ICD11 = http://hl7.org/fhir/sid/icd-11

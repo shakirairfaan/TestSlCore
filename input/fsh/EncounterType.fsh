@@ -1,9 +1,9 @@
-ValueSet: Ty21aClassTyphoidVaccinevalues
-Id: Ty21aClassTyphoidVaccinevalues
-Title: "Ty21a Class Typhoid Vaccine values"
-Description: "Codes representing Ty21a Class Typhoid Vaccine values"
+ValueSet: RegistrationTypes
+Id: RegistrationTypes
+Title: "Registration Types"
+Description: "Codes representingregistration types"
 * ^status = #draft
 * ^experimental = true
 * ^immutable = true
-* ICD11#XM8BU8 "Typhoid vaccines"
-* ICD11#XM89G3 "Typhoid, inactivated, whole cell"
+* SLCodes#01001 "Hospital Visit"
+* SLCodes#01001 "Outreach Clinic"
