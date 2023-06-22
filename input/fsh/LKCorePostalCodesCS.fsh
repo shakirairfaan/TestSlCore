@@ -1,7 +1,7 @@
 CodeSystem: LKCorePostalCodesCS
 Id: lk-core-postalcodes-cs
 Title: "LK Core Postalcodes Code System"
-Description: ""
+Description: "LK Core Postalcodes Code System"
 * ^url = "http://data.health.gov.lk/ts/lk-core-postalcodes-cs"
 * ^version = "0.1.0"
 * ^status = #draft

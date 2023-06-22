@@ -1,7 +1,7 @@
 CodeSystem: LKCoreInstitutionTypeCS
 Id: lk-core-institution-type-cs
 Title: "LK Core Institution Type Code System"
-Description: ""
+Description: "LK Core Institution Type Code System"
 * ^url = "http://data.health.gov.lk/ts/lk-core-institution-type-cs"
 * ^version = "0.1.0"
 * ^status = #draft
