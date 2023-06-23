@@ -3,7 +3,7 @@
 # │  supported properties, see: https://fshschool.org/docs/sushi/configuration/                    │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: fhir.SLexampleIG
-canonical: http://example.org
+canonical: http://fhir.health.gov.lk
 name: SLCoreexampleIG
 title: "SL Core"
 description: "A test IG for SL Core"
@@ -12,12 +12,12 @@ version: 0.1.0
 fhirVersion: 4.0.1
 copyrightYear: 2022+
 releaseLabel: ci-build
-pages: 
-  index.md: 
+pages:
+  index.md:
     title: Home
   test1.md:
     title: Test 1
-  test2.md: 
+  test2.md:
     title: Test 2
 
 # ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
@@ -25,7 +25,7 @@ pages:
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
   Home: index.html
-  Section: 
+  Section:
     Test1: test1.html
     Test2: test2.html
   Artifacts: artifacts.html
