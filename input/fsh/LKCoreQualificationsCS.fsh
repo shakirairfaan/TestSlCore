@@ -2,7 +2,7 @@ CodeSystem: LKCoreQualificationsCS
 Id: lk-core-qualifications-cs
 Title: "LK Core Qualifications Code System"
 Description: "Codesystem for Academic Qualifications"
-* ^url = "http://data.health.gov.lk/terminology/lk-core-qualifications-cs"
+* ^url = "http://fhir.health.gov.lk/CodeSystem/lk-core-qualifications-cs"
 * ^version = "0.1.0"
 * ^status = #draft
 * #1 "Certificate (GCE O/L or equivalent)"

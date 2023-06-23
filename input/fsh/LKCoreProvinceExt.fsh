@@ -6,4 +6,4 @@ Description: "LK Core Province Extension"
 * ^version = "0.1.0"
 * ^status = #draft
 * value[x] only CodeableConcept
-* value[x] from http://data.health.gov.lk/fhir/vs/lk-core-province-vs
+* value[x] from http://fhir.health.gov.lk/ValueSet/lk-core-province-vs

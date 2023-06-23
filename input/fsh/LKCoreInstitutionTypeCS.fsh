@@ -2,7 +2,7 @@ CodeSystem: LKCoreInstitutionTypeCS
 Id: lk-core-institution-type-cs
 Title: "LK Core Institution Type Code System"
 Description: "LK Core Institution Type Code System"
-* ^url = "http://data.health.gov.lk/ts/lk-core-institution-type-cs"
+* ^url = "http://fhir.health.gov.lk/CodeSystem/lk-core-institution-type-cs"
 * ^version = "0.1.0"
 * ^status = #draft
 * #IT01 "Teaching"

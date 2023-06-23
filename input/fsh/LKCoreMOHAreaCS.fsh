@@ -2,7 +2,7 @@ CodeSystem: LKCoreMOHAreaCS
 Id: lk-core-moh-area-cs
 Title: "LK Core MOH Area Code System"
 Description: "LK Core MOH Area Code System"
-* ^url = "http://data.health.gov.lk/ts/lk-core-moh-area-cs"
+* ^url = "http://fhir.health.gov.lk/CodeSystem/lk-core-moh-area-cs"
 * ^version = "0.1.0"
 * ^status = #draft
 * #moh001 "Beruwala MOH"

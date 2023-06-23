@@ -2,7 +2,7 @@ CodeSystem: LKCoreProvinceCS
 Id: lk-core-province-cs
 Title: "LK Core Province Code System"
 Description: "LK Core Province Code System"
-* ^url = "http://data.health.gov.lk/ts/lk-core-province-cs"
+* ^url = "http://fhir.health.gov.lk/CodeSystem/lk-core-province-cs"
 * ^version = "0.1.0"
 * ^status = #draft
 * #LK-1 "Western Province"

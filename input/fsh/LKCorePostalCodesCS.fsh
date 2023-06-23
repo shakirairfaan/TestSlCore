@@ -2,7 +2,7 @@ CodeSystem: LKCorePostalCodesCS
 Id: lk-core-postalcodes-cs
 Title: "LK Core Postalcodes Code System"
 Description: "LK Core Postalcodes Code System"
-* ^url = "http://data.health.gov.lk/ts/lk-core-postalcodes-cs"
+* ^url = "http://fhir.health.gov.lk/CodeSystem/lk-core-postalcodes-cs"
 * ^version = "0.1.0"
 * ^status = #draft
 * #100 "Colombo 02-Colombo"

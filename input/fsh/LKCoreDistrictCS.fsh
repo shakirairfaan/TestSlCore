@@ -2,7 +2,7 @@ CodeSystem: LKCoreDistrictCS
 Id: lk-core-district-cs
 Title: "LK Core District Code System"
 Description: "LK Core District Code System"
-* ^url = "http://data.health.gov.lk/ts/lk-core-district-cs"
+* ^url = "http://fhir.health.gov.lk/CodeSystem/lk-core-district-cs"
 * ^version = "0.1.0"
 * ^status = #draft
 * #LK-11 "Colombo"
