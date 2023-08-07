@@ -1,3 +1,5 @@
+Alias: $lk-core-address = http://fhir.health.gov.lk/StructureDefinition/lk-core-address
+
 Profile:     LKCorePatient 
 Id:          lk-core-patient-profile
 Parent:      Patient
@@ -41,3 +43,4 @@ Description: "National core Patient FHIR profile published by the Ministry of He
 * gender 1..
 * birthDate 1..
 * birthDate ^comment = "When exact birthDate is not known, it should be calculated from the age"
+* address only $lk-core-address
