@@ -43,4 +43,4 @@ Description: "National core Patient FHIR profile published by the Ministry of He
 * gender 1..
 * birthDate 1..
 * birthDate ^comment = "When exact birthDate is not known, it should be calculated from the age"
-* address only $lk-core-address
+* address only $lk-core-address 
