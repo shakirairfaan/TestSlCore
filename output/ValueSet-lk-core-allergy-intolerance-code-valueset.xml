@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="lk-core-allergy-intolerance-code-valueset"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-lk-core-allergyintolerance-code-cs.html"><code>http://fhir.health.gov.lk/CodeSystem/allergy-intolerance-code-cs</code></a></li></ul></div>
+  </text>
+  <url value="http://fhir.health.gov.lk/ValueSet/lk-core-allergy-intolerance-code-vs"/>
+  <version value="0.1.0"/>
+  <name value="LKCoreAllergyIntoleranceCodeVS"/>
+  <title value="LK Core Allergy Intolerance Code ValueSet"/>
+  <status value="draft"/>
+  <date value="2023-08-11T10:37:20+05:30"/>
+  <description value="Valueset of LKCoreAllergyIntoleranceCode Code System"/>
+  <compose>
+    <include>
+      <system value="http://fhir.health.gov.lk/CodeSystem/allergy-intolerance-code-cs"/>
+    </include>
+  </compose>
+</ValueSet>

@@ -3,7 +3,7 @@
 fsh-generated
 temp
 template
-output
+# output
 
 # Ignore large files and frequently changed files in input-cache #
 ##################################################################

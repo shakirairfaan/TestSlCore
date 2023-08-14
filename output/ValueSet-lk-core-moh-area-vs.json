@@ -1,0 +1,20 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "lk-core-moh-area-vs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-lk-core-moh-area-cs.html\"><code>http://fhir.health.gov.lk/CodeSystem/lk-core-moh-area-cs</code></a></li></ul></div>"
+  },
+  "url" : "http://fhir.health.gov.lk/ValueSet/lk-core-moh-area-vs",
+  "version" : "0.1.0",
+  "name" : "LKCoreMOHAreaVS",
+  "title" : "LK Core MOH Area Value Set",
+  "status" : "draft",
+  "date" : "2023-08-11T10:37:20+05:30",
+  "description" : "LK Core MOH Area Value Set",
+  "compose" : {
+    "include" : [{
+      "system" : "http://fhir.health.gov.lk/CodeSystem/lk-core-moh-area-cs"
+    }]
+  }
+}

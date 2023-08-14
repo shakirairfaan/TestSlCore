@@ -1,0 +1,1425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="lk-core-moh-area-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>http://fhir.health.gov.lk/CodeSystem/lk-core-moh-area-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">moh001<a name="lk-core-moh-area-cs-moh001"> </a></td><td>Beruwala MOH</td></tr><tr><td style="white-space:nowrap">moh002<a name="lk-core-moh-area-cs-moh002"> </a></td><td>Kalutara MOH</td></tr><tr><td style="white-space:nowrap">moh003<a name="lk-core-moh-area-cs-moh003"> </a></td><td>Galenbindunuwewa MOH</td></tr><tr><td style="white-space:nowrap">moh004<a name="lk-core-moh-area-cs-moh004"> </a></td><td>Galkiriyagama (Palagala) MOH</td></tr><tr><td style="white-space:nowrap">moh005<a name="lk-core-moh-area-cs-moh005"> </a></td><td>Galnewa MOH</td></tr><tr><td style="white-space:nowrap">moh006<a name="lk-core-moh-area-cs-moh006"> </a></td><td>Horowpothana MOH</td></tr><tr><td style="white-space:nowrap">moh007<a name="lk-core-moh-area-cs-moh007"> </a></td><td>Ipalogama MOH</td></tr><tr><td style="white-space:nowrap">moh008<a name="lk-core-moh-area-cs-moh008"> </a></td><td>Kahatagasdigiliya MOH</td></tr><tr><td style="white-space:nowrap">moh009<a name="lk-core-moh-area-cs-moh009"> </a></td><td>Kebithigollewa MOH</td></tr><tr><td style="white-space:nowrap">moh010<a name="lk-core-moh-area-cs-moh010"> </a></td><td>Kekirawa MOH</td></tr><tr><td style="white-space:nowrap">moh011<a name="lk-core-moh-area-cs-moh011"> </a></td><td>Medawachchiya MOH</td></tr><tr><td style="white-space:nowrap">moh012<a name="lk-core-moh-area-cs-moh012"> </a></td><td>Mihinthale MOH</td></tr><tr><td style="white-space:nowrap">moh013<a name="lk-core-moh-area-cs-moh013"> </a></td><td>Nachchiyadoowa MOH</td></tr><tr><td style="white-space:nowrap">moh014<a name="lk-core-moh-area-cs-moh014"> </a></td><td>Nochchiyagama MOH</td></tr><tr><td style="white-space:nowrap">moh015<a name="lk-core-moh-area-cs-moh015"> </a></td><td>Nuwaragam Palatha Central MOH</td></tr><tr><td style="white-space:nowrap">moh016<a name="lk-core-moh-area-cs-moh016"> </a></td><td>Nuwaragam Palatha East MOH</td></tr><tr><td style="white-space:nowrap">moh017<a name="lk-core-moh-area-cs-moh017"> </a></td><td>Padaviya MOH</td></tr><tr><td style="white-space:nowrap">moh018<a name="lk-core-moh-area-cs-moh018"> </a></td><td>Palugaswewa MOH</td></tr><tr><td style="white-space:nowrap">moh019<a name="lk-core-moh-area-cs-moh019"> </a></td><td>Rajanganaya MOH</td></tr><tr><td style="white-space:nowrap">moh020<a name="lk-core-moh-area-cs-moh020"> </a></td><td>Rambewa MOH</td></tr><tr><td style="white-space:nowrap">moh021<a name="lk-core-moh-area-cs-moh021"> </a></td><td>Thalawa MOH</td></tr><tr><td style="white-space:nowrap">moh022<a name="lk-core-moh-area-cs-moh022"> </a></td><td>Thambuttegama MOH</td></tr><tr><td style="white-space:nowrap">moh023<a name="lk-core-moh-area-cs-moh023"> </a></td><td>Thirappane MOH</td></tr><tr><td style="white-space:nowrap">moh024<a name="lk-core-moh-area-cs-moh024"> </a></td><td>Wilachchiya MOH</td></tr><tr><td style="white-space:nowrap">moh025<a name="lk-core-moh-area-cs-moh025"> </a></td><td>Ampara MOH</td></tr><tr><td style="white-space:nowrap">moh026<a name="lk-core-moh-area-cs-moh026"> </a></td><td>Damana MOH</td></tr><tr><td style="white-space:nowrap">moh027<a name="lk-core-moh-area-cs-moh027"> </a></td><td>Dehiattakandiya MOH</td></tr><tr><td style="white-space:nowrap">moh028<a name="lk-core-moh-area-cs-moh028"> </a></td><td>Lahugala MOH</td></tr><tr><td style="white-space:nowrap">moh029<a name="lk-core-moh-area-cs-moh029"> </a></td><td>Maha Oya MOH</td></tr><tr><td style="white-space:nowrap">moh030<a name="lk-core-moh-area-cs-moh030"> </a></td><td>Padiyatalawa MOH</td></tr><tr><td style="white-space:nowrap">moh031<a name="lk-core-moh-area-cs-moh031"> </a></td><td>Uhana MOH</td></tr><tr><td style="white-space:nowrap">moh032<a name="lk-core-moh-area-cs-moh032"> </a></td><td>Arayampathy MOH</td></tr><tr><td style="white-space:nowrap">moh033<a name="lk-core-moh-area-cs-moh033"> </a></td><td>Batticoloa MOH</td></tr><tr><td style="white-space:nowrap">moh034<a name="lk-core-moh-area-cs-moh034"> </a></td><td>Chenkalady MOH</td></tr><tr><td style="white-space:nowrap">moh035<a name="lk-core-moh-area-cs-moh035"> </a></td><td>Eravur MOH</td></tr><tr><td style="white-space:nowrap">moh036<a name="lk-core-moh-area-cs-moh036"> </a></td><td>Kalawanchikudy MOH</td></tr><tr><td style="white-space:nowrap">moh037<a name="lk-core-moh-area-cs-moh037"> </a></td><td>Katankudy MOH</td></tr><tr><td style="white-space:nowrap">moh038<a name="lk-core-moh-area-cs-moh038"> </a></td><td>Kiran MOH</td></tr><tr><td style="white-space:nowrap">moh039<a name="lk-core-moh-area-cs-moh039"> </a></td><td>Koralaipattu Central MOH</td></tr><tr><td style="white-space:nowrap">moh040<a name="lk-core-moh-area-cs-moh040"> </a></td><td>Oddamavadi MOH</td></tr><tr><td style="white-space:nowrap">moh041<a name="lk-core-moh-area-cs-moh041"> </a></td><td>Paddipallai MOH</td></tr><tr><td style="white-space:nowrap">moh042<a name="lk-core-moh-area-cs-moh042"> </a></td><td>Vakarai MOH</td></tr><tr><td style="white-space:nowrap">moh043<a name="lk-core-moh-area-cs-moh043"> </a></td><td>Valaichcheni MOH</td></tr><tr><td style="white-space:nowrap">moh044<a name="lk-core-moh-area-cs-moh044"> </a></td><td>Vavunativu MOH</td></tr><tr><td style="white-space:nowrap">moh045<a name="lk-core-moh-area-cs-moh045"> </a></td><td>Vellavelly MOH</td></tr><tr><td style="white-space:nowrap">moh046<a name="lk-core-moh-area-cs-moh046"> </a></td><td>Badulla MOH</td></tr><tr><td style="white-space:nowrap">moh047<a name="lk-core-moh-area-cs-moh047"> </a></td><td>Bandarawela MOH</td></tr><tr><td style="white-space:nowrap">moh048<a name="lk-core-moh-area-cs-moh048"> </a></td><td>Ella MOH</td></tr><tr><td style="white-space:nowrap">moh049<a name="lk-core-moh-area-cs-moh049"> </a></td><td>Girandurukotte MOH</td></tr><tr><td style="white-space:nowrap">moh050<a name="lk-core-moh-area-cs-moh050"> </a></td><td>Haldummulla MOH</td></tr><tr><td style="white-space:nowrap">moh051<a name="lk-core-moh-area-cs-moh051"> </a></td><td>Hali-Ela MOH</td></tr><tr><td style="white-space:nowrap">moh052<a name="lk-core-moh-area-cs-moh052"> </a></td><td>Haputale MOH</td></tr><tr><td style="white-space:nowrap">moh053<a name="lk-core-moh-area-cs-moh053"> </a></td><td>Kandaketiya MOH</td></tr><tr><td style="white-space:nowrap">moh054<a name="lk-core-moh-area-cs-moh054"> </a></td><td>Lunugala MOH</td></tr><tr><td style="white-space:nowrap">moh055<a name="lk-core-moh-area-cs-moh055"> </a></td><td>Mahiyanganaya MOH</td></tr><tr><td style="white-space:nowrap">moh056<a name="lk-core-moh-area-cs-moh056"> </a></td><td>Meegahakivula MOH</td></tr><tr><td style="white-space:nowrap">moh057<a name="lk-core-moh-area-cs-moh057"> </a></td><td>Passara MOH</td></tr><tr><td style="white-space:nowrap">moh058<a name="lk-core-moh-area-cs-moh058"> </a></td><td>Rideemaliyadda MOH</td></tr><tr><td style="white-space:nowrap">moh059<a name="lk-core-moh-area-cs-moh059"> </a></td><td>Soranathota MOH</td></tr><tr><td style="white-space:nowrap">moh060<a name="lk-core-moh-area-cs-moh060"> </a></td><td>Uva Paranagama MOH</td></tr><tr><td style="white-space:nowrap">moh061<a name="lk-core-moh-area-cs-moh061"> </a></td><td>Welimada MOH</td></tr><tr><td style="white-space:nowrap">moh062<a name="lk-core-moh-area-cs-moh062"> </a></td><td>Baththaramulla MOH</td></tr><tr><td style="white-space:nowrap">moh063<a name="lk-core-moh-area-cs-moh063"> </a></td><td>Boralesgamuwa MOH</td></tr><tr><td style="white-space:nowrap">moh064<a name="lk-core-moh-area-cs-moh064"> </a></td><td>Colombo MOH</td></tr><tr><td style="white-space:nowrap">moh065<a name="lk-core-moh-area-cs-moh065"> </a></td><td>Dehiwala MOH</td></tr><tr><td style="white-space:nowrap">moh066<a name="lk-core-moh-area-cs-moh066"> </a></td><td>Hanwella MOH</td></tr><tr><td style="white-space:nowrap">moh067<a name="lk-core-moh-area-cs-moh067"> </a></td><td>Homagama MOH</td></tr><tr><td style="white-space:nowrap">moh068<a name="lk-core-moh-area-cs-moh068"> </a></td><td>Kaduwela MOH</td></tr><tr><td style="white-space:nowrap">moh069<a name="lk-core-moh-area-cs-moh069"> </a></td><td>Kahathuduwa MOH</td></tr><tr><td style="white-space:nowrap">moh070<a name="lk-core-moh-area-cs-moh070"> </a></td><td>Kolonnawa MOH</td></tr><tr><td style="white-space:nowrap">moh071<a name="lk-core-moh-area-cs-moh071"> </a></td><td>Maharagama MOH</td></tr><tr><td style="white-space:nowrap">moh072<a name="lk-core-moh-area-cs-moh072"> </a></td><td>Moratuwa MOH</td></tr><tr><td style="white-space:nowrap">moh073<a name="lk-core-moh-area-cs-moh073"> </a></td><td>Nugegoda MOH</td></tr><tr><td style="white-space:nowrap">moh074<a name="lk-core-moh-area-cs-moh074"> </a></td><td>Padukka MOH</td></tr><tr><td style="white-space:nowrap">moh075<a name="lk-core-moh-area-cs-moh075"> </a></td><td>Piliyandala (Kesbewa) MOH</td></tr><tr><td style="white-space:nowrap">moh076<a name="lk-core-moh-area-cs-moh076"> </a></td><td>Pitakotte (Kotte) MOH</td></tr><tr><td style="white-space:nowrap">moh077<a name="lk-core-moh-area-cs-moh077"> </a></td><td>Rathmalana MOH</td></tr><tr><td style="white-space:nowrap">moh078<a name="lk-core-moh-area-cs-moh078"> </a></td><td>Akmeemana MOH</td></tr><tr><td style="white-space:nowrap">moh079<a name="lk-core-moh-area-cs-moh079"> </a></td><td>Ambalangoda MOH</td></tr><tr><td style="white-space:nowrap">moh080<a name="lk-core-moh-area-cs-moh080"> </a></td><td>Baddegama MOH</td></tr><tr><td style="white-space:nowrap">moh081<a name="lk-core-moh-area-cs-moh081"> </a></td><td>Balapitiya MOH</td></tr><tr><td style="white-space:nowrap">moh082<a name="lk-core-moh-area-cs-moh082"> </a></td><td>Bentota (Induruwa) MOH</td></tr><tr><td style="white-space:nowrap">moh083<a name="lk-core-moh-area-cs-moh083"> </a></td><td>Bope - Poddala MOH</td></tr><tr><td style="white-space:nowrap">moh084<a name="lk-core-moh-area-cs-moh084"> </a></td><td>Elpitiya MOH</td></tr><tr><td style="white-space:nowrap">moh085<a name="lk-core-moh-area-cs-moh085"> </a></td><td>Galle MC MOH</td></tr><tr><td style="white-space:nowrap">moh086<a name="lk-core-moh-area-cs-moh086"> </a></td><td>Gonapinuwala MOH</td></tr><tr><td style="white-space:nowrap">moh087<a name="lk-core-moh-area-cs-moh087"> </a></td><td>Habaraduwa MOH</td></tr><tr><td style="white-space:nowrap">moh088<a name="lk-core-moh-area-cs-moh088"> </a></td><td>Hikkaduwa MOH</td></tr><tr><td style="white-space:nowrap">moh089<a name="lk-core-moh-area-cs-moh089"> </a></td><td>Imaduwa MOH</td></tr><tr><td style="white-space:nowrap">moh090<a name="lk-core-moh-area-cs-moh090"> </a></td><td>Karandeniya MOH</td></tr><tr><td style="white-space:nowrap">moh091<a name="lk-core-moh-area-cs-moh091"> </a></td><td>Nagoda (Udugama) MOH</td></tr><tr><td style="white-space:nowrap">moh092<a name="lk-core-moh-area-cs-moh092"> </a></td><td>Neluwa MOH</td></tr><tr><td style="white-space:nowrap">moh093<a name="lk-core-moh-area-cs-moh093"> </a></td><td>Niyagama MOH</td></tr><tr><td style="white-space:nowrap">moh094<a name="lk-core-moh-area-cs-moh094"> </a></td><td>Rathganga MOH</td></tr><tr><td style="white-space:nowrap">moh095<a name="lk-core-moh-area-cs-moh095"> </a></td><td>Thawalama MOH</td></tr><tr><td style="white-space:nowrap">moh096<a name="lk-core-moh-area-cs-moh096"> </a></td><td>Walivitiya (Divithura) MOH</td></tr><tr><td style="white-space:nowrap">moh097<a name="lk-core-moh-area-cs-moh097"> </a></td><td>Yakkalamulla MOH</td></tr><tr><td style="white-space:nowrap">moh098<a name="lk-core-moh-area-cs-moh098"> </a></td><td>Attanagalla MOH</td></tr><tr><td style="white-space:nowrap">moh099<a name="lk-core-moh-area-cs-moh099"> </a></td><td>Biyagama MOH</td></tr><tr><td style="white-space:nowrap">moh100<a name="lk-core-moh-area-cs-moh100"> </a></td><td>Divulapitiya MOH</td></tr><tr><td style="white-space:nowrap">moh101<a name="lk-core-moh-area-cs-moh101"> </a></td><td>Gampaha MOH</td></tr><tr><td style="white-space:nowrap">moh102<a name="lk-core-moh-area-cs-moh102"> </a></td><td>Ja-Ela MOH</td></tr><tr><td style="white-space:nowrap">moh103<a name="lk-core-moh-area-cs-moh103"> </a></td><td>Katana MOH</td></tr><tr><td style="white-space:nowrap">moh104<a name="lk-core-moh-area-cs-moh104"> </a></td><td>Katunayake (BOI) MOH</td></tr><tr><td style="white-space:nowrap">moh105<a name="lk-core-moh-area-cs-moh105"> </a></td><td>Kelaniya MOH</td></tr><tr><td style="white-space:nowrap">moh106<a name="lk-core-moh-area-cs-moh106"> </a></td><td>Mahara MOH</td></tr><tr><td style="white-space:nowrap">moh107<a name="lk-core-moh-area-cs-moh107"> </a></td><td>Minuwangoda MOH</td></tr><tr><td style="white-space:nowrap">moh108<a name="lk-core-moh-area-cs-moh108"> </a></td><td>Mirigama MOH</td></tr><tr><td style="white-space:nowrap">moh109<a name="lk-core-moh-area-cs-moh109"> </a></td><td>Negombo MOH</td></tr><tr><td style="white-space:nowrap">moh110<a name="lk-core-moh-area-cs-moh110"> </a></td><td>Pugoda (Dompe) MOH</td></tr><tr><td style="white-space:nowrap">moh111<a name="lk-core-moh-area-cs-moh111"> </a></td><td>Ragama MOH</td></tr><tr><td style="white-space:nowrap">moh112<a name="lk-core-moh-area-cs-moh112"> </a></td><td>Seeduwa MOH</td></tr><tr><td style="white-space:nowrap">moh113<a name="lk-core-moh-area-cs-moh113"> </a></td><td>Wattala MOH</td></tr><tr><td style="white-space:nowrap">moh114<a name="lk-core-moh-area-cs-moh114"> </a></td><td>Ambalanthota MOH</td></tr><tr><td style="white-space:nowrap">moh115<a name="lk-core-moh-area-cs-moh115"> </a></td><td>Angunakolapelessa MOH</td></tr><tr><td style="white-space:nowrap">moh116<a name="lk-core-moh-area-cs-moh116"> </a></td><td>Beliatta MOH</td></tr><tr><td style="white-space:nowrap">moh117<a name="lk-core-moh-area-cs-moh117"> </a></td><td>Hambantota MOH</td></tr><tr><td style="white-space:nowrap">moh118<a name="lk-core-moh-area-cs-moh118"> </a></td><td>Katuwana MOH</td></tr><tr><td style="white-space:nowrap">moh119<a name="lk-core-moh-area-cs-moh119"> </a></td><td>Lunugamvehera MOH</td></tr><tr><td style="white-space:nowrap">moh120<a name="lk-core-moh-area-cs-moh120"> </a></td><td>Okewela MOH</td></tr><tr><td style="white-space:nowrap">moh121<a name="lk-core-moh-area-cs-moh121"> </a></td><td>Sooriyawewa MOH</td></tr><tr><td style="white-space:nowrap">moh122<a name="lk-core-moh-area-cs-moh122"> </a></td><td>Tangalle MOH</td></tr><tr><td style="white-space:nowrap">moh123<a name="lk-core-moh-area-cs-moh123"> </a></td><td>Thissamaharama MOH</td></tr><tr><td style="white-space:nowrap">moh124<a name="lk-core-moh-area-cs-moh124"> </a></td><td>Walasmulla MOH</td></tr><tr><td style="white-space:nowrap">moh125<a name="lk-core-moh-area-cs-moh125"> </a></td><td>Weeraketiya MOH</td></tr><tr><td style="white-space:nowrap">moh126<a name="lk-core-moh-area-cs-moh126"> </a></td><td>Ampan (Point Pedro) MOH</td></tr><tr><td style="white-space:nowrap">moh127<a name="lk-core-moh-area-cs-moh127"> </a></td><td>Chankanai - Walikamam West MOH</td></tr><tr><td style="white-space:nowrap">moh128<a name="lk-core-moh-area-cs-moh128"> </a></td><td>Chavakachchari MOH</td></tr><tr><td style="white-space:nowrap">moh129<a name="lk-core-moh-area-cs-moh129"> </a></td><td>Jaffna MOH</td></tr><tr><td style="white-space:nowrap">moh130<a name="lk-core-moh-area-cs-moh130"> </a></td><td>Karaveddy MOH</td></tr><tr><td style="white-space:nowrap">moh131<a name="lk-core-moh-area-cs-moh131"> </a></td><td>Kayts MOH</td></tr><tr><td style="white-space:nowrap">moh132<a name="lk-core-moh-area-cs-moh132"> </a></td><td>Kopay MOH</td></tr><tr><td style="white-space:nowrap">moh133<a name="lk-core-moh-area-cs-moh133"> </a></td><td>Nallur MOH</td></tr><tr><td style="white-space:nowrap">moh134<a name="lk-core-moh-area-cs-moh134"> </a></td><td>Sandilipay MOH</td></tr><tr><td style="white-space:nowrap">moh135<a name="lk-core-moh-area-cs-moh135"> </a></td><td>Telippalai MOH</td></tr><tr><td style="white-space:nowrap">moh136<a name="lk-core-moh-area-cs-moh136"> </a></td><td>Uduvil MOH</td></tr><tr><td style="white-space:nowrap">moh137<a name="lk-core-moh-area-cs-moh137"> </a></td><td>Velanai (Island South) MOH</td></tr><tr><td style="white-space:nowrap">moh138<a name="lk-core-moh-area-cs-moh138"> </a></td><td>Aranayaka MOH</td></tr><tr><td style="white-space:nowrap">moh139<a name="lk-core-moh-area-cs-moh139"> </a></td><td>Bulathkohupitiya MOH</td></tr><tr><td style="white-space:nowrap">moh140<a name="lk-core-moh-area-cs-moh140"> </a></td><td>Dehiovita MOH</td></tr><tr><td style="white-space:nowrap">moh141<a name="lk-core-moh-area-cs-moh141"> </a></td><td>Deraniyagala MOH</td></tr><tr><td style="white-space:nowrap">moh142<a name="lk-core-moh-area-cs-moh142"> </a></td><td>Galigamuwa MOH</td></tr><tr><td style="white-space:nowrap">moh143<a name="lk-core-moh-area-cs-moh143"> </a></td><td>Kegalle MOH</td></tr><tr><td style="white-space:nowrap">moh144<a name="lk-core-moh-area-cs-moh144"> </a></td><td>Mawanella MOH</td></tr><tr><td style="white-space:nowrap">moh145<a name="lk-core-moh-area-cs-moh145"> </a></td><td>Rambukkana MOH</td></tr><tr><td style="white-space:nowrap">moh146<a name="lk-core-moh-area-cs-moh146"> </a></td><td>Ruwanwella MOH</td></tr><tr><td style="white-space:nowrap">moh147<a name="lk-core-moh-area-cs-moh147"> </a></td><td>Warakapola MOH</td></tr><tr><td style="white-space:nowrap">moh148<a name="lk-core-moh-area-cs-moh148"> </a></td><td>Yatiyanthota MOH</td></tr><tr><td style="white-space:nowrap">moh149<a name="lk-core-moh-area-cs-moh149"> </a></td><td>Alawwa MOH</td></tr><tr><td style="white-space:nowrap">moh150<a name="lk-core-moh-area-cs-moh150"> </a></td><td>Ambanpola MOH</td></tr><tr><td style="white-space:nowrap">moh151<a name="lk-core-moh-area-cs-moh151"> </a></td><td>Bamunukotuwa MOH</td></tr><tr><td style="white-space:nowrap">moh152<a name="lk-core-moh-area-cs-moh152"> </a></td><td>Bingiriya MOH</td></tr><tr><td style="white-space:nowrap">moh153<a name="lk-core-moh-area-cs-moh153"> </a></td><td>Galgamuwa MOH</td></tr><tr><td style="white-space:nowrap">moh154<a name="lk-core-moh-area-cs-moh154"> </a></td><td>Ganewatta MOH</td></tr><tr><td style="white-space:nowrap">moh155<a name="lk-core-moh-area-cs-moh155"> </a></td><td>Giribawa MOH</td></tr><tr><td style="white-space:nowrap">moh156<a name="lk-core-moh-area-cs-moh156"> </a></td><td>Ibbagamuwa (Gokarella) MOH</td></tr><tr><td style="white-space:nowrap">moh157<a name="lk-core-moh-area-cs-moh157"> </a></td><td>Kobeigane MOH</td></tr><tr><td style="white-space:nowrap">moh158<a name="lk-core-moh-area-cs-moh158"> </a></td><td>Kotawehera MOH</td></tr><tr><td style="white-space:nowrap">moh159<a name="lk-core-moh-area-cs-moh159"> </a></td><td>Kuliyapitiya East MOH</td></tr><tr><td style="white-space:nowrap">moh160<a name="lk-core-moh-area-cs-moh160"> </a></td><td>Kuliyapitiya West MOH</td></tr><tr><td style="white-space:nowrap">moh161<a name="lk-core-moh-area-cs-moh161"> </a></td><td>Kurunegala MOH</td></tr><tr><td style="white-space:nowrap">moh162<a name="lk-core-moh-area-cs-moh162"> </a></td><td>Kurunegala MC MOH</td></tr><tr><td style="white-space:nowrap">moh163<a name="lk-core-moh-area-cs-moh163"> </a></td><td>Maho MOH</td></tr><tr><td style="white-space:nowrap">moh164<a name="lk-core-moh-area-cs-moh164"> </a></td><td>Mallawapitiya MOH</td></tr><tr><td style="white-space:nowrap">moh165<a name="lk-core-moh-area-cs-moh165"> </a></td><td>Maspotha MOH</td></tr><tr><td style="white-space:nowrap">moh166<a name="lk-core-moh-area-cs-moh166"> </a></td><td>Mawathagama MOH</td></tr><tr><td style="white-space:nowrap">moh167<a name="lk-core-moh-area-cs-moh167"> </a></td><td>Narammala MOH</td></tr><tr><td style="white-space:nowrap">moh168<a name="lk-core-moh-area-cs-moh168"> </a></td><td>Nikaweratiya MOH</td></tr><tr><td style="white-space:nowrap">moh169<a name="lk-core-moh-area-cs-moh169"> </a></td><td>Paduwasnuwara West MOH</td></tr><tr><td style="white-space:nowrap">moh170<a name="lk-core-moh-area-cs-moh170"> </a></td><td>Panduwasnuwara East MOH</td></tr><tr><td style="white-space:nowrap">moh171<a name="lk-core-moh-area-cs-moh171"> </a></td><td>Pannala MOH</td></tr><tr><td style="white-space:nowrap">moh172<a name="lk-core-moh-area-cs-moh172"> </a></td><td>Polgahawela MOH</td></tr><tr><td style="white-space:nowrap">moh173<a name="lk-core-moh-area-cs-moh173"> </a></td><td>Polpithigama MOH</td></tr><tr><td style="white-space:nowrap">moh174<a name="lk-core-moh-area-cs-moh174"> </a></td><td>Rasnayakapura MOH</td></tr><tr><td style="white-space:nowrap">moh175<a name="lk-core-moh-area-cs-moh175"> </a></td><td>Rideegama MOH</td></tr><tr><td style="white-space:nowrap">moh176<a name="lk-core-moh-area-cs-moh176"> </a></td><td>Udubaddawa MOH</td></tr><tr><td style="white-space:nowrap">moh177<a name="lk-core-moh-area-cs-moh177"> </a></td><td>Wariyapola MOH</td></tr><tr><td style="white-space:nowrap">moh178<a name="lk-core-moh-area-cs-moh178"> </a></td><td>Weerabugedara MOH</td></tr><tr><td style="white-space:nowrap">moh179<a name="lk-core-moh-area-cs-moh179"> </a></td><td>Addalachchenai MOH</td></tr><tr><td style="white-space:nowrap">moh180<a name="lk-core-moh-area-cs-moh180"> </a></td><td>Akkaraipathu MOH</td></tr><tr><td style="white-space:nowrap">moh181<a name="lk-core-moh-area-cs-moh181"> </a></td><td>Alayadivembu MOH</td></tr><tr><td style="white-space:nowrap">moh182<a name="lk-core-moh-area-cs-moh182"> </a></td><td>Irakkamam MOH</td></tr><tr><td style="white-space:nowrap">moh183<a name="lk-core-moh-area-cs-moh183"> </a></td><td>Kalmunai North MOH</td></tr><tr><td style="white-space:nowrap">moh184<a name="lk-core-moh-area-cs-moh184"> </a></td><td>Kalmunai South MOH</td></tr><tr><td style="white-space:nowrap">moh185<a name="lk-core-moh-area-cs-moh185"> </a></td><td>Karaitivu MOH</td></tr><tr><td style="white-space:nowrap">moh186<a name="lk-core-moh-area-cs-moh186"> </a></td><td>Navithanveli MOH</td></tr><tr><td style="white-space:nowrap">moh187<a name="lk-core-moh-area-cs-moh187"> </a></td><td>Ninthavur MOH</td></tr><tr><td style="white-space:nowrap">moh188<a name="lk-core-moh-area-cs-moh188"> </a></td><td>Pottuvil MOH</td></tr><tr><td style="white-space:nowrap">moh189<a name="lk-core-moh-area-cs-moh189"> </a></td><td>Sainthamaruthu MOH</td></tr><tr><td style="white-space:nowrap">moh190<a name="lk-core-moh-area-cs-moh190"> </a></td><td>Sammanthurai MOH</td></tr><tr><td style="white-space:nowrap">moh191<a name="lk-core-moh-area-cs-moh191"> </a></td><td>Thirukkovil MOH</td></tr><tr><td style="white-space:nowrap">moh192<a name="lk-core-moh-area-cs-moh192"> </a></td><td>Kandawalai MOH</td></tr><tr><td style="white-space:nowrap">moh193<a name="lk-core-moh-area-cs-moh193"> </a></td><td>Karachchi (Kilinochchci) MOH</td></tr><tr><td style="white-space:nowrap">moh194<a name="lk-core-moh-area-cs-moh194"> </a></td><td>Pallai MOH</td></tr><tr><td style="white-space:nowrap">moh195<a name="lk-core-moh-area-cs-moh195"> </a></td><td>Poonakery MOH</td></tr><tr><td style="white-space:nowrap">moh196<a name="lk-core-moh-area-cs-moh196"> </a></td><td>Agalawatta MOH</td></tr><tr><td style="white-space:nowrap">moh197<a name="lk-core-moh-area-cs-moh197"> </a></td><td>Bandaragama MOH</td></tr><tr><td style="white-space:nowrap">moh198<a name="lk-core-moh-area-cs-moh198"> </a></td><td>Bulathsinhala MOH</td></tr><tr><td style="white-space:nowrap">moh199<a name="lk-core-moh-area-cs-moh199"> </a></td><td>Dodangoda MOH</td></tr><tr><td style="white-space:nowrap">moh200<a name="lk-core-moh-area-cs-moh200"> </a></td><td>Horana MOH</td></tr><tr><td style="white-space:nowrap">moh201<a name="lk-core-moh-area-cs-moh201"> </a></td><td>Ingiriya MOH</td></tr><tr><td style="white-space:nowrap">moh202<a name="lk-core-moh-area-cs-moh202"> </a></td><td>Madurawala MOH</td></tr><tr><td style="white-space:nowrap">moh203<a name="lk-core-moh-area-cs-moh203"> </a></td><td>Mathugama MOH</td></tr><tr><td style="white-space:nowrap">moh204<a name="lk-core-moh-area-cs-moh204"> </a></td><td>Millaniya MOH</td></tr><tr><td style="white-space:nowrap">moh205<a name="lk-core-moh-area-cs-moh205"> </a></td><td>Palindanuwara MOH</td></tr><tr><td style="white-space:nowrap">moh206<a name="lk-core-moh-area-cs-moh206"> </a></td><td>Panadura MOH</td></tr><tr><td style="white-space:nowrap">moh207<a name="lk-core-moh-area-cs-moh207"> </a></td><td>Wadduwa MOH</td></tr><tr><td style="white-space:nowrap">moh208<a name="lk-core-moh-area-cs-moh208"> </a></td><td>Walallawita MOH</td></tr><tr><td style="white-space:nowrap">moh209<a name="lk-core-moh-area-cs-moh209"> </a></td><td>Akurana MOH</td></tr><tr><td style="white-space:nowrap">moh210<a name="lk-core-moh-area-cs-moh210"> </a></td><td>Bambaradeniya MOH</td></tr><tr><td style="white-space:nowrap">moh211<a name="lk-core-moh-area-cs-moh211"> </a></td><td>Doluwa MOH</td></tr><tr><td style="white-space:nowrap">moh212<a name="lk-core-moh-area-cs-moh212"> </a></td><td>Galagedara MOH</td></tr><tr><td style="white-space:nowrap">moh213<a name="lk-core-moh-area-cs-moh213"> </a></td><td>Galaha MOH</td></tr><tr><td style="white-space:nowrap">moh214<a name="lk-core-moh-area-cs-moh214"> </a></td><td>Gampola (Udapalatha) MOH</td></tr><tr><td style="white-space:nowrap">moh215<a name="lk-core-moh-area-cs-moh215"> </a></td><td>Gangawata Korale MOH</td></tr><tr><td style="white-space:nowrap">moh216<a name="lk-core-moh-area-cs-moh216"> </a></td><td>Hasalaka MOH</td></tr><tr><td style="white-space:nowrap">moh217<a name="lk-core-moh-area-cs-moh217"> </a></td><td>Hatharaliyadda MOH</td></tr><tr><td style="white-space:nowrap">moh218<a name="lk-core-moh-area-cs-moh218"> </a></td><td>Kandy MC MOH</td></tr><tr><td style="white-space:nowrap">moh219<a name="lk-core-moh-area-cs-moh219"> </a></td><td>Kundasale MOH</td></tr><tr><td style="white-space:nowrap">moh220<a name="lk-core-moh-area-cs-moh220"> </a></td><td>Kurunduwaththa (Gangaihala) MOH</td></tr><tr><td style="white-space:nowrap">moh221<a name="lk-core-moh-area-cs-moh221"> </a></td><td>Medadumbara (Medamahanuwara) MOH</td></tr><tr><td style="white-space:nowrap">moh222<a name="lk-core-moh-area-cs-moh222"> </a></td><td>Menikhinna MOH</td></tr><tr><td style="white-space:nowrap">moh223<a name="lk-core-moh-area-cs-moh223"> </a></td><td>Panvila MOH</td></tr><tr><td style="white-space:nowrap">moh224<a name="lk-core-moh-area-cs-moh224"> </a></td><td>Pasbage (Nawalapitiya) MOH</td></tr><tr><td style="white-space:nowrap">moh225<a name="lk-core-moh-area-cs-moh225"> </a></td><td>Poojapitiya MOH</td></tr><tr><td style="white-space:nowrap">moh226<a name="lk-core-moh-area-cs-moh226"> </a></td><td>Thalathuoya MOH</td></tr><tr><td style="white-space:nowrap">moh227<a name="lk-core-moh-area-cs-moh227"> </a></td><td>Udadumbara MOH</td></tr><tr><td style="white-space:nowrap">moh228<a name="lk-core-moh-area-cs-moh228"> </a></td><td>Udunuwara MOH</td></tr><tr><td style="white-space:nowrap">moh229<a name="lk-core-moh-area-cs-moh229"> </a></td><td>Waththegama (Pathadumbara) MOH</td></tr><tr><td style="white-space:nowrap">moh230<a name="lk-core-moh-area-cs-moh230"> </a></td><td>Werellagama (Harispattuwa) MOH</td></tr><tr><td style="white-space:nowrap">moh231<a name="lk-core-moh-area-cs-moh231"> </a></td><td>Yatinuwara (Kadugannawa) MOH</td></tr><tr><td style="white-space:nowrap">moh232<a name="lk-core-moh-area-cs-moh232"> </a></td><td>Badalkumbura MOH</td></tr><tr><td style="white-space:nowrap">moh233<a name="lk-core-moh-area-cs-moh233"> </a></td><td>Bibile MOH</td></tr><tr><td style="white-space:nowrap">moh234<a name="lk-core-moh-area-cs-moh234"> </a></td><td>Buttala MOH</td></tr><tr><td style="white-space:nowrap">moh235<a name="lk-core-moh-area-cs-moh235"> </a></td><td>Kataragama MOH</td></tr><tr><td style="white-space:nowrap">moh236<a name="lk-core-moh-area-cs-moh236"> </a></td><td>Madulla MOH</td></tr><tr><td style="white-space:nowrap">moh237<a name="lk-core-moh-area-cs-moh237"> </a></td><td>Medagama MOH</td></tr><tr><td style="white-space:nowrap">moh238<a name="lk-core-moh-area-cs-moh238"> </a></td><td>Moneragala MOH</td></tr><tr><td style="white-space:nowrap">moh239<a name="lk-core-moh-area-cs-moh239"> </a></td><td>Sevanagala MOH</td></tr><tr><td style="white-space:nowrap">moh240<a name="lk-core-moh-area-cs-moh240"> </a></td><td>Siyambalanduwa MOH</td></tr><tr><td style="white-space:nowrap">moh241<a name="lk-core-moh-area-cs-moh241"> </a></td><td>Thanamalwila MOH</td></tr><tr><td style="white-space:nowrap">moh242<a name="lk-core-moh-area-cs-moh242"> </a></td><td>Wellawaya MOH</td></tr><tr><td style="white-space:nowrap">moh243<a name="lk-core-moh-area-cs-moh243"> </a></td><td>Mallavi MOH</td></tr><tr><td style="white-space:nowrap">moh244<a name="lk-core-moh-area-cs-moh244"> </a></td><td>Manthai East MOH</td></tr><tr><td style="white-space:nowrap">moh245<a name="lk-core-moh-area-cs-moh245"> </a></td><td>Mullaitivu MOH</td></tr><tr><td style="white-space:nowrap">moh246<a name="lk-core-moh-area-cs-moh246"> </a></td><td>Oddusudan MOH</td></tr><tr><td style="white-space:nowrap">moh247<a name="lk-core-moh-area-cs-moh247"> </a></td><td>Puthukkudyiruppu MOH</td></tr><tr><td style="white-space:nowrap">moh248<a name="lk-core-moh-area-cs-moh248"> </a></td><td>Welioya MOH</td></tr><tr><td style="white-space:nowrap">moh249<a name="lk-core-moh-area-cs-moh249"> </a></td><td>Adampan MOH</td></tr><tr><td style="white-space:nowrap">moh250<a name="lk-core-moh-area-cs-moh250"> </a></td><td>Madhu MOH</td></tr><tr><td style="white-space:nowrap">moh251<a name="lk-core-moh-area-cs-moh251"> </a></td><td>Mannar MOH</td></tr><tr><td style="white-space:nowrap">moh252<a name="lk-core-moh-area-cs-moh252"> </a></td><td>Murunkan MOH</td></tr><tr><td style="white-space:nowrap">moh253<a name="lk-core-moh-area-cs-moh253"> </a></td><td>Musali MOH</td></tr><tr><td style="white-space:nowrap">moh254<a name="lk-core-moh-area-cs-moh254"> </a></td><td>Akuressa MOH</td></tr><tr><td style="white-space:nowrap">moh255<a name="lk-core-moh-area-cs-moh255"> </a></td><td>Athuraliya MOH</td></tr><tr><td style="white-space:nowrap">moh256<a name="lk-core-moh-area-cs-moh256"> </a></td><td>Deniyaya (Kotapola) MOH</td></tr><tr><td style="white-space:nowrap">moh257<a name="lk-core-moh-area-cs-moh257"> </a></td><td>Devinuwara MOH</td></tr><tr><td style="white-space:nowrap">moh258<a name="lk-core-moh-area-cs-moh258"> </a></td><td>Dickwella MOH</td></tr><tr><td style="white-space:nowrap">moh259<a name="lk-core-moh-area-cs-moh259"> </a></td><td>Hakmana MOH</td></tr><tr><td style="white-space:nowrap">moh260<a name="lk-core-moh-area-cs-moh260"> </a></td><td>Kamburupitiya MOH</td></tr><tr><td style="white-space:nowrap">moh261<a name="lk-core-moh-area-cs-moh261"> </a></td><td>Kirinda-Puhulwella MOH</td></tr><tr><td style="white-space:nowrap">moh262<a name="lk-core-moh-area-cs-moh262"> </a></td><td>Malimbada MOH</td></tr><tr><td style="white-space:nowrap">moh263<a name="lk-core-moh-area-cs-moh263"> </a></td><td>Matara MC MOH</td></tr><tr><td style="white-space:nowrap">moh264<a name="lk-core-moh-area-cs-moh264"> </a></td><td>Matara PS Kekanadura MOH</td></tr><tr><td style="white-space:nowrap">moh265<a name="lk-core-moh-area-cs-moh265"> </a></td><td>Morawaka MOH</td></tr><tr><td style="white-space:nowrap">moh266<a name="lk-core-moh-area-cs-moh266"> </a></td><td>Mulatiyana MOH</td></tr><tr><td style="white-space:nowrap">moh267<a name="lk-core-moh-area-cs-moh267"> </a></td><td>Pasgoda (Urubokka) MOH</td></tr><tr><td style="white-space:nowrap">moh268<a name="lk-core-moh-area-cs-moh268"> </a></td><td>Thihagoda MOH</td></tr><tr><td style="white-space:nowrap">moh269<a name="lk-core-moh-area-cs-moh269"> </a></td><td>Weligama MOH</td></tr><tr><td style="white-space:nowrap">moh270<a name="lk-core-moh-area-cs-moh270"> </a></td><td>Welipitiya MOH</td></tr><tr><td style="white-space:nowrap">moh271<a name="lk-core-moh-area-cs-moh271"> </a></td><td>Ambanganga Korale MOH</td></tr><tr><td style="white-space:nowrap">moh272<a name="lk-core-moh-area-cs-moh272"> </a></td><td>Dambulla MOH</td></tr><tr><td style="white-space:nowrap">moh273<a name="lk-core-moh-area-cs-moh273"> </a></td><td>Dambulla MC MOH</td></tr><tr><td style="white-space:nowrap">moh274<a name="lk-core-moh-area-cs-moh274"> </a></td><td>Galewela MOH</td></tr><tr><td style="white-space:nowrap">moh275<a name="lk-core-moh-area-cs-moh275"> </a></td><td>Laggala-Pallegama MOH</td></tr><tr><td style="white-space:nowrap">moh276<a name="lk-core-moh-area-cs-moh276"> </a></td><td>Matale MOH</td></tr><tr><td style="white-space:nowrap">moh277<a name="lk-core-moh-area-cs-moh277"> </a></td><td>Matale MC MOH</td></tr><tr><td style="white-space:nowrap">moh278<a name="lk-core-moh-area-cs-moh278"> </a></td><td>Naula MOH</td></tr><tr><td style="white-space:nowrap">moh279<a name="lk-core-moh-area-cs-moh279"> </a></td><td>Pallepola MOH</td></tr><tr><td style="white-space:nowrap">moh280<a name="lk-core-moh-area-cs-moh280"> </a></td><td>Rattota MOH</td></tr><tr><td style="white-space:nowrap">moh281<a name="lk-core-moh-area-cs-moh281"> </a></td><td>Ukuwela MOH</td></tr><tr><td style="white-space:nowrap">moh282<a name="lk-core-moh-area-cs-moh282"> </a></td><td>Wilgamuwa MOH</td></tr><tr><td style="white-space:nowrap">moh283<a name="lk-core-moh-area-cs-moh283"> </a></td><td>Yatawatta MOH</td></tr><tr><td style="white-space:nowrap">moh284<a name="lk-core-moh-area-cs-moh284"> </a></td><td>Ambagamuwa (Ginigathhena) MOH</td></tr><tr><td style="white-space:nowrap">moh285<a name="lk-core-moh-area-cs-moh285"> </a></td><td>Bogawanthalawa MOH</td></tr><tr><td style="white-space:nowrap">moh286<a name="lk-core-moh-area-cs-moh286"> </a></td><td>Kotagala MOH</td></tr><tr><td style="white-space:nowrap">moh287<a name="lk-core-moh-area-cs-moh287"> </a></td><td>Kothmale MOH</td></tr><tr><td style="white-space:nowrap">moh288<a name="lk-core-moh-area-cs-moh288"> </a></td><td>Lidula (Thalawakale) MOH</td></tr><tr><td style="white-space:nowrap">moh289<a name="lk-core-moh-area-cs-moh289"> </a></td><td>Maskeliya MOH</td></tr><tr><td style="white-space:nowrap">moh290<a name="lk-core-moh-area-cs-moh290"> </a></td><td>Maturata MOH</td></tr><tr><td style="white-space:nowrap">moh291<a name="lk-core-moh-area-cs-moh291"> </a></td><td>Nawathispane MOH</td></tr><tr><td style="white-space:nowrap">moh292<a name="lk-core-moh-area-cs-moh292"> </a></td><td>Nuwara Eliya MOH</td></tr><tr><td style="white-space:nowrap">moh293<a name="lk-core-moh-area-cs-moh293"> </a></td><td>Nuwara Eliya MC MOH</td></tr><tr><td style="white-space:nowrap">moh294<a name="lk-core-moh-area-cs-moh294"> </a></td><td>Ragala MOH</td></tr><tr><td style="white-space:nowrap">moh295<a name="lk-core-moh-area-cs-moh295"> </a></td><td>Rikillagaskada (Hanguranketha) MOH</td></tr><tr><td style="white-space:nowrap">moh296<a name="lk-core-moh-area-cs-moh296"> </a></td><td>Walapane MOH</td></tr><tr><td style="white-space:nowrap">moh297<a name="lk-core-moh-area-cs-moh297"> </a></td><td>Bakamuna (Elahera) MOH</td></tr><tr><td style="white-space:nowrap">moh298<a name="lk-core-moh-area-cs-moh298"> </a></td><td>Dimbulagala MOH</td></tr><tr><td style="white-space:nowrap">moh299<a name="lk-core-moh-area-cs-moh299"> </a></td><td>Hingurakgoda MOH</td></tr><tr><td style="white-space:nowrap">moh300<a name="lk-core-moh-area-cs-moh300"> </a></td><td>Lankapura MOH</td></tr><tr><td style="white-space:nowrap">moh301<a name="lk-core-moh-area-cs-moh301"> </a></td><td>Medirigiriya MOH</td></tr><tr><td style="white-space:nowrap">moh302<a name="lk-core-moh-area-cs-moh302"> </a></td><td>Siripura MOH</td></tr><tr><td style="white-space:nowrap">moh303<a name="lk-core-moh-area-cs-moh303"> </a></td><td>Thamankaduwa MOH</td></tr><tr><td style="white-space:nowrap">moh304<a name="lk-core-moh-area-cs-moh304"> </a></td><td>Welikanda MOH</td></tr><tr><td style="white-space:nowrap">moh305<a name="lk-core-moh-area-cs-moh305"> </a></td><td>Anamaduwa MOH</td></tr><tr><td style="white-space:nowrap">moh306<a name="lk-core-moh-area-cs-moh306"> </a></td><td>Arachchikattuwa MOH</td></tr><tr><td style="white-space:nowrap">moh307<a name="lk-core-moh-area-cs-moh307"> </a></td><td>Chilaw MOH</td></tr><tr><td style="white-space:nowrap">moh308<a name="lk-core-moh-area-cs-moh308"> </a></td><td>Dankotuwa MOH</td></tr><tr><td style="white-space:nowrap">moh309<a name="lk-core-moh-area-cs-moh309"> </a></td><td>Kalpitiya MOH</td></tr><tr><td style="white-space:nowrap">moh310<a name="lk-core-moh-area-cs-moh310"> </a></td><td>Karuwalagaswewa MOH</td></tr><tr><td style="white-space:nowrap">moh311<a name="lk-core-moh-area-cs-moh311"> </a></td><td>Madampe MOH</td></tr><tr><td style="white-space:nowrap">moh312<a name="lk-core-moh-area-cs-moh312"> </a></td><td>Mahawewa MOH</td></tr><tr><td style="white-space:nowrap">moh313<a name="lk-core-moh-area-cs-moh313"> </a></td><td>Mundalama MOH</td></tr><tr><td style="white-space:nowrap">moh314<a name="lk-core-moh-area-cs-moh314"> </a></td><td>Nattandiya MOH</td></tr><tr><td style="white-space:nowrap">moh315<a name="lk-core-moh-area-cs-moh315"> </a></td><td>Nawagarththegama MOH</td></tr><tr><td style="white-space:nowrap">moh316<a name="lk-core-moh-area-cs-moh316"> </a></td><td>Pallama MOH</td></tr><tr><td style="white-space:nowrap">moh317<a name="lk-core-moh-area-cs-moh317"> </a></td><td>Puttalam MOH</td></tr><tr><td style="white-space:nowrap">moh318<a name="lk-core-moh-area-cs-moh318"> </a></td><td>Wanathawilluwa MOH</td></tr><tr><td style="white-space:nowrap">moh319<a name="lk-core-moh-area-cs-moh319"> </a></td><td>Wennappuwa MOH</td></tr><tr><td style="white-space:nowrap">moh320<a name="lk-core-moh-area-cs-moh320"> </a></td><td>Ayagama MOH</td></tr><tr><td style="white-space:nowrap">moh321<a name="lk-core-moh-area-cs-moh321"> </a></td><td>Balangoda MOH</td></tr><tr><td style="white-space:nowrap">moh322<a name="lk-core-moh-area-cs-moh322"> </a></td><td>Eheliyagoda MOH</td></tr><tr><td style="white-space:nowrap">moh323<a name="lk-core-moh-area-cs-moh323"> </a></td><td>Elapatha MOH</td></tr><tr><td style="white-space:nowrap">moh324<a name="lk-core-moh-area-cs-moh324"> </a></td><td>Embilipitiya MOH</td></tr><tr><td style="white-space:nowrap">moh325<a name="lk-core-moh-area-cs-moh325"> </a></td><td>Godakawela MOH</td></tr><tr><td style="white-space:nowrap">moh326<a name="lk-core-moh-area-cs-moh326"> </a></td><td>Imbulpe MOH</td></tr><tr><td style="white-space:nowrap">moh327<a name="lk-core-moh-area-cs-moh327"> </a></td><td>Kahawatta MOH</td></tr><tr><td style="white-space:nowrap">moh328<a name="lk-core-moh-area-cs-moh328"> </a></td><td>Kalawana MOH</td></tr><tr><td style="white-space:nowrap">moh329<a name="lk-core-moh-area-cs-moh329"> </a></td><td>Kiriella MOH</td></tr><tr><td style="white-space:nowrap">moh330<a name="lk-core-moh-area-cs-moh330"> </a></td><td>Kolonna MOH</td></tr><tr><td style="white-space:nowrap">moh331<a name="lk-core-moh-area-cs-moh331"> </a></td><td>Kuruvita MOH</td></tr><tr><td style="white-space:nowrap">moh332<a name="lk-core-moh-area-cs-moh332"> </a></td><td>Nivithigala MOH</td></tr><tr><td style="white-space:nowrap">moh333<a name="lk-core-moh-area-cs-moh333"> </a></td><td>Openayaka MOH</td></tr><tr><td style="white-space:nowrap">moh334<a name="lk-core-moh-area-cs-moh334"> </a></td><td>Pelmadulla MOH</td></tr><tr><td style="white-space:nowrap">moh335<a name="lk-core-moh-area-cs-moh335"> </a></td><td>Rathnapura MC MOH</td></tr><tr><td style="white-space:nowrap">moh336<a name="lk-core-moh-area-cs-moh336"> </a></td><td>Ratnapura MOH</td></tr><tr><td style="white-space:nowrap">moh337<a name="lk-core-moh-area-cs-moh337"> </a></td><td>Weligepola MOH</td></tr><tr><td style="white-space:nowrap">moh338<a name="lk-core-moh-area-cs-moh338"> </a></td><td>Gomarankadavala MOH</td></tr><tr><td style="white-space:nowrap">moh339<a name="lk-core-moh-area-cs-moh339"> </a></td><td>Ichchilampathai MOH</td></tr><tr><td style="white-space:nowrap">moh340<a name="lk-core-moh-area-cs-moh340"> </a></td><td>Kantalai MOH</td></tr><tr><td style="white-space:nowrap">moh341<a name="lk-core-moh-area-cs-moh341"> </a></td><td>Kinniya MOH</td></tr><tr><td style="white-space:nowrap">moh342<a name="lk-core-moh-area-cs-moh342"> </a></td><td>Kuchchavelly MOH</td></tr><tr><td style="white-space:nowrap">moh343<a name="lk-core-moh-area-cs-moh343"> </a></td><td>Muthur MOH</td></tr><tr><td style="white-space:nowrap">moh344<a name="lk-core-moh-area-cs-moh344"> </a></td><td>Padavisripura MOH</td></tr><tr><td style="white-space:nowrap">moh345<a name="lk-core-moh-area-cs-moh345"> </a></td><td>Seruwila MOH</td></tr><tr><td style="white-space:nowrap">moh346<a name="lk-core-moh-area-cs-moh346"> </a></td><td>Thampalakamam MOH</td></tr><tr><td style="white-space:nowrap">moh347<a name="lk-core-moh-area-cs-moh347"> </a></td><td>Trincomalee MOH</td></tr><tr><td style="white-space:nowrap">moh348<a name="lk-core-moh-area-cs-moh348"> </a></td><td>Uppuveli MOH</td></tr><tr><td style="white-space:nowrap">moh349<a name="lk-core-moh-area-cs-moh349"> </a></td><td>Cheddikulam MOH</td></tr><tr><td style="white-space:nowrap">moh350<a name="lk-core-moh-area-cs-moh350"> </a></td><td>Vavuniya MOH</td></tr><tr><td style="white-space:nowrap">moh351<a name="lk-core-moh-area-cs-moh351"> </a></td><td>Vavuniya North MOH</td></tr><tr><td style="white-space:nowrap">moh352<a name="lk-core-moh-area-cs-moh352"> </a></td><td>Vavuniya South MOH</td></tr></table></div>
+  </text>
+  <url value="http://fhir.health.gov.lk/CodeSystem/lk-core-moh-area-cs"/>
+  <version value="0.1.0"/>
+  <name value="LKCoreMOHAreaCS"/>
+  <title value="LK Core MOH Area Code System"/>
+  <status value="draft"/>
+  <date value="2023-08-11T10:37:20+05:30"/>
+  <description value="LK Core MOH Area Code System"/>
+  <content value="complete"/>
+  <count value="352"/>
+  <concept>
+    <code value="moh001"/>
+    <display value="Beruwala MOH"/>
+  </concept>
+  <concept>
+    <code value="moh002"/>
+    <display value="Kalutara MOH"/>
+  </concept>
+  <concept>
+    <code value="moh003"/>
+    <display value="Galenbindunuwewa MOH"/>
+  </concept>
+  <concept>
+    <code value="moh004"/>
+    <display value="Galkiriyagama (Palagala) MOH"/>
+  </concept>
+  <concept>
+    <code value="moh005"/>
+    <display value="Galnewa MOH"/>
+  </concept>
+  <concept>
+    <code value="moh006"/>
+    <display value="Horowpothana MOH"/>
+  </concept>
+  <concept>
+    <code value="moh007"/>
+    <display value="Ipalogama MOH"/>
+  </concept>
+  <concept>
+    <code value="moh008"/>
+    <display value="Kahatagasdigiliya MOH"/>
+  </concept>
+  <concept>
+    <code value="moh009"/>
+    <display value="Kebithigollewa MOH"/>
+  </concept>
+  <concept>
+    <code value="moh010"/>
+    <display value="Kekirawa MOH"/>
+  </concept>
+  <concept>
+    <code value="moh011"/>
+    <display value="Medawachchiya MOH"/>
+  </concept>
+  <concept>
+    <code value="moh012"/>
+    <display value="Mihinthale MOH"/>
+  </concept>
+  <concept>
+    <code value="moh013"/>
+    <display value="Nachchiyadoowa MOH"/>
+  </concept>
+  <concept>
+    <code value="moh014"/>
+    <display value="Nochchiyagama MOH"/>
+  </concept>
+  <concept>
+    <code value="moh015"/>
+    <display value="Nuwaragam Palatha Central MOH"/>
+  </concept>
+  <concept>
+    <code value="moh016"/>
+    <display value="Nuwaragam Palatha East MOH"/>
+  </concept>
+  <concept>
+    <code value="moh017"/>
+    <display value="Padaviya MOH"/>
+  </concept>
+  <concept>
+    <code value="moh018"/>
+    <display value="Palugaswewa MOH"/>
+  </concept>
+  <concept>
+    <code value="moh019"/>
+    <display value="Rajanganaya MOH"/>
+  </concept>
+  <concept>
+    <code value="moh020"/>
+    <display value="Rambewa MOH"/>
+  </concept>
+  <concept>
+    <code value="moh021"/>
+    <display value="Thalawa MOH"/>
+  </concept>
+  <concept>
+    <code value="moh022"/>
+    <display value="Thambuttegama MOH"/>
+  </concept>
+  <concept>
+    <code value="moh023"/>
+    <display value="Thirappane MOH"/>
+  </concept>
+  <concept>
+    <code value="moh024"/>
+    <display value="Wilachchiya MOH"/>
+  </concept>
+  <concept>
+    <code value="moh025"/>
+    <display value="Ampara MOH"/>
+  </concept>
+  <concept>
+    <code value="moh026"/>
+    <display value="Damana MOH"/>
+  </concept>
+  <concept>
+    <code value="moh027"/>
+    <display value="Dehiattakandiya MOH"/>
+  </concept>
+  <concept>
+    <code value="moh028"/>
+    <display value="Lahugala MOH"/>
+  </concept>
+  <concept>
+    <code value="moh029"/>
+    <display value="Maha Oya MOH"/>
+  </concept>
+  <concept>
+    <code value="moh030"/>
+    <display value="Padiyatalawa MOH"/>
+  </concept>
+  <concept>
+    <code value="moh031"/>
+    <display value="Uhana MOH"/>
+  </concept>
+  <concept>
+    <code value="moh032"/>
+    <display value="Arayampathy MOH"/>
+  </concept>
+  <concept>
+    <code value="moh033"/>
+    <display value="Batticoloa MOH"/>
+  </concept>
+  <concept>
+    <code value="moh034"/>
+    <display value="Chenkalady MOH"/>
+  </concept>
+  <concept>
+    <code value="moh035"/>
+    <display value="Eravur MOH"/>
+  </concept>
+  <concept>
+    <code value="moh036"/>
+    <display value="Kalawanchikudy MOH"/>
+  </concept>
+  <concept>
+    <code value="moh037"/>
+    <display value="Katankudy MOH"/>
+  </concept>
+  <concept>
+    <code value="moh038"/>
+    <display value="Kiran MOH"/>
+  </concept>
+  <concept>
+    <code value="moh039"/>
+    <display value="Koralaipattu Central MOH"/>
+  </concept>
+  <concept>
+    <code value="moh040"/>
+    <display value="Oddamavadi MOH"/>
+  </concept>
+  <concept>
+    <code value="moh041"/>
+    <display value="Paddipallai MOH"/>
+  </concept>
+  <concept>
+    <code value="moh042"/>
+    <display value="Vakarai MOH"/>
+  </concept>
+  <concept>
+    <code value="moh043"/>
+    <display value="Valaichcheni MOH"/>
+  </concept>
+  <concept>
+    <code value="moh044"/>
+    <display value="Vavunativu MOH"/>
+  </concept>
+  <concept>
+    <code value="moh045"/>
+    <display value="Vellavelly MOH"/>
+  </concept>
+  <concept>
+    <code value="moh046"/>
+    <display value="Badulla MOH"/>
+  </concept>
+  <concept>
+    <code value="moh047"/>
+    <display value="Bandarawela MOH"/>
+  </concept>
+  <concept>
+    <code value="moh048"/>
+    <display value="Ella MOH"/>
+  </concept>
+  <concept>
+    <code value="moh049"/>
+    <display value="Girandurukotte MOH"/>
+  </concept>
+  <concept>
+    <code value="moh050"/>
+    <display value="Haldummulla MOH"/>
+  </concept>
+  <concept>
+    <code value="moh051"/>
+    <display value="Hali-Ela MOH"/>
+  </concept>
+  <concept>
+    <code value="moh052"/>
+    <display value="Haputale MOH"/>
+  </concept>
+  <concept>
+    <code value="moh053"/>
+    <display value="Kandaketiya MOH"/>
+  </concept>
+  <concept>
+    <code value="moh054"/>
+    <display value="Lunugala MOH"/>
+  </concept>
+  <concept>
+    <code value="moh055"/>
+    <display value="Mahiyanganaya MOH"/>
+  </concept>
+  <concept>
+    <code value="moh056"/>
+    <display value="Meegahakivula MOH"/>
+  </concept>
+  <concept>
+    <code value="moh057"/>
+    <display value="Passara MOH"/>
+  </concept>
+  <concept>
+    <code value="moh058"/>
+    <display value="Rideemaliyadda MOH"/>
+  </concept>
+  <concept>
+    <code value="moh059"/>
+    <display value="Soranathota MOH"/>
+  </concept>
+  <concept>
+    <code value="moh060"/>
+    <display value="Uva Paranagama MOH"/>
+  </concept>
+  <concept>
+    <code value="moh061"/>
+    <display value="Welimada MOH"/>
+  </concept>
+  <concept>
+    <code value="moh062"/>
+    <display value="Baththaramulla MOH"/>
+  </concept>
+  <concept>
+    <code value="moh063"/>
+    <display value="Boralesgamuwa MOH"/>
+  </concept>
+  <concept>
+    <code value="moh064"/>
+    <display value="Colombo MOH"/>
+  </concept>
+  <concept>
+    <code value="moh065"/>
+    <display value="Dehiwala MOH"/>
+  </concept>
+  <concept>
+    <code value="moh066"/>
+    <display value="Hanwella MOH"/>
+  </concept>
+  <concept>
+    <code value="moh067"/>
+    <display value="Homagama MOH"/>
+  </concept>
+  <concept>
+    <code value="moh068"/>
+    <display value="Kaduwela MOH"/>
+  </concept>
+  <concept>
+    <code value="moh069"/>
+    <display value="Kahathuduwa MOH"/>
+  </concept>
+  <concept>
+    <code value="moh070"/>
+    <display value="Kolonnawa MOH"/>
+  </concept>
+  <concept>
+    <code value="moh071"/>
+    <display value="Maharagama MOH"/>
+  </concept>
+  <concept>
+    <code value="moh072"/>
+    <display value="Moratuwa MOH"/>
+  </concept>
+  <concept>
+    <code value="moh073"/>
+    <display value="Nugegoda MOH"/>
+  </concept>
+  <concept>
+    <code value="moh074"/>
+    <display value="Padukka MOH"/>
+  </concept>
+  <concept>
+    <code value="moh075"/>
+    <display value="Piliyandala (Kesbewa) MOH"/>
+  </concept>
+  <concept>
+    <code value="moh076"/>
+    <display value="Pitakotte (Kotte) MOH"/>
+  </concept>
+  <concept>
+    <code value="moh077"/>
+    <display value="Rathmalana MOH"/>
+  </concept>
+  <concept>
+    <code value="moh078"/>
+    <display value="Akmeemana MOH"/>
+  </concept>
+  <concept>
+    <code value="moh079"/>
+    <display value="Ambalangoda MOH"/>
+  </concept>
+  <concept>
+    <code value="moh080"/>
+    <display value="Baddegama MOH"/>
+  </concept>
+  <concept>
+    <code value="moh081"/>
+    <display value="Balapitiya MOH"/>
+  </concept>
+  <concept>
+    <code value="moh082"/>
+    <display value="Bentota (Induruwa) MOH"/>
+  </concept>
+  <concept>
+    <code value="moh083"/>
+    <display value="Bope - Poddala MOH"/>
+  </concept>
+  <concept>
+    <code value="moh084"/>
+    <display value="Elpitiya MOH"/>
+  </concept>
+  <concept>
+    <code value="moh085"/>
+    <display value="Galle MC MOH"/>
+  </concept>
+  <concept>
+    <code value="moh086"/>
+    <display value="Gonapinuwala MOH"/>
+  </concept>
+  <concept>
+    <code value="moh087"/>
+    <display value="Habaraduwa MOH"/>
+  </concept>
+  <concept>
+    <code value="moh088"/>
+    <display value="Hikkaduwa MOH"/>
+  </concept>
+  <concept>
+    <code value="moh089"/>
+    <display value="Imaduwa MOH"/>
+  </concept>
+  <concept>
+    <code value="moh090"/>
+    <display value="Karandeniya MOH"/>
+  </concept>
+  <concept>
+    <code value="moh091"/>
+    <display value="Nagoda (Udugama) MOH"/>
+  </concept>
+  <concept>
+    <code value="moh092"/>
+    <display value="Neluwa MOH"/>
+  </concept>
+  <concept>
+    <code value="moh093"/>
+    <display value="Niyagama MOH"/>
+  </concept>
+  <concept>
+    <code value="moh094"/>
+    <display value="Rathganga MOH"/>
+  </concept>
+  <concept>
+    <code value="moh095"/>
+    <display value="Thawalama MOH"/>
+  </concept>
+  <concept>
+    <code value="moh096"/>
+    <display value="Walivitiya (Divithura) MOH"/>
+  </concept>
+  <concept>
+    <code value="moh097"/>
+    <display value="Yakkalamulla MOH"/>
+  </concept>
+  <concept>
+    <code value="moh098"/>
+    <display value="Attanagalla MOH"/>
+  </concept>
+  <concept>
+    <code value="moh099"/>
+    <display value="Biyagama MOH"/>
+  </concept>
+  <concept>
+    <code value="moh100"/>
+    <display value="Divulapitiya MOH"/>
+  </concept>
+  <concept>
+    <code value="moh101"/>
+    <display value="Gampaha MOH"/>
+  </concept>
+  <concept>
+    <code value="moh102"/>
+    <display value="Ja-Ela MOH"/>
+  </concept>
+  <concept>
+    <code value="moh103"/>
+    <display value="Katana MOH"/>
+  </concept>
+  <concept>
+    <code value="moh104"/>
+    <display value="Katunayake (BOI) MOH"/>
+  </concept>
+  <concept>
+    <code value="moh105"/>
+    <display value="Kelaniya MOH"/>
+  </concept>
+  <concept>
+    <code value="moh106"/>
+    <display value="Mahara MOH"/>
+  </concept>
+  <concept>
+    <code value="moh107"/>
+    <display value="Minuwangoda MOH"/>
+  </concept>
+  <concept>
+    <code value="moh108"/>
+    <display value="Mirigama MOH"/>
+  </concept>
+  <concept>
+    <code value="moh109"/>
+    <display value="Negombo MOH"/>
+  </concept>
+  <concept>
+    <code value="moh110"/>
+    <display value="Pugoda (Dompe) MOH"/>
+  </concept>
+  <concept>
+    <code value="moh111"/>
+    <display value="Ragama MOH"/>
+  </concept>
+  <concept>
+    <code value="moh112"/>
+    <display value="Seeduwa MOH"/>
+  </concept>
+  <concept>
+    <code value="moh113"/>
+    <display value="Wattala MOH"/>
+  </concept>
+  <concept>
+    <code value="moh114"/>
+    <display value="Ambalanthota MOH"/>
+  </concept>
+  <concept>
+    <code value="moh115"/>
+    <display value="Angunakolapelessa MOH"/>
+  </concept>
+  <concept>
+    <code value="moh116"/>
+    <display value="Beliatta MOH"/>
+  </concept>
+  <concept>
+    <code value="moh117"/>
+    <display value="Hambantota MOH"/>
+  </concept>
+  <concept>
+    <code value="moh118"/>
+    <display value="Katuwana MOH"/>
+  </concept>
+  <concept>
+    <code value="moh119"/>
+    <display value="Lunugamvehera MOH"/>
+  </concept>
+  <concept>
+    <code value="moh120"/>
+    <display value="Okewela MOH"/>
+  </concept>
+  <concept>
+    <code value="moh121"/>
+    <display value="Sooriyawewa MOH"/>
+  </concept>
+  <concept>
+    <code value="moh122"/>
+    <display value="Tangalle MOH"/>
+  </concept>
+  <concept>
+    <code value="moh123"/>
+    <display value="Thissamaharama MOH"/>
+  </concept>
+  <concept>
+    <code value="moh124"/>
+    <display value="Walasmulla MOH"/>
+  </concept>
+  <concept>
+    <code value="moh125"/>
+    <display value="Weeraketiya MOH"/>
+  </concept>
+  <concept>
+    <code value="moh126"/>
+    <display value="Ampan (Point Pedro) MOH"/>
+  </concept>
+  <concept>
+    <code value="moh127"/>
+    <display value="Chankanai - Walikamam West MOH"/>
+  </concept>
+  <concept>
+    <code value="moh128"/>
+    <display value="Chavakachchari MOH"/>
+  </concept>
+  <concept>
+    <code value="moh129"/>
+    <display value="Jaffna MOH"/>
+  </concept>
+  <concept>
+    <code value="moh130"/>
+    <display value="Karaveddy MOH"/>
+  </concept>
+  <concept>
+    <code value="moh131"/>
+    <display value="Kayts MOH"/>
+  </concept>
+  <concept>
+    <code value="moh132"/>
+    <display value="Kopay MOH"/>
+  </concept>
+  <concept>
+    <code value="moh133"/>
+    <display value="Nallur MOH"/>
+  </concept>
+  <concept>
+    <code value="moh134"/>
+    <display value="Sandilipay MOH"/>
+  </concept>
+  <concept>
+    <code value="moh135"/>
+    <display value="Telippalai MOH"/>
+  </concept>
+  <concept>
+    <code value="moh136"/>
+    <display value="Uduvil MOH"/>
+  </concept>
+  <concept>
+    <code value="moh137"/>
+    <display value="Velanai (Island South) MOH"/>
+  </concept>
+  <concept>
+    <code value="moh138"/>
+    <display value="Aranayaka MOH"/>
+  </concept>
+  <concept>
+    <code value="moh139"/>
+    <display value="Bulathkohupitiya MOH"/>
+  </concept>
+  <concept>
+    <code value="moh140"/>
+    <display value="Dehiovita MOH"/>
+  </concept>
+  <concept>
+    <code value="moh141"/>
+    <display value="Deraniyagala MOH"/>
+  </concept>
+  <concept>
+    <code value="moh142"/>
+    <display value="Galigamuwa MOH"/>
+  </concept>
+  <concept>
+    <code value="moh143"/>
+    <display value="Kegalle MOH"/>
+  </concept>
+  <concept>
+    <code value="moh144"/>
+    <display value="Mawanella MOH"/>
+  </concept>
+  <concept>
+    <code value="moh145"/>
+    <display value="Rambukkana MOH"/>
+  </concept>
+  <concept>
+    <code value="moh146"/>
+    <display value="Ruwanwella MOH"/>
+  </concept>
+  <concept>
+    <code value="moh147"/>
+    <display value="Warakapola MOH"/>
+  </concept>
+  <concept>
+    <code value="moh148"/>
+    <display value="Yatiyanthota MOH"/>
+  </concept>
+  <concept>
+    <code value="moh149"/>
+    <display value="Alawwa MOH"/>
+  </concept>
+  <concept>
+    <code value="moh150"/>
+    <display value="Ambanpola MOH"/>
+  </concept>
+  <concept>
+    <code value="moh151"/>
+    <display value="Bamunukotuwa MOH"/>
+  </concept>
+  <concept>
+    <code value="moh152"/>
+    <display value="Bingiriya MOH"/>
+  </concept>
+  <concept>
+    <code value="moh153"/>
+    <display value="Galgamuwa MOH"/>
+  </concept>
+  <concept>
+    <code value="moh154"/>
+    <display value="Ganewatta MOH"/>
+  </concept>
+  <concept>
+    <code value="moh155"/>
+    <display value="Giribawa MOH"/>
+  </concept>
+  <concept>
+    <code value="moh156"/>
+    <display value="Ibbagamuwa (Gokarella) MOH"/>
+  </concept>
+  <concept>
+    <code value="moh157"/>
+    <display value="Kobeigane MOH"/>
+  </concept>
+  <concept>
+    <code value="moh158"/>
+    <display value="Kotawehera MOH"/>
+  </concept>
+  <concept>
+    <code value="moh159"/>
+    <display value="Kuliyapitiya East MOH"/>
+  </concept>
+  <concept>
+    <code value="moh160"/>
+    <display value="Kuliyapitiya West MOH"/>
+  </concept>
+  <concept>
+    <code value="moh161"/>
+    <display value="Kurunegala MOH"/>
+  </concept>
+  <concept>
+    <code value="moh162"/>
+    <display value="Kurunegala MC MOH"/>
+  </concept>
+  <concept>
+    <code value="moh163"/>
+    <display value="Maho MOH"/>
+  </concept>
+  <concept>
+    <code value="moh164"/>
+    <display value="Mallawapitiya MOH"/>
+  </concept>
+  <concept>
+    <code value="moh165"/>
+    <display value="Maspotha MOH"/>
+  </concept>
+  <concept>
+    <code value="moh166"/>
+    <display value="Mawathagama MOH"/>
+  </concept>
+  <concept>
+    <code value="moh167"/>
+    <display value="Narammala MOH"/>
+  </concept>
+  <concept>
+    <code value="moh168"/>
+    <display value="Nikaweratiya MOH"/>
+  </concept>
+  <concept>
+    <code value="moh169"/>
+    <display value="Paduwasnuwara West MOH"/>
+  </concept>
+  <concept>
+    <code value="moh170"/>
+    <display value="Panduwasnuwara East MOH"/>
+  </concept>
+  <concept>
+    <code value="moh171"/>
+    <display value="Pannala MOH"/>
+  </concept>
+  <concept>
+    <code value="moh172"/>
+    <display value="Polgahawela MOH"/>
+  </concept>
+  <concept>
+    <code value="moh173"/>
+    <display value="Polpithigama MOH"/>
+  </concept>
+  <concept>
+    <code value="moh174"/>
+    <display value="Rasnayakapura MOH"/>
+  </concept>
+  <concept>
+    <code value="moh175"/>
+    <display value="Rideegama MOH"/>
+  </concept>
+  <concept>
+    <code value="moh176"/>
+    <display value="Udubaddawa MOH"/>
+  </concept>
+  <concept>
+    <code value="moh177"/>
+    <display value="Wariyapola MOH"/>
+  </concept>
+  <concept>
+    <code value="moh178"/>
+    <display value="Weerabugedara MOH"/>
+  </concept>
+  <concept>
+    <code value="moh179"/>
+    <display value="Addalachchenai MOH"/>
+  </concept>
+  <concept>
+    <code value="moh180"/>
+    <display value="Akkaraipathu MOH"/>
+  </concept>
+  <concept>
+    <code value="moh181"/>
+    <display value="Alayadivembu MOH"/>
+  </concept>
+  <concept>
+    <code value="moh182"/>
+    <display value="Irakkamam MOH"/>
+  </concept>
+  <concept>
+    <code value="moh183"/>
+    <display value="Kalmunai North MOH"/>
+  </concept>
+  <concept>
+    <code value="moh184"/>
+    <display value="Kalmunai South MOH"/>
+  </concept>
+  <concept>
+    <code value="moh185"/>
+    <display value="Karaitivu MOH"/>
+  </concept>
+  <concept>
+    <code value="moh186"/>
+    <display value="Navithanveli MOH"/>
+  </concept>
+  <concept>
+    <code value="moh187"/>
+    <display value="Ninthavur MOH"/>
+  </concept>
+  <concept>
+    <code value="moh188"/>
+    <display value="Pottuvil MOH"/>
+  </concept>
+  <concept>
+    <code value="moh189"/>
+    <display value="Sainthamaruthu MOH"/>
+  </concept>
+  <concept>
+    <code value="moh190"/>
+    <display value="Sammanthurai MOH"/>
+  </concept>
+  <concept>
+    <code value="moh191"/>
+    <display value="Thirukkovil MOH"/>
+  </concept>
+  <concept>
+    <code value="moh192"/>
+    <display value="Kandawalai MOH"/>
+  </concept>
+  <concept>
+    <code value="moh193"/>
+    <display value="Karachchi (Kilinochchci) MOH"/>
+  </concept>
+  <concept>
+    <code value="moh194"/>
+    <display value="Pallai MOH"/>
+  </concept>
+  <concept>
+    <code value="moh195"/>
+    <display value="Poonakery MOH"/>
+  </concept>
+  <concept>
+    <code value="moh196"/>
+    <display value="Agalawatta MOH"/>
+  </concept>
+  <concept>
+    <code value="moh197"/>
+    <display value="Bandaragama MOH"/>
+  </concept>
+  <concept>
+    <code value="moh198"/>
+    <display value="Bulathsinhala MOH"/>
+  </concept>
+  <concept>
+    <code value="moh199"/>
+    <display value="Dodangoda MOH"/>
+  </concept>
+  <concept>
+    <code value="moh200"/>
+    <display value="Horana MOH"/>
+  </concept>
+  <concept>
+    <code value="moh201"/>
+    <display value="Ingiriya MOH"/>
+  </concept>
+  <concept>
+    <code value="moh202"/>
+    <display value="Madurawala MOH"/>
+  </concept>
+  <concept>
+    <code value="moh203"/>
+    <display value="Mathugama MOH"/>
+  </concept>
+  <concept>
+    <code value="moh204"/>
+    <display value="Millaniya MOH"/>
+  </concept>
+  <concept>
+    <code value="moh205"/>
+    <display value="Palindanuwara MOH"/>
+  </concept>
+  <concept>
+    <code value="moh206"/>
+    <display value="Panadura MOH"/>
+  </concept>
+  <concept>
+    <code value="moh207"/>
+    <display value="Wadduwa MOH"/>
+  </concept>
+  <concept>
+    <code value="moh208"/>
+    <display value="Walallawita MOH"/>
+  </concept>
+  <concept>
+    <code value="moh209"/>
+    <display value="Akurana MOH"/>
+  </concept>
+  <concept>
+    <code value="moh210"/>
+    <display value="Bambaradeniya MOH"/>
+  </concept>
+  <concept>
+    <code value="moh211"/>
+    <display value="Doluwa MOH"/>
+  </concept>
+  <concept>
+    <code value="moh212"/>
+    <display value="Galagedara MOH"/>
+  </concept>
+  <concept>
+    <code value="moh213"/>
+    <display value="Galaha MOH"/>
+  </concept>
+  <concept>
+    <code value="moh214"/>
+    <display value="Gampola (Udapalatha) MOH"/>
+  </concept>
+  <concept>
+    <code value="moh215"/>
+    <display value="Gangawata Korale MOH"/>
+  </concept>
+  <concept>
+    <code value="moh216"/>
+    <display value="Hasalaka MOH"/>
+  </concept>
+  <concept>
+    <code value="moh217"/>
+    <display value="Hatharaliyadda MOH"/>
+  </concept>
+  <concept>
+    <code value="moh218"/>
+    <display value="Kandy MC MOH"/>
+  </concept>
+  <concept>
+    <code value="moh219"/>
+    <display value="Kundasale MOH"/>
+  </concept>
+  <concept>
+    <code value="moh220"/>
+    <display value="Kurunduwaththa (Gangaihala) MOH"/>
+  </concept>
+  <concept>
+    <code value="moh221"/>
+    <display value="Medadumbara (Medamahanuwara) MOH"/>
+  </concept>
+  <concept>
+    <code value="moh222"/>
+    <display value="Menikhinna MOH"/>
+  </concept>
+  <concept>
+    <code value="moh223"/>
+    <display value="Panvila MOH"/>
+  </concept>
+  <concept>
+    <code value="moh224"/>
+    <display value="Pasbage (Nawalapitiya) MOH"/>
+  </concept>
+  <concept>
+    <code value="moh225"/>
+    <display value="Poojapitiya MOH"/>
+  </concept>
+  <concept>
+    <code value="moh226"/>
+    <display value="Thalathuoya MOH"/>
+  </concept>
+  <concept>
+    <code value="moh227"/>
+    <display value="Udadumbara MOH"/>
+  </concept>
+  <concept>
+    <code value="moh228"/>
+    <display value="Udunuwara MOH"/>
+  </concept>
+  <concept>
+    <code value="moh229"/>
+    <display value="Waththegama (Pathadumbara) MOH"/>
+  </concept>
+  <concept>
+    <code value="moh230"/>
+    <display value="Werellagama (Harispattuwa) MOH"/>
+  </concept>
+  <concept>
+    <code value="moh231"/>
+    <display value="Yatinuwara (Kadugannawa) MOH"/>
+  </concept>
+  <concept>
+    <code value="moh232"/>
+    <display value="Badalkumbura MOH"/>
+  </concept>
+  <concept>
+    <code value="moh233"/>
+    <display value="Bibile MOH"/>
+  </concept>
+  <concept>
+    <code value="moh234"/>
+    <display value="Buttala MOH"/>
+  </concept>
+  <concept>
+    <code value="moh235"/>
+    <display value="Kataragama MOH"/>
+  </concept>
+  <concept>
+    <code value="moh236"/>
+    <display value="Madulla MOH"/>
+  </concept>
+  <concept>
+    <code value="moh237"/>
+    <display value="Medagama MOH"/>
+  </concept>
+  <concept>
+    <code value="moh238"/>
+    <display value="Moneragala MOH"/>
+  </concept>
+  <concept>
+    <code value="moh239"/>
+    <display value="Sevanagala MOH"/>
+  </concept>
+  <concept>
+    <code value="moh240"/>
+    <display value="Siyambalanduwa MOH"/>
+  </concept>
+  <concept>
+    <code value="moh241"/>
+    <display value="Thanamalwila MOH"/>
+  </concept>
+  <concept>
+    <code value="moh242"/>
+    <display value="Wellawaya MOH"/>
+  </concept>
+  <concept>
+    <code value="moh243"/>
+    <display value="Mallavi MOH"/>
+  </concept>
+  <concept>
+    <code value="moh244"/>
+    <display value="Manthai East MOH"/>
+  </concept>
+  <concept>
+    <code value="moh245"/>
+    <display value="Mullaitivu MOH"/>
+  </concept>
+  <concept>
+    <code value="moh246"/>
+    <display value="Oddusudan MOH"/>
+  </concept>
+  <concept>
+    <code value="moh247"/>
+    <display value="Puthukkudyiruppu MOH"/>
+  </concept>
+  <concept>
+    <code value="moh248"/>
+    <display value="Welioya MOH"/>
+  </concept>
+  <concept>
+    <code value="moh249"/>
+    <display value="Adampan MOH"/>
+  </concept>
+  <concept>
+    <code value="moh250"/>
+    <display value="Madhu MOH"/>
+  </concept>
+  <concept>
+    <code value="moh251"/>
+    <display value="Mannar MOH"/>
+  </concept>
+  <concept>
+    <code value="moh252"/>
+    <display value="Murunkan MOH"/>
+  </concept>
+  <concept>
+    <code value="moh253"/>
+    <display value="Musali MOH"/>
+  </concept>
+  <concept>
+    <code value="moh254"/>
+    <display value="Akuressa MOH"/>
+  </concept>
+  <concept>
+    <code value="moh255"/>
+    <display value="Athuraliya MOH"/>
+  </concept>
+  <concept>
+    <code value="moh256"/>
+    <display value="Deniyaya (Kotapola) MOH"/>
+  </concept>
+  <concept>
+    <code value="moh257"/>
+    <display value="Devinuwara MOH"/>
+  </concept>
+  <concept>
+    <code value="moh258"/>
+    <display value="Dickwella MOH"/>
+  </concept>
+  <concept>
+    <code value="moh259"/>
+    <display value="Hakmana MOH"/>
+  </concept>
+  <concept>
+    <code value="moh260"/>
+    <display value="Kamburupitiya MOH"/>
+  </concept>
+  <concept>
+    <code value="moh261"/>
+    <display value="Kirinda-Puhulwella MOH"/>
+  </concept>
+  <concept>
+    <code value="moh262"/>
+    <display value="Malimbada MOH"/>
+  </concept>
+  <concept>
+    <code value="moh263"/>
+    <display value="Matara MC MOH"/>
+  </concept>
+  <concept>
+    <code value="moh264"/>
+    <display value="Matara PS Kekanadura MOH"/>
+  </concept>
+  <concept>
+    <code value="moh265"/>
+    <display value="Morawaka MOH"/>
+  </concept>
+  <concept>
+    <code value="moh266"/>
+    <display value="Mulatiyana MOH"/>
+  </concept>
+  <concept>
+    <code value="moh267"/>
+    <display value="Pasgoda (Urubokka) MOH"/>
+  </concept>
+  <concept>
+    <code value="moh268"/>
+    <display value="Thihagoda MOH"/>
+  </concept>
+  <concept>
+    <code value="moh269"/>
+    <display value="Weligama MOH"/>
+  </concept>
+  <concept>
+    <code value="moh270"/>
+    <display value="Welipitiya MOH"/>
+  </concept>
+  <concept>
+    <code value="moh271"/>
+    <display value="Ambanganga Korale MOH"/>
+  </concept>
+  <concept>
+    <code value="moh272"/>
+    <display value="Dambulla MOH"/>
+  </concept>
+  <concept>
+    <code value="moh273"/>
+    <display value="Dambulla MC MOH"/>
+  </concept>
+  <concept>
+    <code value="moh274"/>
+    <display value="Galewela MOH"/>
+  </concept>
+  <concept>
+    <code value="moh275"/>
+    <display value="Laggala-Pallegama MOH"/>
+  </concept>
+  <concept>
+    <code value="moh276"/>
+    <display value="Matale MOH"/>
+  </concept>
+  <concept>
+    <code value="moh277"/>
+    <display value="Matale MC MOH"/>
+  </concept>
+  <concept>
+    <code value="moh278"/>
+    <display value="Naula MOH"/>
+  </concept>
+  <concept>
+    <code value="moh279"/>
+    <display value="Pallepola MOH"/>
+  </concept>
+  <concept>
+    <code value="moh280"/>
+    <display value="Rattota MOH"/>
+  </concept>
+  <concept>
+    <code value="moh281"/>
+    <display value="Ukuwela MOH"/>
+  </concept>
+  <concept>
+    <code value="moh282"/>
+    <display value="Wilgamuwa MOH"/>
+  </concept>
+  <concept>
+    <code value="moh283"/>
+    <display value="Yatawatta MOH"/>
+  </concept>
+  <concept>
+    <code value="moh284"/>
+    <display value="Ambagamuwa (Ginigathhena) MOH"/>
+  </concept>
+  <concept>
+    <code value="moh285"/>
+    <display value="Bogawanthalawa MOH"/>
+  </concept>
+  <concept>
+    <code value="moh286"/>
+    <display value="Kotagala MOH"/>
+  </concept>
+  <concept>
+    <code value="moh287"/>
+    <display value="Kothmale MOH"/>
+  </concept>
+  <concept>
+    <code value="moh288"/>
+    <display value="Lidula (Thalawakale) MOH"/>
+  </concept>
+  <concept>
+    <code value="moh289"/>
+    <display value="Maskeliya MOH"/>
+  </concept>
+  <concept>
+    <code value="moh290"/>
+    <display value="Maturata MOH"/>
+  </concept>
+  <concept>
+    <code value="moh291"/>
+    <display value="Nawathispane MOH"/>
+  </concept>
+  <concept>
+    <code value="moh292"/>
+    <display value="Nuwara Eliya MOH"/>
+  </concept>
+  <concept>
+    <code value="moh293"/>
+    <display value="Nuwara Eliya MC MOH"/>
+  </concept>
+  <concept>
+    <code value="moh294"/>
+    <display value="Ragala MOH"/>
+  </concept>
+  <concept>
+    <code value="moh295"/>
+    <display value="Rikillagaskada (Hanguranketha) MOH"/>
+  </concept>
+  <concept>
+    <code value="moh296"/>
+    <display value="Walapane MOH"/>
+  </concept>
+  <concept>
+    <code value="moh297"/>
+    <display value="Bakamuna (Elahera) MOH"/>
+  </concept>
+  <concept>
+    <code value="moh298"/>
+    <display value="Dimbulagala MOH"/>
+  </concept>
+  <concept>
+    <code value="moh299"/>
+    <display value="Hingurakgoda MOH"/>
+  </concept>
+  <concept>
+    <code value="moh300"/>
+    <display value="Lankapura MOH"/>
+  </concept>
+  <concept>
+    <code value="moh301"/>
+    <display value="Medirigiriya MOH"/>
+  </concept>
+  <concept>
+    <code value="moh302"/>
+    <display value="Siripura MOH"/>
+  </concept>
+  <concept>
+    <code value="moh303"/>
+    <display value="Thamankaduwa MOH"/>
+  </concept>
+  <concept>
+    <code value="moh304"/>
+    <display value="Welikanda MOH"/>
+  </concept>
+  <concept>
+    <code value="moh305"/>
+    <display value="Anamaduwa MOH"/>
+  </concept>
+  <concept>
+    <code value="moh306"/>
+    <display value="Arachchikattuwa MOH"/>
+  </concept>
+  <concept>
+    <code value="moh307"/>
+    <display value="Chilaw MOH"/>
+  </concept>
+  <concept>
+    <code value="moh308"/>
+    <display value="Dankotuwa MOH"/>
+  </concept>
+  <concept>
+    <code value="moh309"/>
+    <display value="Kalpitiya MOH"/>
+  </concept>
+  <concept>
+    <code value="moh310"/>
+    <display value="Karuwalagaswewa MOH"/>
+  </concept>
+  <concept>
+    <code value="moh311"/>
+    <display value="Madampe MOH"/>
+  </concept>
+  <concept>
+    <code value="moh312"/>
+    <display value="Mahawewa MOH"/>
+  </concept>
+  <concept>
+    <code value="moh313"/>
+    <display value="Mundalama MOH"/>
+  </concept>
+  <concept>
+    <code value="moh314"/>
+    <display value="Nattandiya MOH"/>
+  </concept>
+  <concept>
+    <code value="moh315"/>
+    <display value="Nawagarththegama MOH"/>
+  </concept>
+  <concept>
+    <code value="moh316"/>
+    <display value="Pallama MOH"/>
+  </concept>
+  <concept>
+    <code value="moh317"/>
+    <display value="Puttalam MOH"/>
+  </concept>
+  <concept>
+    <code value="moh318"/>
+    <display value="Wanathawilluwa MOH"/>
+  </concept>
+  <concept>
+    <code value="moh319"/>
+    <display value="Wennappuwa MOH"/>
+  </concept>
+  <concept>
+    <code value="moh320"/>
+    <display value="Ayagama MOH"/>
+  </concept>
+  <concept>
+    <code value="moh321"/>
+    <display value="Balangoda MOH"/>
+  </concept>
+  <concept>
+    <code value="moh322"/>
+    <display value="Eheliyagoda MOH"/>
+  </concept>
+  <concept>
+    <code value="moh323"/>
+    <display value="Elapatha MOH"/>
+  </concept>
+  <concept>
+    <code value="moh324"/>
+    <display value="Embilipitiya MOH"/>
+  </concept>
+  <concept>
+    <code value="moh325"/>
+    <display value="Godakawela MOH"/>
+  </concept>
+  <concept>
+    <code value="moh326"/>
+    <display value="Imbulpe MOH"/>
+  </concept>
+  <concept>
+    <code value="moh327"/>
+    <display value="Kahawatta MOH"/>
+  </concept>
+  <concept>
+    <code value="moh328"/>
+    <display value="Kalawana MOH"/>
+  </concept>
+  <concept>
+    <code value="moh329"/>
+    <display value="Kiriella MOH"/>
+  </concept>
+  <concept>
+    <code value="moh330"/>
+    <display value="Kolonna MOH"/>
+  </concept>
+  <concept>
+    <code value="moh331"/>
+    <display value="Kuruvita MOH"/>
+  </concept>
+  <concept>
+    <code value="moh332"/>
+    <display value="Nivithigala MOH"/>
+  </concept>
+  <concept>
+    <code value="moh333"/>
+    <display value="Openayaka MOH"/>
+  </concept>
+  <concept>
+    <code value="moh334"/>
+    <display value="Pelmadulla MOH"/>
+  </concept>
+  <concept>
+    <code value="moh335"/>
+    <display value="Rathnapura MC MOH"/>
+  </concept>
+  <concept>
+    <code value="moh336"/>
+    <display value="Ratnapura MOH"/>
+  </concept>
+  <concept>
+    <code value="moh337"/>
+    <display value="Weligepola MOH"/>
+  </concept>
+  <concept>
+    <code value="moh338"/>
+    <display value="Gomarankadavala MOH"/>
+  </concept>
+  <concept>
+    <code value="moh339"/>
+    <display value="Ichchilampathai MOH"/>
+  </concept>
+  <concept>
+    <code value="moh340"/>
+    <display value="Kantalai MOH"/>
+  </concept>
+  <concept>
+    <code value="moh341"/>
+    <display value="Kinniya MOH"/>
+  </concept>
+  <concept>
+    <code value="moh342"/>
+    <display value="Kuchchavelly MOH"/>
+  </concept>
+  <concept>
+    <code value="moh343"/>
+    <display value="Muthur MOH"/>
+  </concept>
+  <concept>
+    <code value="moh344"/>
+    <display value="Padavisripura MOH"/>
+  </concept>
+  <concept>
+    <code value="moh345"/>
+    <display value="Seruwila MOH"/>
+  </concept>
+  <concept>
+    <code value="moh346"/>
+    <display value="Thampalakamam MOH"/>
+  </concept>
+  <concept>
+    <code value="moh347"/>
+    <display value="Trincomalee MOH"/>
+  </concept>
+  <concept>
+    <code value="moh348"/>
+    <display value="Uppuveli MOH"/>
+  </concept>
+  <concept>
+    <code value="moh349"/>
+    <display value="Cheddikulam MOH"/>
+  </concept>
+  <concept>
+    <code value="moh350"/>
+    <display value="Vavuniya MOH"/>
+  </concept>
+  <concept>
+    <code value="moh351"/>
+    <display value="Vavuniya North MOH"/>
+  </concept>
+  <concept>
+    <code value="moh352"/>
+    <display value="Vavuniya South MOH"/>
+  </concept>
+</CodeSystem>

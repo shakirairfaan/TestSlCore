@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="lk-core-province-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>http://fhir.health.gov.lk/CodeSystem/lk-core-province-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">LK-1<a name="lk-core-province-cs-LK-1"> </a></td><td>Western Province</td></tr><tr><td style="white-space:nowrap">LK-2<a name="lk-core-province-cs-LK-2"> </a></td><td>Central Province</td></tr><tr><td style="white-space:nowrap">LK-3<a name="lk-core-province-cs-LK-3"> </a></td><td>Southern Province</td></tr><tr><td style="white-space:nowrap">LK-4<a name="lk-core-province-cs-LK-4"> </a></td><td>Nothern Province</td></tr><tr><td style="white-space:nowrap">LK-5<a name="lk-core-province-cs-LK-5"> </a></td><td>Eastern Province</td></tr><tr><td style="white-space:nowrap">LK-6<a name="lk-core-province-cs-LK-6"> </a></td><td>North Western Province</td></tr><tr><td style="white-space:nowrap">LK-7<a name="lk-core-province-cs-LK-7"> </a></td><td>North Central Province</td></tr><tr><td style="white-space:nowrap">LK-8<a name="lk-core-province-cs-LK-8"> </a></td><td>Uva Province</td></tr><tr><td style="white-space:nowrap">LK-9<a name="lk-core-province-cs-LK-9"> </a></td><td>Sabaragamuwa Province</td></tr></table></div>
+  </text>
+  <url value="http://fhir.health.gov.lk/CodeSystem/lk-core-province-cs"/>
+  <version value="0.1.0"/>
+  <name value="LKCoreProvinceCS"/>
+  <title value="LK Core Province Code System"/>
+  <status value="draft"/>
+  <date value="2023-08-11T10:37:20+05:30"/>
+  <description value="LK Core Province Code System"/>
+  <content value="complete"/>
+  <count value="9"/>
+  <concept>
+    <code value="LK-1"/>
+    <display value="Western Province"/>
+  </concept>
+  <concept>
+    <code value="LK-2"/>
+    <display value="Central Province"/>
+  </concept>
+  <concept>
+    <code value="LK-3"/>
+    <display value="Southern Province"/>
+  </concept>
+  <concept>
+    <code value="LK-4"/>
+    <display value="Nothern Province"/>
+  </concept>
+  <concept>
+    <code value="LK-5"/>
+    <display value="Eastern Province"/>
+  </concept>
+  <concept>
+    <code value="LK-6"/>
+    <display value="North Western Province"/>
+  </concept>
+  <concept>
+    <code value="LK-7"/>
+    <display value="North Central Province"/>
+  </concept>
+  <concept>
+    <code value="LK-8"/>
+    <display value="Uva Province"/>
+  </concept>
+  <concept>
+    <code value="LK-9"/>
+    <display value="Sabaragamuwa Province"/>
+  </concept>
+</CodeSystem>

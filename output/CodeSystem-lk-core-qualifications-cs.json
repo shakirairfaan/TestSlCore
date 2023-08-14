@@ -1,0 +1,65 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "lk-core-qualifications-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://fhir.health.gov.lk/CodeSystem/lk-core-qualifications-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"lk-core-qualifications-cs-1\"> </a></td><td>Certificate (GCE O/L or equivalent)</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"lk-core-qualifications-cs-2\"> </a></td><td>Advanced Certificate (GCE A/L or equivalent)</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"lk-core-qualifications-cs-3\"> </a></td><td>Diploma</td></tr><tr><td style=\"white-space:nowrap\">4<a name=\"lk-core-qualifications-cs-4\"> </a></td><td>Higher Diploma</td></tr><tr><td style=\"white-space:nowrap\">5<a name=\"lk-core-qualifications-cs-5\"> </a></td><td>Bachelors</td></tr><tr><td style=\"white-space:nowrap\">6<a name=\"lk-core-qualifications-cs-6\"> </a></td><td>Bachelors Honours</td></tr><tr><td style=\"white-space:nowrap\">7<a name=\"lk-core-qualifications-cs-7\"> </a></td><td>Postgraduate Certificate Certificate</td></tr><tr><td style=\"white-space:nowrap\">8<a name=\"lk-core-qualifications-cs-8\"> </a></td><td>Postgraduate Diploma</td></tr><tr><td style=\"white-space:nowrap\">9<a name=\"lk-core-qualifications-cs-9\"> </a></td><td>Masters by course work work</td></tr><tr><td style=\"white-space:nowrap\">10<a name=\"lk-core-qualifications-cs-10\"> </a></td><td>Masters with course work and a research component</td></tr><tr><td style=\"white-space:nowrap\">11<a name=\"lk-core-qualifications-cs-11\"> </a></td><td>Master of Philosophy</td></tr><tr><td style=\"white-space:nowrap\">12<a name=\"lk-core-qualifications-cs-12\"> </a></td><td>Doctor of Philosophy / MD with Board Certification/Doctor of Letters/Doctor of Science</td></tr></table></div>"
+  },
+  "url" : "http://fhir.health.gov.lk/CodeSystem/lk-core-qualifications-cs",
+  "version" : "0.1.0",
+  "name" : "LKCoreQualificationsCS",
+  "title" : "LK Core Qualifications Code System",
+  "status" : "draft",
+  "date" : "2023-08-11T10:37:20+05:30",
+  "description" : "Codesystem for Academic Qualifications",
+  "content" : "complete",
+  "count" : 12,
+  "concept" : [{
+    "code" : "1",
+    "display" : "Certificate (GCE O/L or equivalent)"
+  },
+  {
+    "code" : "2",
+    "display" : "Advanced Certificate (GCE A/L or equivalent)"
+  },
+  {
+    "code" : "3",
+    "display" : "Diploma"
+  },
+  {
+    "code" : "4",
+    "display" : "Higher Diploma"
+  },
+  {
+    "code" : "5",
+    "display" : "Bachelors"
+  },
+  {
+    "code" : "6",
+    "display" : "Bachelors Honours"
+  },
+  {
+    "code" : "7",
+    "display" : "Postgraduate Certificate Certificate"
+  },
+  {
+    "code" : "8",
+    "display" : "Postgraduate Diploma"
+  },
+  {
+    "code" : "9",
+    "display" : "Masters by course work work"
+  },
+  {
+    "code" : "10",
+    "display" : "Masters with course work and a research component"
+  },
+  {
+    "code" : "11",
+    "display" : "Master of Philosophy"
+  },
+  {
+    "code" : "12",
+    "display" : "Doctor of Philosophy / MD with Board Certification/Doctor of Letters/Doctor of Science"
+  }]
+}
