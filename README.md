@@ -7,4 +7,4 @@ Run the script for genonce to create the IG - that will automatically run SUSHI.
 
 OR run sushi standalone in order to see how everything works.
 
-Health Information Unit
+Health Information Unit- Ministry of Health
