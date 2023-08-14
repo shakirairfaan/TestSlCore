@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="lk-core-district-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>http://fhir.health.gov.lk/CodeSystem/lk-core-district-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">LK-11<a name="lk-core-district-cs-LK-11"> </a></td><td>Colombo</td></tr><tr><td style="white-space:nowrap">LK-12<a name="lk-core-district-cs-LK-12"> </a></td><td>Gampaha</td></tr><tr><td style="white-space:nowrap">LK-13<a name="lk-core-district-cs-LK-13"> </a></td><td>Kalutara</td></tr><tr><td style="white-space:nowrap">LK-21<a name="lk-core-district-cs-LK-21"> </a></td><td>Kandy</td></tr><tr><td style="white-space:nowrap">LK-22<a name="lk-core-district-cs-LK-22"> </a></td><td>Matale</td></tr><tr><td style="white-space:nowrap">LK-23<a name="lk-core-district-cs-LK-23"> </a></td><td>Nuwara Eliya</td></tr><tr><td style="white-space:nowrap">LK-31<a name="lk-core-district-cs-LK-31"> </a></td><td>Galle</td></tr><tr><td style="white-space:nowrap">LK-32<a name="lk-core-district-cs-LK-32"> </a></td><td>Matara</td></tr><tr><td style="white-space:nowrap">LK-33<a name="lk-core-district-cs-LK-33"> </a></td><td>Hambantota</td></tr><tr><td style="white-space:nowrap">LK-41<a name="lk-core-district-cs-LK-41"> </a></td><td>Jaffna</td></tr><tr><td style="white-space:nowrap">LK-42<a name="lk-core-district-cs-LK-42"> </a></td><td>Kilinochchi</td></tr><tr><td style="white-space:nowrap">LK-43<a name="lk-core-district-cs-LK-43"> </a></td><td>Mannar</td></tr><tr><td style="white-space:nowrap">LK-44<a name="lk-core-district-cs-LK-44"> </a></td><td>Vavuniya</td></tr><tr><td style="white-space:nowrap">LK-45<a name="lk-core-district-cs-LK-45"> </a></td><td>Mullaittivu</td></tr><tr><td style="white-space:nowrap">LK-51<a name="lk-core-district-cs-LK-51"> </a></td><td>Batticaloa</td></tr><tr><td style="white-space:nowrap">LK-52<a name="lk-core-district-cs-LK-52"> </a></td><td>Ampara</td></tr><tr><td style="white-space:nowrap">LK-53<a name="lk-core-district-cs-LK-53"> </a></td><td>Trincomalee</td></tr><tr><td style="white-space:nowrap">LK-61<a name="lk-core-district-cs-LK-61"> </a></td><td>Kurunegala</td></tr><tr><td style="white-space:nowrap">LK-62<a name="lk-core-district-cs-LK-62"> </a></td><td>Puttalam</td></tr><tr><td style="white-space:nowrap">LK-71<a name="lk-core-district-cs-LK-71"> </a></td><td>Anuradhapura</td></tr><tr><td style="white-space:nowrap">LK-72<a name="lk-core-district-cs-LK-72"> </a></td><td>Polonnaruwa</td></tr><tr><td style="white-space:nowrap">LK-81<a name="lk-core-district-cs-LK-81"> </a></td><td>Badulla</td></tr><tr><td style="white-space:nowrap">LK-82<a name="lk-core-district-cs-LK-82"> </a></td><td>Monaragala</td></tr><tr><td style="white-space:nowrap">LK-91<a name="lk-core-district-cs-LK-91"> </a></td><td>Ratnapura</td></tr><tr><td style="white-space:nowrap">LK-92<a name="lk-core-district-cs-LK-92"> </a></td><td>Kegalla</td></tr></table></div>
+  </text>
+  <url value="http://fhir.health.gov.lk/CodeSystem/lk-core-district-cs"/>
+  <version value="0.1.0"/>
+  <name value="LKCoreDistrictCS"/>
+  <title value="LK Core District Code System"/>
+  <status value="draft"/>
+  <date value="2023-08-11T10:37:20+05:30"/>
+  <description value="LK Core District Code System"/>
+  <content value="complete"/>
+  <count value="25"/>
+  <concept>
+    <code value="LK-11"/>
+    <display value="Colombo"/>
+  </concept>
+  <concept>
+    <code value="LK-12"/>
+    <display value="Gampaha"/>
+  </concept>
+  <concept>
+    <code value="LK-13"/>
+    <display value="Kalutara"/>
+  </concept>
+  <concept>
+    <code value="LK-21"/>
+    <display value="Kandy"/>
+  </concept>
+  <concept>
+    <code value="LK-22"/>
+    <display value="Matale"/>
+  </concept>
+  <concept>
+    <code value="LK-23"/>
+    <display value="Nuwara Eliya"/>
+  </concept>
+  <concept>
+    <code value="LK-31"/>
+    <display value="Galle"/>
+  </concept>
+  <concept>
+    <code value="LK-32"/>
+    <display value="Matara"/>
+  </concept>
+  <concept>
+    <code value="LK-33"/>
+    <display value="Hambantota"/>
+  </concept>
+  <concept>
+    <code value="LK-41"/>
+    <display value="Jaffna"/>
+  </concept>
+  <concept>
+    <code value="LK-42"/>
+    <display value="Kilinochchi"/>
+  </concept>
+  <concept>
+    <code value="LK-43"/>
+    <display value="Mannar"/>
+  </concept>
+  <concept>
+    <code value="LK-44"/>
+    <display value="Vavuniya"/>
+  </concept>
+  <concept>
+    <code value="LK-45"/>
+    <display value="Mullaittivu"/>
+  </concept>
+  <concept>
+    <code value="LK-51"/>
+    <display value="Batticaloa"/>
+  </concept>
+  <concept>
+    <code value="LK-52"/>
+    <display value="Ampara"/>
+  </concept>
+  <concept>
+    <code value="LK-53"/>
+    <display value="Trincomalee"/>
+  </concept>
+  <concept>
+    <code value="LK-61"/>
+    <display value="Kurunegala"/>
+  </concept>
+  <concept>
+    <code value="LK-62"/>
+    <display value="Puttalam"/>
+  </concept>
+  <concept>
+    <code value="LK-71"/>
+    <display value="Anuradhapura"/>
+  </concept>
+  <concept>
+    <code value="LK-72"/>
+    <display value="Polonnaruwa"/>
+  </concept>
+  <concept>
+    <code value="LK-81"/>
+    <display value="Badulla"/>
+  </concept>
+  <concept>
+    <code value="LK-82"/>
+    <display value="Monaragala"/>
+  </concept>
+  <concept>
+    <code value="LK-91"/>
+    <display value="Ratnapura"/>
+  </concept>
+  <concept>
+    <code value="LK-92"/>
+    <display value="Kegalla"/>
+  </concept>
+</CodeSystem>

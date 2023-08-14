@@ -1,0 +1,193 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "lk-core-institution-type-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://fhir.health.gov.lk/CodeSystem/lk-core-institution-type-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">IT01<a name=\"lk-core-institution-type-cs-IT01\"> </a></td><td>Teaching</td></tr><tr><td style=\"white-space:nowrap\">IT02<a name=\"lk-core-institution-type-cs-IT02\"> </a></td><td>NTS</td></tr><tr><td style=\"white-space:nowrap\">IT03<a name=\"lk-core-institution-type-cs-IT03\"> </a></td><td>District General</td></tr><tr><td style=\"white-space:nowrap\">IT04<a name=\"lk-core-institution-type-cs-IT04\"> </a></td><td>Provincial General</td></tr><tr><td style=\"white-space:nowrap\">IT05<a name=\"lk-core-institution-type-cs-IT05\"> </a></td><td>Medical Supplies</td></tr><tr><td style=\"white-space:nowrap\">IT06<a name=\"lk-core-institution-type-cs-IT06\"> </a></td><td>Base A</td></tr><tr><td style=\"white-space:nowrap\">IT07<a name=\"lk-core-institution-type-cs-IT07\"> </a></td><td>Base B</td></tr><tr><td style=\"white-space:nowrap\">IT08<a name=\"lk-core-institution-type-cs-IT08\"> </a></td><td>Nephrology</td></tr><tr><td style=\"white-space:nowrap\">IT09<a name=\"lk-core-institution-type-cs-IT09\"> </a></td><td>Prison</td></tr><tr><td style=\"white-space:nowrap\">IT10<a name=\"lk-core-institution-type-cs-IT10\"> </a></td><td>Engineering</td></tr><tr><td style=\"white-space:nowrap\">IT11<a name=\"lk-core-institution-type-cs-IT11\"> </a></td><td>Food and Nutrition</td></tr><tr><td style=\"white-space:nowrap\">IT12<a name=\"lk-core-institution-type-cs-IT12\"> </a></td><td>Head Office</td></tr><tr><td style=\"white-space:nowrap\">IT13<a name=\"lk-core-institution-type-cs-IT13\"> </a></td><td>Mental</td></tr><tr><td style=\"white-space:nowrap\">IT14<a name=\"lk-core-institution-type-cs-IT14\"> </a></td><td>Other</td></tr><tr><td style=\"white-space:nowrap\">IT15<a name=\"lk-core-institution-type-cs-IT15\"> </a></td><td>Port</td></tr><tr><td style=\"white-space:nowrap\">IT16<a name=\"lk-core-institution-type-cs-IT16\"> </a></td><td>Dental</td></tr><tr><td style=\"white-space:nowrap\">IT17<a name=\"lk-core-institution-type-cs-IT17\"> </a></td><td>Anti Filariasis</td></tr><tr><td style=\"white-space:nowrap\">IT18<a name=\"lk-core-institution-type-cs-IT18\"> </a></td><td>Anti Leprosy</td></tr><tr><td style=\"white-space:nowrap\">IT19<a name=\"lk-core-institution-type-cs-IT19\"> </a></td><td>Anti Malaria</td></tr><tr><td style=\"white-space:nowrap\">IT20<a name=\"lk-core-institution-type-cs-IT20\"> </a></td><td>Cancer Control</td></tr><tr><td style=\"white-space:nowrap\">IT21<a name=\"lk-core-institution-type-cs-IT21\"> </a></td><td>Dengue Control</td></tr><tr><td style=\"white-space:nowrap\">IT22<a name=\"lk-core-institution-type-cs-IT22\"> </a></td><td>Epidemiology</td></tr><tr><td style=\"white-space:nowrap\">IT23<a name=\"lk-core-institution-type-cs-IT23\"> </a></td><td>Family Health</td></tr><tr><td style=\"white-space:nowrap\">IT24<a name=\"lk-core-institution-type-cs-IT24\"> </a></td><td>NPTCCD</td></tr><tr><td style=\"white-space:nowrap\">IT25<a name=\"lk-core-institution-type-cs-IT25\"> </a></td><td>STD/AIDS Control</td></tr><tr><td style=\"white-space:nowrap\">IT26<a name=\"lk-core-institution-type-cs-IT26\"> </a></td><td>Training</td></tr><tr><td style=\"white-space:nowrap\">IT27<a name=\"lk-core-institution-type-cs-IT27\"> </a></td><td>Divisional A</td></tr><tr><td style=\"white-space:nowrap\">IT28<a name=\"lk-core-institution-type-cs-IT28\"> </a></td><td>Divisional B</td></tr><tr><td style=\"white-space:nowrap\">IT29<a name=\"lk-core-institution-type-cs-IT29\"> </a></td><td>PMCU</td></tr><tr><td style=\"white-space:nowrap\">IT30<a name=\"lk-core-institution-type-cs-IT30\"> </a></td><td>Divisional C</td></tr><tr><td style=\"white-space:nowrap\">IT31<a name=\"lk-core-institution-type-cs-IT31\"> </a></td><td>MOH</td></tr><tr><td style=\"white-space:nowrap\">IT32<a name=\"lk-core-institution-type-cs-IT32\"> </a></td><td>Laboratory</td></tr><tr><td style=\"white-space:nowrap\">IT33<a name=\"lk-core-institution-type-cs-IT33\"> </a></td><td>MLTT</td></tr><tr><td style=\"white-space:nowrap\">IT34<a name=\"lk-core-institution-type-cs-IT34\"> </a></td><td>NIHS</td></tr><tr><td style=\"white-space:nowrap\">IT35<a name=\"lk-core-institution-type-cs-IT35\"> </a></td><td>Faculty of Medicine</td></tr><tr><td style=\"white-space:nowrap\">IT36<a name=\"lk-core-institution-type-cs-IT36\"> </a></td><td>Other</td></tr><tr><td style=\"white-space:nowrap\">IT37<a name=\"lk-core-institution-type-cs-IT37\"> </a></td><td>PDHS</td></tr><tr><td style=\"white-space:nowrap\">IT38<a name=\"lk-core-institution-type-cs-IT38\"> </a></td><td>Provincial Ministry</td></tr><tr><td style=\"white-space:nowrap\">IT39<a name=\"lk-core-institution-type-cs-IT39\"> </a></td><td>RDHS</td></tr><tr><td style=\"white-space:nowrap\">IT40<a name=\"lk-core-institution-type-cs-IT40\"> </a></td><td>ADC</td></tr><tr><td style=\"white-space:nowrap\">IT41<a name=\"lk-core-institution-type-cs-IT41\"> </a></td><td>Leprosy</td></tr><tr><td style=\"white-space:nowrap\">IT42<a name=\"lk-core-institution-type-cs-IT42\"> </a></td><td>CDC</td></tr><tr><td style=\"white-space:nowrap\">IT43<a name=\"lk-core-institution-type-cs-IT43\"> </a></td><td>RTC</td></tr><tr><td style=\"white-space:nowrap\">IT44<a name=\"lk-core-institution-type-cs-IT44\"> </a></td><td>Rehabilitation</td></tr></table></div>"
+  },
+  "url" : "http://fhir.health.gov.lk/CodeSystem/lk-core-institution-type-cs",
+  "version" : "0.1.0",
+  "name" : "LKCoreInstitutionTypeCS",
+  "title" : "LK Core Institution Type Code System",
+  "status" : "draft",
+  "date" : "2023-08-11T10:37:20+05:30",
+  "description" : "LK Core Institution Type Code System",
+  "content" : "complete",
+  "count" : 44,
+  "concept" : [{
+    "code" : "IT01",
+    "display" : "Teaching"
+  },
+  {
+    "code" : "IT02",
+    "display" : "NTS"
+  },
+  {
+    "code" : "IT03",
+    "display" : "District General"
+  },
+  {
+    "code" : "IT04",
+    "display" : "Provincial General"
+  },
+  {
+    "code" : "IT05",
+    "display" : "Medical Supplies"
+  },
+  {
+    "code" : "IT06",
+    "display" : "Base A"
+  },
+  {
+    "code" : "IT07",
+    "display" : "Base B"
+  },
+  {
+    "code" : "IT08",
+    "display" : "Nephrology"
+  },
+  {
+    "code" : "IT09",
+    "display" : "Prison"
+  },
+  {
+    "code" : "IT10",
+    "display" : "Engineering"
+  },
+  {
+    "code" : "IT11",
+    "display" : "Food and Nutrition"
+  },
+  {
+    "code" : "IT12",
+    "display" : "Head Office"
+  },
+  {
+    "code" : "IT13",
+    "display" : "Mental"
+  },
+  {
+    "code" : "IT14",
+    "display" : "Other"
+  },
+  {
+    "code" : "IT15",
+    "display" : "Port"
+  },
+  {
+    "code" : "IT16",
+    "display" : "Dental"
+  },
+  {
+    "code" : "IT17",
+    "display" : "Anti Filariasis"
+  },
+  {
+    "code" : "IT18",
+    "display" : "Anti Leprosy"
+  },
+  {
+    "code" : "IT19",
+    "display" : "Anti Malaria"
+  },
+  {
+    "code" : "IT20",
+    "display" : "Cancer Control"
+  },
+  {
+    "code" : "IT21",
+    "display" : "Dengue Control"
+  },
+  {
+    "code" : "IT22",
+    "display" : "Epidemiology"
+  },
+  {
+    "code" : "IT23",
+    "display" : "Family Health"
+  },
+  {
+    "code" : "IT24",
+    "display" : "NPTCCD"
+  },
+  {
+    "code" : "IT25",
+    "display" : "STD/AIDS Control"
+  },
+  {
+    "code" : "IT26",
+    "display" : "Training"
+  },
+  {
+    "code" : "IT27",
+    "display" : "Divisional A"
+  },
+  {
+    "code" : "IT28",
+    "display" : "Divisional B"
+  },
+  {
+    "code" : "IT29",
+    "display" : "PMCU"
+  },
+  {
+    "code" : "IT30",
+    "display" : "Divisional C"
+  },
+  {
+    "code" : "IT31",
+    "display" : "MOH"
+  },
+  {
+    "code" : "IT32",
+    "display" : "Laboratory"
+  },
+  {
+    "code" : "IT33",
+    "display" : "MLTT"
+  },
+  {
+    "code" : "IT34",
+    "display" : "NIHS"
+  },
+  {
+    "code" : "IT35",
+    "display" : "Faculty of Medicine"
+  },
+  {
+    "code" : "IT36",
+    "display" : "Other"
+  },
+  {
+    "code" : "IT37",
+    "display" : "PDHS"
+  },
+  {
+    "code" : "IT38",
+    "display" : "Provincial Ministry"
+  },
+  {
+    "code" : "IT39",
+    "display" : "RDHS"
+  },
+  {
+    "code" : "IT40",
+    "display" : "ADC"
+  },
+  {
+    "code" : "IT41",
+    "display" : "Leprosy"
+  },
+  {
+    "code" : "IT42",
+    "display" : "CDC"
+  },
+  {
+    "code" : "IT43",
+    "display" : "RTC"
+  },
+  {
+    "code" : "IT44",
+    "display" : "Rehabilitation"
+  }]
+}

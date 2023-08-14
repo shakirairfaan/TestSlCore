@@ -1,0 +1,1243 @@
+{
+  "date" : "Fri, 11 Aug, 2023 10:37:20 +0530",
+  "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
+  "files" : [
+    {
+      "name" : "\\fsh-generated\\resources\\ImplementationGuide-fhir.SLexampleIG.json",
+      "size" : 8030,
+      "processes" : [
+        {
+          "activity" : "load",
+          "start" : 63,
+          "length" : 609
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 71,
+          "length" : 3
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 71,
+          "length" : 687
+        },
+        {
+          "activity" : "validate",
+          "start" : 87,
+          "length" : 1111
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 88,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 89,
+          "length" : 190
+        },
+        {
+          "activity" : "generate2",
+          "start" : 112,
+          "length" : 233
+        },
+        {
+          "activity" : "generateExampleZip",
+          "start" : 181,
+          "length" : 1
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 181,
+          "length" : 8
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 196,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CodeSystem-lk-core-allergyintolerance-code-cs.json",
+      "size" : 613,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 60,
+          "length" : 10
+        },
+        {
+          "activity" : "load",
+          "start" : 61,
+          "length" : 15
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 72,
+          "length" : 12
+        },
+        {
+          "activity" : "validate",
+          "start" : 81,
+          "length" : 46
+        },
+        {
+          "activity" : "generate1",
+          "start" : 89,
+          "length" : 16
+        },
+        {
+          "activity" : "generate2",
+          "start" : 113,
+          "length" : 2928
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CodeSystem-lk-core-district-cs.json",
+      "size" : 1968,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 60,
+          "length" : 14
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 61,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 61,
+          "length" : 17
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 71,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 72,
+          "length" : 20
+        },
+        {
+          "activity" : "validate",
+          "start" : 81,
+          "length" : 31
+        },
+        {
+          "activity" : "generate1",
+          "start" : 89,
+          "length" : 32
+        },
+        {
+          "activity" : "generate2",
+          "start" : 115,
+          "length" : 127
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 181,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CodeSystem-lk-core-health-institution-cs.json",
+      "size" : 158655,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 60,
+          "length" : 428
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 61,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 61,
+          "length" : 516
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 71,
+          "length" : 10
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 72,
+          "length" : 558
+        },
+        {
+          "activity" : "validate",
+          "start" : 81,
+          "length" : 1717
+        },
+        {
+          "activity" : "checkConformanceResources",
+          "start" : 88,
+          "length" : 1
+        },
+        {
+          "activity" : "checkConformanceResources2",
+          "start" : 88,
+          "length" : 1
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 88,
+          "length" : 3
+        },
+        {
+          "activity" : "generate1",
+          "start" : 89,
+          "length" : 1654
+        },
+        {
+          "activity" : "generate2",
+          "start" : 116,
+          "length" : 1048
+        },
+        {
+          "activity" : "generateExampleZip",
+          "start" : 181,
+          "length" : 1
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 181,
+          "length" : 38
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 196,
+          "length" : 3
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CodeSystem-lk-core-institution-type-cs.json",
+      "size" : 3232,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 60,
+          "length" : 15
+        },
+        {
+          "activity" : "load",
+          "start" : 62,
+          "length" : 18
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 73,
+          "length" : 20
+        },
+        {
+          "activity" : "validate",
+          "start" : 82,
+          "length" : 50
+        },
+        {
+          "activity" : "generate1",
+          "start" : 91,
+          "length" : 54
+        },
+        {
+          "activity" : "generate2",
+          "start" : 117,
+          "length" : 110
+        },
+        {
+          "activity" : "generateExampleZip",
+          "start" : 181,
+          "length" : 1
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 182,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CodeSystem-lk-core-moh-area-cs.json",
+      "size" : 25654,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 60,
+          "length" : 87
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 61,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 62,
+          "length" : 87
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 71,
+          "length" : 2
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 73,
+          "length" : 108
+        },
+        {
+          "activity" : "validate",
+          "start" : 82,
+          "length" : 292
+        },
+        {
+          "activity" : "checkConformanceResources",
+          "start" : 88,
+          "length" : 1
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 88,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 91,
+          "length" : 278
+        },
+        {
+          "activity" : "generate2",
+          "start" : 117,
+          "length" : 210
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 182,
+          "length" : 4
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 196,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CodeSystem-lk-core-ownership-cs.json",
+      "size" : 495,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 60,
+          "length" : 5
+        },
+        {
+          "activity" : "load",
+          "start" : 62,
+          "length" : 5
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 73,
+          "length" : 5
+        },
+        {
+          "activity" : "validate",
+          "start" : 83,
+          "length" : 12
+        },
+        {
+          "activity" : "generate1",
+          "start" : 91,
+          "length" : 15
+        },
+        {
+          "activity" : "generate2",
+          "start" : 117,
+          "length" : 72
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 182,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CodeSystem-lk-core-postalcodes-cs.json",
+      "size" : 16796,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 60,
+          "length" : 53
+        },
+        {
+          "activity" : "load",
+          "start" : 62,
+          "length" : 56
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 71,
+          "length" : 2
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 73,
+          "length" : 69
+        },
+        {
+          "activity" : "validate",
+          "start" : 83,
+          "length" : 211
+        },
+        {
+          "activity" : "generate1",
+          "start" : 91,
+          "length" : 200
+        },
+        {
+          "activity" : "generate2",
+          "start" : 117,
+          "length" : 169
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 182,
+          "length" : 2
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CodeSystem-lk-core-province-cs.json",
+      "size" : 1011,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 60,
+          "length" : 6
+        },
+        {
+          "activity" : "load",
+          "start" : 62,
+          "length" : 6
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 73,
+          "length" : 8
+        },
+        {
+          "activity" : "validate",
+          "start" : 83,
+          "length" : 18
+        },
+        {
+          "activity" : "validate",
+          "start" : 88,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 92,
+          "length" : 18
+        },
+        {
+          "activity" : "generate2",
+          "start" : 117,
+          "length" : 78
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CodeSystem-lk-core-qualifications-cs.json",
+      "size" : 1384,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 60,
+          "length" : 7
+        },
+        {
+          "activity" : "load",
+          "start" : 62,
+          "length" : 8
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 73,
+          "length" : 11
+        },
+        {
+          "activity" : "validate",
+          "start" : 83,
+          "length" : 21
+        },
+        {
+          "activity" : "generate1",
+          "start" : 92,
+          "length" : 23
+        },
+        {
+          "activity" : "generate2",
+          "start" : 117,
+          "length" : 74
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 182,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-lk-core-address.json",
+      "size" : 1300,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 60,
+          "length" : 38
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 61,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 62,
+          "length" : 39
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 63,
+          "length" : 479
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 73,
+          "length" : 517
+        },
+        {
+          "activity" : "validate",
+          "start" : 83,
+          "length" : 884
+        },
+        {
+          "activity" : "generate1",
+          "start" : 92,
+          "length" : 122
+        },
+        {
+          "activity" : "generate2",
+          "start" : 117,
+          "length" : 916
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 182,
+          "length" : 1
+        },
+        {
+          "activity" : "scanProfilesForR5",
+          "start" : 196,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-lk-core-allergy-intolerance.json",
+      "size" : 1271,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 60,
+          "length" : 30
+        },
+        {
+          "activity" : "load",
+          "start" : 62,
+          "length" : 31
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 64,
+          "length" : 1044
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 73,
+          "length" : 1038
+        },
+        {
+          "activity" : "validate",
+          "start" : 84,
+          "length" : 679
+        },
+        {
+          "activity" : "generate1",
+          "start" : 92,
+          "length" : 277
+        },
+        {
+          "activity" : "generate2",
+          "start" : 118,
+          "length" : 1123
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 182,
+          "length" : 5
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-lk-core-location.json",
+      "size" : 1430,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 60,
+          "length" : 30
+        },
+        {
+          "activity" : "load",
+          "start" : 62,
+          "length" : 2
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 65,
+          "length" : 1086
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 74,
+          "length" : 981
+        },
+        {
+          "activity" : "validate",
+          "start" : 85,
+          "length" : 636
+        },
+        {
+          "activity" : "generate1",
+          "start" : 92,
+          "length" : 246
+        },
+        {
+          "activity" : "generate2",
+          "start" : 119,
+          "length" : 994
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 182,
+          "length" : 4
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-lk-core-moh-area-ext.json",
+      "size" : 1545,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 60,
+          "length" : 92
+        },
+        {
+          "activity" : "load",
+          "start" : 62,
+          "length" : 107
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 66,
+          "length" : 251
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 75,
+          "length" : 216
+        },
+        {
+          "activity" : "validate",
+          "start" : 85,
+          "length" : 90
+        },
+        {
+          "activity" : "generate1",
+          "start" : 92,
+          "length" : 71
+        },
+        {
+          "activity" : "generate2",
+          "start" : 120,
+          "length" : 339
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 182,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-lk-core-organization.json",
+      "size" : 2685,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 60,
+          "length" : 73
+        },
+        {
+          "activity" : "load",
+          "start" : 62,
+          "length" : 1
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 66,
+          "length" : 844
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 76,
+          "length" : 777
+        },
+        {
+          "activity" : "validate",
+          "start" : 85,
+          "length" : 421
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 88,
+          "length" : 2
+        },
+        {
+          "activity" : "generate1",
+          "start" : 92,
+          "length" : 210
+        },
+        {
+          "activity" : "generate2",
+          "start" : 121,
+          "length" : 760
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 182,
+          "length" : 4
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-lk-core-patient-profile.json",
+      "size" : 5101,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 60,
+          "length" : 487
+        },
+        {
+          "activity" : "load",
+          "start" : 62,
+          "length" : 537
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 67,
+          "length" : 3248
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 76,
+          "length" : 3267
+        },
+        {
+          "activity" : "validate",
+          "start" : 86,
+          "length" : 1248
+        },
+        {
+          "activity" : "generate1",
+          "start" : 93,
+          "length" : 742
+        },
+        {
+          "activity" : "generate2",
+          "start" : 121,
+          "length" : 2493
+        },
+        {
+          "activity" : "makeDependencies",
+          "start" : 142,
+          "length" : 1
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 182,
+          "length" : 10
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 196,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-lk-core-practitioner.json",
+      "size" : 1959,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 61,
+          "length" : 29
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 61,
+          "length" : 1
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 70,
+          "length" : 758
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 80,
+          "length" : 638
+        },
+        {
+          "activity" : "validate",
+          "start" : 87,
+          "length" : 282
+        },
+        {
+          "activity" : "checkConformanceResources",
+          "start" : 88,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 93,
+          "length" : 209
+        },
+        {
+          "activity" : "generate2",
+          "start" : 124,
+          "length" : 635
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 182,
+          "length" : 3
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-lk-core-province-ext.json",
+      "size" : 1548,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 61,
+          "length" : 91
+        },
+        {
+          "activity" : "scan",
+          "start" : 61,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 63,
+          "length" : 98
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 71,
+          "length" : 229
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 80,
+          "length" : 214
+        },
+        {
+          "activity" : "validate",
+          "start" : 87,
+          "length" : 66
+        },
+        {
+          "activity" : "generate1",
+          "start" : 94,
+          "length" : 76
+        },
+        {
+          "activity" : "generate2",
+          "start" : 125,
+          "length" : 312
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 182,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-lk-core-allergy-intolerance-code-valueset.json",
+      "size" : 529,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 61,
+          "length" : 4
+        },
+        {
+          "activity" : "load",
+          "start" : 62,
+          "length" : 5
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 80,
+          "length" : 97
+        },
+        {
+          "activity" : "validate",
+          "start" : 83,
+          "length" : 7
+        },
+        {
+          "activity" : "generate1",
+          "start" : 94,
+          "length" : 12
+        },
+        {
+          "activity" : "generate2",
+          "start" : 125,
+          "length" : 7070
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-lk-core-district-vs.json",
+      "size" : 428,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 61,
+          "length" : 4
+        },
+        {
+          "activity" : "load",
+          "start" : 62,
+          "length" : 5
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 80,
+          "length" : 3
+        },
+        {
+          "activity" : "validate",
+          "start" : 83,
+          "length" : 5
+        },
+        {
+          "activity" : "generate1",
+          "start" : 94,
+          "length" : 13
+        },
+        {
+          "activity" : "generate2",
+          "start" : 132,
+          "length" : 73
+        },
+        {
+          "activity" : "generateExampleZip",
+          "start" : 181,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-lk-core-health-institution-vs.json",
+      "size" : 487,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 61,
+          "length" : 4
+        },
+        {
+          "activity" : "load",
+          "start" : 62,
+          "length" : 5
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 80,
+          "length" : 5
+        },
+        {
+          "activity" : "validate",
+          "start" : 83,
+          "length" : 4
+        },
+        {
+          "activity" : "generate1",
+          "start" : 94,
+          "length" : 13
+        },
+        {
+          "activity" : "generate2",
+          "start" : 132,
+          "length" : 5320
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 182,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-lk-core-institution-type-vs.json",
+      "size" : 475,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 61,
+          "length" : 4
+        },
+        {
+          "activity" : "load",
+          "start" : 62,
+          "length" : 3
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 81,
+          "length" : 4
+        },
+        {
+          "activity" : "validate",
+          "start" : 83,
+          "length" : 6
+        },
+        {
+          "activity" : "generate1",
+          "start" : 94,
+          "length" : 13
+        },
+        {
+          "activity" : "generate2",
+          "start" : 137,
+          "length" : 64
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-lk-core-moh-area-vs.json",
+      "size" : 427,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 61,
+          "length" : 4
+        },
+        {
+          "activity" : "load",
+          "start" : 62,
+          "length" : 5
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 81,
+          "length" : 4
+        },
+        {
+          "activity" : "validate",
+          "start" : 83,
+          "length" : 8
+        },
+        {
+          "activity" : "generate1",
+          "start" : 94,
+          "length" : 11
+        },
+        {
+          "activity" : "generate2",
+          "start" : 137,
+          "length" : 71
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-lk-core-ownership-vs.json",
+      "size" : 434,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 61,
+          "length" : 4
+        },
+        {
+          "activity" : "load",
+          "start" : 62,
+          "length" : 6
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 81,
+          "length" : 5
+        },
+        {
+          "activity" : "validate",
+          "start" : 83,
+          "length" : 7
+        },
+        {
+          "activity" : "generate1",
+          "start" : 94,
+          "length" : 13
+        },
+        {
+          "activity" : "generate2",
+          "start" : 137,
+          "length" : 72
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-lk-core-postalcodes-vs.json",
+      "size" : 448,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 61,
+          "length" : 5
+        },
+        {
+          "activity" : "load",
+          "start" : 62,
+          "length" : 5
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 81,
+          "length" : 4
+        },
+        {
+          "activity" : "validate",
+          "start" : 83,
+          "length" : 4
+        },
+        {
+          "activity" : "generate1",
+          "start" : 94,
+          "length" : 11
+        },
+        {
+          "activity" : "generate2",
+          "start" : 138,
+          "length" : 76
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-lk-core-province-vs.json",
+      "size" : 430,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 61,
+          "length" : 4
+        },
+        {
+          "activity" : "load",
+          "start" : 62,
+          "length" : 5
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 81,
+          "length" : 4
+        },
+        {
+          "activity" : "validate",
+          "start" : 83,
+          "length" : 6
+        },
+        {
+          "activity" : "generate1",
+          "start" : 94,
+          "length" : 12
+        },
+        {
+          "activity" : "generate2",
+          "start" : 138,
+          "length" : 66
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-lk-core-qualifications-vs.json",
+      "size" : 464,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 61,
+          "length" : 5
+        },
+        {
+          "activity" : "load",
+          "start" : 62,
+          "length" : 5
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 81,
+          "length" : 4
+        },
+        {
+          "activity" : "validate",
+          "start" : 83,
+          "length" : 5
+        },
+        {
+          "activity" : "generate1",
+          "start" : 94,
+          "length" : 12
+        },
+        {
+          "activity" : "generate2",
+          "start" : 138,
+          "length" : 70
+        }
+      ]
+    }
+  ]
+}

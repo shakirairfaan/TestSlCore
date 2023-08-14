@@ -1,0 +1,54 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.health.gov.lk/CodeSystem/lk-core-province-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "lk-core-province-cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://fhir.health.gov.lk/CodeSystem/lk-core-province-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">LK-1<a name=\"lk-core-province-cs-LK-1\"> </a></td><td>Western Province</td></tr><tr><td style=\"white-space:nowrap\">LK-2<a name=\"lk-core-province-cs-LK-2\"> </a></td><td>Central Province</td></tr><tr><td style=\"white-space:nowrap\">LK-3<a name=\"lk-core-province-cs-LK-3\"> </a></td><td>Southern Province</td></tr><tr><td style=\"white-space:nowrap\">LK-4<a name=\"lk-core-province-cs-LK-4\"> </a></td><td>Nothern Province</td></tr><tr><td style=\"white-space:nowrap\">LK-5<a name=\"lk-core-province-cs-LK-5\"> </a></td><td>Eastern Province</td></tr><tr><td style=\"white-space:nowrap\">LK-6<a name=\"lk-core-province-cs-LK-6\"> </a></td><td>North Western Province</td></tr><tr><td style=\"white-space:nowrap\">LK-7<a name=\"lk-core-province-cs-LK-7\"> </a></td><td>North Central Province</td></tr><tr><td style=\"white-space:nowrap\">LK-8<a name=\"lk-core-province-cs-LK-8\"> </a></td><td>Uva Province</td></tr><tr><td style=\"white-space:nowrap\">LK-9<a name=\"lk-core-province-cs-LK-9\"> </a></td><td>Sabaragamuwa Province</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://fhir.health.gov.lk/CodeSystem/lk-core-province-cs"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "LKCoreProvinceCS"] ; # 
+  fhir:title [ fhir:v "LK Core Province Code System"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:date [ fhir:v "2023-08-11T10:37:20+05:30"^^xsd:dateTime] ; # 
+  fhir:description [ fhir:v "LK Core Province Code System"] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "9"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "LK-1" ] ;
+     fhir:display [ fhir:v "Western Province" ]
+  ] [
+     fhir:code [ fhir:v "LK-2" ] ;
+     fhir:display [ fhir:v "Central Province" ]
+  ] [
+     fhir:code [ fhir:v "LK-3" ] ;
+     fhir:display [ fhir:v "Southern Province" ]
+  ] [
+     fhir:code [ fhir:v "LK-4" ] ;
+     fhir:display [ fhir:v "Nothern Province" ]
+  ] [
+     fhir:code [ fhir:v "LK-5" ] ;
+     fhir:display [ fhir:v "Eastern Province" ]
+  ] [
+     fhir:code [ fhir:v "LK-6" ] ;
+     fhir:display [ fhir:v "North Western Province" ]
+  ] [
+     fhir:code [ fhir:v "LK-7" ] ;
+     fhir:display [ fhir:v "North Central Province" ]
+  ] [
+     fhir:code [ fhir:v "LK-8" ] ;
+     fhir:display [ fhir:v "Uva Province" ]
+  ] [
+     fhir:code [ fhir:v "LK-9" ] ;
+     fhir:display [ fhir:v "Sabaragamuwa Province" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

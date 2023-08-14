@@ -1,0 +1,1083 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.health.gov.lk/CodeSystem/lk-core-moh-area-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "lk-core-moh-area-cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://fhir.health.gov.lk/CodeSystem/lk-core-moh-area-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">moh001<a name=\"lk-core-moh-area-cs-moh001\"> </a></td><td>Beruwala MOH</td></tr><tr><td style=\"white-space:nowrap\">moh002<a name=\"lk-core-moh-area-cs-moh002\"> </a></td><td>Kalutara MOH</td></tr><tr><td style=\"white-space:nowrap\">moh003<a name=\"lk-core-moh-area-cs-moh003\"> </a></td><td>Galenbindunuwewa MOH</td></tr><tr><td style=\"white-space:nowrap\">moh004<a name=\"lk-core-moh-area-cs-moh004\"> </a></td><td>Galkiriyagama (Palagala) MOH</td></tr><tr><td style=\"white-space:nowrap\">moh005<a name=\"lk-core-moh-area-cs-moh005\"> </a></td><td>Galnewa MOH</td></tr><tr><td style=\"white-space:nowrap\">moh006<a name=\"lk-core-moh-area-cs-moh006\"> </a></td><td>Horowpothana MOH</td></tr><tr><td style=\"white-space:nowrap\">moh007<a name=\"lk-core-moh-area-cs-moh007\"> </a></td><td>Ipalogama MOH</td></tr><tr><td style=\"white-space:nowrap\">moh008<a name=\"lk-core-moh-area-cs-moh008\"> </a></td><td>Kahatagasdigiliya MOH</td></tr><tr><td style=\"white-space:nowrap\">moh009<a name=\"lk-core-moh-area-cs-moh009\"> </a></td><td>Kebithigollewa MOH</td></tr><tr><td style=\"white-space:nowrap\">moh010<a name=\"lk-core-moh-area-cs-moh010\"> </a></td><td>Kekirawa MOH</td></tr><tr><td style=\"white-space:nowrap\">moh011<a name=\"lk-core-moh-area-cs-moh011\"> </a></td><td>Medawachchiya MOH</td></tr><tr><td style=\"white-space:nowrap\">moh012<a name=\"lk-core-moh-area-cs-moh012\"> </a></td><td>Mihinthale MOH</td></tr><tr><td style=\"white-space:nowrap\">moh013<a name=\"lk-core-moh-area-cs-moh013\"> </a></td><td>Nachchiyadoowa MOH</td></tr><tr><td style=\"white-space:nowrap\">moh014<a name=\"lk-core-moh-area-cs-moh014\"> </a></td><td>Nochchiyagama MOH</td></tr><tr><td style=\"white-space:nowrap\">moh015<a name=\"lk-core-moh-area-cs-moh015\"> </a></td><td>Nuwaragam Palatha Central MOH</td></tr><tr><td style=\"white-space:nowrap\">moh016<a name=\"lk-core-moh-area-cs-moh016\"> </a></td><td>Nuwaragam Palatha East MOH</td></tr><tr><td style=\"white-space:nowrap\">moh017<a name=\"lk-core-moh-area-cs-moh017\"> </a></td><td>Padaviya MOH</td></tr><tr><td style=\"white-space:nowrap\">moh018<a name=\"lk-core-moh-area-cs-moh018\"> </a></td><td>Palugaswewa MOH</td></tr><tr><td style=\"white-space:nowrap\">moh019<a name=\"lk-core-moh-area-cs-moh019\"> </a></td><td>Rajanganaya MOH</td></tr><tr><td style=\"white-space:nowrap\">moh020<a name=\"lk-core-moh-area-cs-moh020\"> </a></td><td>Rambewa MOH</td></tr><tr><td style=\"white-space:nowrap\">moh021<a name=\"lk-core-moh-area-cs-moh021\"> </a></td><td>Thalawa MOH</td></tr><tr><td style=\"white-space:nowrap\">moh022<a name=\"lk-core-moh-area-cs-moh022\"> </a></td><td>Thambuttegama MOH</td></tr><tr><td style=\"white-space:nowrap\">moh023<a name=\"lk-core-moh-area-cs-moh023\"> </a></td><td>Thirappane MOH</td></tr><tr><td style=\"white-space:nowrap\">moh024<a name=\"lk-core-moh-area-cs-moh024\"> </a></td><td>Wilachchiya MOH</td></tr><tr><td style=\"white-space:nowrap\">moh025<a name=\"lk-core-moh-area-cs-moh025\"> </a></td><td>Ampara MOH</td></tr><tr><td style=\"white-space:nowrap\">moh026<a name=\"lk-core-moh-area-cs-moh026\"> </a></td><td>Damana MOH</td></tr><tr><td style=\"white-space:nowrap\">moh027<a name=\"lk-core-moh-area-cs-moh027\"> </a></td><td>Dehiattakandiya MOH</td></tr><tr><td style=\"white-space:nowrap\">moh028<a name=\"lk-core-moh-area-cs-moh028\"> </a></td><td>Lahugala MOH</td></tr><tr><td style=\"white-space:nowrap\">moh029<a name=\"lk-core-moh-area-cs-moh029\"> </a></td><td>Maha Oya MOH</td></tr><tr><td style=\"white-space:nowrap\">moh030<a name=\"lk-core-moh-area-cs-moh030\"> </a></td><td>Padiyatalawa MOH</td></tr><tr><td style=\"white-space:nowrap\">moh031<a name=\"lk-core-moh-area-cs-moh031\"> </a></td><td>Uhana MOH</td></tr><tr><td style=\"white-space:nowrap\">moh032<a name=\"lk-core-moh-area-cs-moh032\"> </a></td><td>Arayampathy MOH</td></tr><tr><td style=\"white-space:nowrap\">moh033<a name=\"lk-core-moh-area-cs-moh033\"> </a></td><td>Batticoloa MOH</td></tr><tr><td style=\"white-space:nowrap\">moh034<a name=\"lk-core-moh-area-cs-moh034\"> </a></td><td>Chenkalady MOH</td></tr><tr><td style=\"white-space:nowrap\">moh035<a name=\"lk-core-moh-area-cs-moh035\"> </a></td><td>Eravur MOH</td></tr><tr><td style=\"white-space:nowrap\">moh036<a name=\"lk-core-moh-area-cs-moh036\"> </a></td><td>Kalawanchikudy MOH</td></tr><tr><td style=\"white-space:nowrap\">moh037<a name=\"lk-core-moh-area-cs-moh037\"> </a></td><td>Katankudy MOH</td></tr><tr><td style=\"white-space:nowrap\">moh038<a name=\"lk-core-moh-area-cs-moh038\"> </a></td><td>Kiran MOH</td></tr><tr><td style=\"white-space:nowrap\">moh039<a name=\"lk-core-moh-area-cs-moh039\"> </a></td><td>Koralaipattu Central MOH</td></tr><tr><td style=\"white-space:nowrap\">moh040<a name=\"lk-core-moh-area-cs-moh040\"> </a></td><td>Oddamavadi MOH</td></tr><tr><td style=\"white-space:nowrap\">moh041<a name=\"lk-core-moh-area-cs-moh041\"> </a></td><td>Paddipallai MOH</td></tr><tr><td style=\"white-space:nowrap\">moh042<a name=\"lk-core-moh-area-cs-moh042\"> </a></td><td>Vakarai MOH</td></tr><tr><td style=\"white-space:nowrap\">moh043<a name=\"lk-core-moh-area-cs-moh043\"> </a></td><td>Valaichcheni MOH</td></tr><tr><td style=\"white-space:nowrap\">moh044<a name=\"lk-core-moh-area-cs-moh044\"> </a></td><td>Vavunativu MOH</td></tr><tr><td style=\"white-space:nowrap\">moh045<a name=\"lk-core-moh-area-cs-moh045\"> </a></td><td>Vellavelly MOH</td></tr><tr><td style=\"white-space:nowrap\">moh046<a name=\"lk-core-moh-area-cs-moh046\"> </a></td><td>Badulla MOH</td></tr><tr><td style=\"white-space:nowrap\">moh047<a name=\"lk-core-moh-area-cs-moh047\"> </a></td><td>Bandarawela MOH</td></tr><tr><td style=\"white-space:nowrap\">moh048<a name=\"lk-core-moh-area-cs-moh048\"> </a></td><td>Ella MOH</td></tr><tr><td style=\"white-space:nowrap\">moh049<a name=\"lk-core-moh-area-cs-moh049\"> </a></td><td>Girandurukotte MOH</td></tr><tr><td style=\"white-space:nowrap\">moh050<a name=\"lk-core-moh-area-cs-moh050\"> </a></td><td>Haldummulla MOH</td></tr><tr><td style=\"white-space:nowrap\">moh051<a name=\"lk-core-moh-area-cs-moh051\"> </a></td><td>Hali-Ela MOH</td></tr><tr><td style=\"white-space:nowrap\">moh052<a name=\"lk-core-moh-area-cs-moh052\"> </a></td><td>Haputale MOH</td></tr><tr><td style=\"white-space:nowrap\">moh053<a name=\"lk-core-moh-area-cs-moh053\"> </a></td><td>Kandaketiya MOH</td></tr><tr><td style=\"white-space:nowrap\">moh054<a name=\"lk-core-moh-area-cs-moh054\"> </a></td><td>Lunugala MOH</td></tr><tr><td style=\"white-space:nowrap\">moh055<a name=\"lk-core-moh-area-cs-moh055\"> </a></td><td>Mahiyanganaya MOH</td></tr><tr><td style=\"white-space:nowrap\">moh056<a name=\"lk-core-moh-area-cs-moh056\"> </a></td><td>Meegahakivula MOH</td></tr><tr><td style=\"white-space:nowrap\">moh057<a name=\"lk-core-moh-area-cs-moh057\"> </a></td><td>Passara MOH</td></tr><tr><td style=\"white-space:nowrap\">moh058<a name=\"lk-core-moh-area-cs-moh058\"> </a></td><td>Rideemaliyadda MOH</td></tr><tr><td style=\"white-space:nowrap\">moh059<a name=\"lk-core-moh-area-cs-moh059\"> </a></td><td>Soranathota MOH</td></tr><tr><td style=\"white-space:nowrap\">moh060<a name=\"lk-core-moh-area-cs-moh060\"> </a></td><td>Uva Paranagama MOH</td></tr><tr><td style=\"white-space:nowrap\">moh061<a name=\"lk-core-moh-area-cs-moh061\"> </a></td><td>Welimada MOH</td></tr><tr><td style=\"white-space:nowrap\">moh062<a name=\"lk-core-moh-area-cs-moh062\"> </a></td><td>Baththaramulla MOH</td></tr><tr><td style=\"white-space:nowrap\">moh063<a name=\"lk-core-moh-area-cs-moh063\"> </a></td><td>Boralesgamuwa MOH</td></tr><tr><td style=\"white-space:nowrap\">moh064<a name=\"lk-core-moh-area-cs-moh064\"> </a></td><td>Colombo MOH</td></tr><tr><td style=\"white-space:nowrap\">moh065<a name=\"lk-core-moh-area-cs-moh065\"> </a></td><td>Dehiwala MOH</td></tr><tr><td style=\"white-space:nowrap\">moh066<a name=\"lk-core-moh-area-cs-moh066\"> </a></td><td>Hanwella MOH</td></tr><tr><td style=\"white-space:nowrap\">moh067<a name=\"lk-core-moh-area-cs-moh067\"> </a></td><td>Homagama MOH</td></tr><tr><td style=\"white-space:nowrap\">moh068<a name=\"lk-core-moh-area-cs-moh068\"> </a></td><td>Kaduwela MOH</td></tr><tr><td style=\"white-space:nowrap\">moh069<a name=\"lk-core-moh-area-cs-moh069\"> </a></td><td>Kahathuduwa MOH</td></tr><tr><td style=\"white-space:nowrap\">moh070<a name=\"lk-core-moh-area-cs-moh070\"> </a></td><td>Kolonnawa MOH</td></tr><tr><td style=\"white-space:nowrap\">moh071<a name=\"lk-core-moh-area-cs-moh071\"> </a></td><td>Maharagama MOH</td></tr><tr><td style=\"white-space:nowrap\">moh072<a name=\"lk-core-moh-area-cs-moh072\"> </a></td><td>Moratuwa MOH</td></tr><tr><td style=\"white-space:nowrap\">moh073<a name=\"lk-core-moh-area-cs-moh073\"> </a></td><td>Nugegoda MOH</td></tr><tr><td style=\"white-space:nowrap\">moh074<a name=\"lk-core-moh-area-cs-moh074\"> </a></td><td>Padukka MOH</td></tr><tr><td style=\"white-space:nowrap\">moh075<a name=\"lk-core-moh-area-cs-moh075\"> </a></td><td>Piliyandala (Kesbewa) MOH</td></tr><tr><td style=\"white-space:nowrap\">moh076<a name=\"lk-core-moh-area-cs-moh076\"> </a></td><td>Pitakotte (Kotte) MOH</td></tr><tr><td style=\"white-space:nowrap\">moh077<a name=\"lk-core-moh-area-cs-moh077\"> </a></td><td>Rathmalana MOH</td></tr><tr><td style=\"white-space:nowrap\">moh078<a name=\"lk-core-moh-area-cs-moh078\"> </a></td><td>Akmeemana MOH</td></tr><tr><td style=\"white-space:nowrap\">moh079<a name=\"lk-core-moh-area-cs-moh079\"> </a></td><td>Ambalangoda MOH</td></tr><tr><td style=\"white-space:nowrap\">moh080<a name=\"lk-core-moh-area-cs-moh080\"> </a></td><td>Baddegama MOH</td></tr><tr><td style=\"white-space:nowrap\">moh081<a name=\"lk-core-moh-area-cs-moh081\"> </a></td><td>Balapitiya MOH</td></tr><tr><td style=\"white-space:nowrap\">moh082<a name=\"lk-core-moh-area-cs-moh082\"> </a></td><td>Bentota (Induruwa) MOH</td></tr><tr><td style=\"white-space:nowrap\">moh083<a name=\"lk-core-moh-area-cs-moh083\"> </a></td><td>Bope - Poddala MOH</td></tr><tr><td style=\"white-space:nowrap\">moh084<a name=\"lk-core-moh-area-cs-moh084\"> </a></td><td>Elpitiya MOH</td></tr><tr><td style=\"white-space:nowrap\">moh085<a name=\"lk-core-moh-area-cs-moh085\"> </a></td><td>Galle MC MOH</td></tr><tr><td style=\"white-space:nowrap\">moh086<a name=\"lk-core-moh-area-cs-moh086\"> </a></td><td>Gonapinuwala MOH</td></tr><tr><td style=\"white-space:nowrap\">moh087<a name=\"lk-core-moh-area-cs-moh087\"> </a></td><td>Habaraduwa MOH</td></tr><tr><td style=\"white-space:nowrap\">moh088<a name=\"lk-core-moh-area-cs-moh088\"> </a></td><td>Hikkaduwa MOH</td></tr><tr><td style=\"white-space:nowrap\">moh089<a name=\"lk-core-moh-area-cs-moh089\"> </a></td><td>Imaduwa MOH</td></tr><tr><td style=\"white-space:nowrap\">moh090<a name=\"lk-core-moh-area-cs-moh090\"> </a></td><td>Karandeniya MOH</td></tr><tr><td style=\"white-space:nowrap\">moh091<a name=\"lk-core-moh-area-cs-moh091\"> </a></td><td>Nagoda (Udugama) MOH</td></tr><tr><td style=\"white-space:nowrap\">moh092<a name=\"lk-core-moh-area-cs-moh092\"> </a></td><td>Neluwa MOH</td></tr><tr><td style=\"white-space:nowrap\">moh093<a name=\"lk-core-moh-area-cs-moh093\"> </a></td><td>Niyagama MOH</td></tr><tr><td style=\"white-space:nowrap\">moh094<a name=\"lk-core-moh-area-cs-moh094\"> </a></td><td>Rathganga MOH</td></tr><tr><td style=\"white-space:nowrap\">moh095<a name=\"lk-core-moh-area-cs-moh095\"> </a></td><td>Thawalama MOH</td></tr><tr><td style=\"white-space:nowrap\">moh096<a name=\"lk-core-moh-area-cs-moh096\"> </a></td><td>Walivitiya (Divithura) MOH</td></tr><tr><td style=\"white-space:nowrap\">moh097<a name=\"lk-core-moh-area-cs-moh097\"> </a></td><td>Yakkalamulla MOH</td></tr><tr><td style=\"white-space:nowrap\">moh098<a name=\"lk-core-moh-area-cs-moh098\"> </a></td><td>Attanagalla MOH</td></tr><tr><td style=\"white-space:nowrap\">moh099<a name=\"lk-core-moh-area-cs-moh099\"> </a></td><td>Biyagama MOH</td></tr><tr><td style=\"white-space:nowrap\">moh100<a name=\"lk-core-moh-area-cs-moh100\"> </a></td><td>Divulapitiya MOH</td></tr><tr><td style=\"white-space:nowrap\">moh101<a name=\"lk-core-moh-area-cs-moh101\"> </a></td><td>Gampaha MOH</td></tr><tr><td style=\"white-space:nowrap\">moh102<a name=\"lk-core-moh-area-cs-moh102\"> </a></td><td>Ja-Ela MOH</td></tr><tr><td style=\"white-space:nowrap\">moh103<a name=\"lk-core-moh-area-cs-moh103\"> </a></td><td>Katana MOH</td></tr><tr><td style=\"white-space:nowrap\">moh104<a name=\"lk-core-moh-area-cs-moh104\"> </a></td><td>Katunayake (BOI) MOH</td></tr><tr><td style=\"white-space:nowrap\">moh105<a name=\"lk-core-moh-area-cs-moh105\"> </a></td><td>Kelaniya MOH</td></tr><tr><td style=\"white-space:nowrap\">moh106<a name=\"lk-core-moh-area-cs-moh106\"> </a></td><td>Mahara MOH</td></tr><tr><td style=\"white-space:nowrap\">moh107<a name=\"lk-core-moh-area-cs-moh107\"> </a></td><td>Minuwangoda MOH</td></tr><tr><td style=\"white-space:nowrap\">moh108<a name=\"lk-core-moh-area-cs-moh108\"> </a></td><td>Mirigama MOH</td></tr><tr><td style=\"white-space:nowrap\">moh109<a name=\"lk-core-moh-area-cs-moh109\"> </a></td><td>Negombo MOH</td></tr><tr><td style=\"white-space:nowrap\">moh110<a name=\"lk-core-moh-area-cs-moh110\"> </a></td><td>Pugoda (Dompe) MOH</td></tr><tr><td style=\"white-space:nowrap\">moh111<a name=\"lk-core-moh-area-cs-moh111\"> </a></td><td>Ragama MOH</td></tr><tr><td style=\"white-space:nowrap\">moh112<a name=\"lk-core-moh-area-cs-moh112\"> </a></td><td>Seeduwa MOH</td></tr><tr><td style=\"white-space:nowrap\">moh113<a name=\"lk-core-moh-area-cs-moh113\"> </a></td><td>Wattala MOH</td></tr><tr><td style=\"white-space:nowrap\">moh114<a name=\"lk-core-moh-area-cs-moh114\"> </a></td><td>Ambalanthota MOH</td></tr><tr><td style=\"white-space:nowrap\">moh115<a name=\"lk-core-moh-area-cs-moh115\"> </a></td><td>Angunakolapelessa MOH</td></tr><tr><td style=\"white-space:nowrap\">moh116<a name=\"lk-core-moh-area-cs-moh116\"> </a></td><td>Beliatta MOH</td></tr><tr><td style=\"white-space:nowrap\">moh117<a name=\"lk-core-moh-area-cs-moh117\"> </a></td><td>Hambantota MOH</td></tr><tr><td style=\"white-space:nowrap\">moh118<a name=\"lk-core-moh-area-cs-moh118\"> </a></td><td>Katuwana MOH</td></tr><tr><td style=\"white-space:nowrap\">moh119<a name=\"lk-core-moh-area-cs-moh119\"> </a></td><td>Lunugamvehera MOH</td></tr><tr><td style=\"white-space:nowrap\">moh120<a name=\"lk-core-moh-area-cs-moh120\"> </a></td><td>Okewela MOH</td></tr><tr><td style=\"white-space:nowrap\">moh121<a name=\"lk-core-moh-area-cs-moh121\"> </a></td><td>Sooriyawewa MOH</td></tr><tr><td style=\"white-space:nowrap\">moh122<a name=\"lk-core-moh-area-cs-moh122\"> </a></td><td>Tangalle MOH</td></tr><tr><td style=\"white-space:nowrap\">moh123<a name=\"lk-core-moh-area-cs-moh123\"> </a></td><td>Thissamaharama MOH</td></tr><tr><td style=\"white-space:nowrap\">moh124<a name=\"lk-core-moh-area-cs-moh124\"> </a></td><td>Walasmulla MOH</td></tr><tr><td style=\"white-space:nowrap\">moh125<a name=\"lk-core-moh-area-cs-moh125\"> </a></td><td>Weeraketiya MOH</td></tr><tr><td style=\"white-space:nowrap\">moh126<a name=\"lk-core-moh-area-cs-moh126\"> </a></td><td>Ampan (Point Pedro) MOH</td></tr><tr><td style=\"white-space:nowrap\">moh127<a name=\"lk-core-moh-area-cs-moh127\"> </a></td><td>Chankanai - Walikamam West MOH</td></tr><tr><td style=\"white-space:nowrap\">moh128<a name=\"lk-core-moh-area-cs-moh128\"> </a></td><td>Chavakachchari MOH</td></tr><tr><td style=\"white-space:nowrap\">moh129<a name=\"lk-core-moh-area-cs-moh129\"> </a></td><td>Jaffna MOH</td></tr><tr><td style=\"white-space:nowrap\">moh130<a name=\"lk-core-moh-area-cs-moh130\"> </a></td><td>Karaveddy MOH</td></tr><tr><td style=\"white-space:nowrap\">moh131<a name=\"lk-core-moh-area-cs-moh131\"> </a></td><td>Kayts MOH</td></tr><tr><td style=\"white-space:nowrap\">moh132<a name=\"lk-core-moh-area-cs-moh132\"> </a></td><td>Kopay MOH</td></tr><tr><td style=\"white-space:nowrap\">moh133<a name=\"lk-core-moh-area-cs-moh133\"> </a></td><td>Nallur MOH</td></tr><tr><td style=\"white-space:nowrap\">moh134<a name=\"lk-core-moh-area-cs-moh134\"> </a></td><td>Sandilipay MOH</td></tr><tr><td style=\"white-space:nowrap\">moh135<a name=\"lk-core-moh-area-cs-moh135\"> </a></td><td>Telippalai MOH</td></tr><tr><td style=\"white-space:nowrap\">moh136<a name=\"lk-core-moh-area-cs-moh136\"> </a></td><td>Uduvil MOH</td></tr><tr><td style=\"white-space:nowrap\">moh137<a name=\"lk-core-moh-area-cs-moh137\"> </a></td><td>Velanai (Island South) MOH</td></tr><tr><td style=\"white-space:nowrap\">moh138<a name=\"lk-core-moh-area-cs-moh138\"> </a></td><td>Aranayaka MOH</td></tr><tr><td style=\"white-space:nowrap\">moh139<a name=\"lk-core-moh-area-cs-moh139\"> </a></td><td>Bulathkohupitiya MOH</td></tr><tr><td style=\"white-space:nowrap\">moh140<a name=\"lk-core-moh-area-cs-moh140\"> </a></td><td>Dehiovita MOH</td></tr><tr><td style=\"white-space:nowrap\">moh141<a name=\"lk-core-moh-area-cs-moh141\"> </a></td><td>Deraniyagala MOH</td></tr><tr><td style=\"white-space:nowrap\">moh142<a name=\"lk-core-moh-area-cs-moh142\"> </a></td><td>Galigamuwa MOH</td></tr><tr><td style=\"white-space:nowrap\">moh143<a name=\"lk-core-moh-area-cs-moh143\"> </a></td><td>Kegalle MOH</td></tr><tr><td style=\"white-space:nowrap\">moh144<a name=\"lk-core-moh-area-cs-moh144\"> </a></td><td>Mawanella MOH</td></tr><tr><td style=\"white-space:nowrap\">moh145<a name=\"lk-core-moh-area-cs-moh145\"> </a></td><td>Rambukkana MOH</td></tr><tr><td style=\"white-space:nowrap\">moh146<a name=\"lk-core-moh-area-cs-moh146\"> </a></td><td>Ruwanwella MOH</td></tr><tr><td style=\"white-space:nowrap\">moh147<a name=\"lk-core-moh-area-cs-moh147\"> </a></td><td>Warakapola MOH</td></tr><tr><td style=\"white-space:nowrap\">moh148<a name=\"lk-core-moh-area-cs-moh148\"> </a></td><td>Yatiyanthota MOH</td></tr><tr><td style=\"white-space:nowrap\">moh149<a name=\"lk-core-moh-area-cs-moh149\"> </a></td><td>Alawwa MOH</td></tr><tr><td style=\"white-space:nowrap\">moh150<a name=\"lk-core-moh-area-cs-moh150\"> </a></td><td>Ambanpola MOH</td></tr><tr><td style=\"white-space:nowrap\">moh151<a name=\"lk-core-moh-area-cs-moh151\"> </a></td><td>Bamunukotuwa MOH</td></tr><tr><td style=\"white-space:nowrap\">moh152<a name=\"lk-core-moh-area-cs-moh152\"> </a></td><td>Bingiriya MOH</td></tr><tr><td style=\"white-space:nowrap\">moh153<a name=\"lk-core-moh-area-cs-moh153\"> </a></td><td>Galgamuwa MOH</td></tr><tr><td style=\"white-space:nowrap\">moh154<a name=\"lk-core-moh-area-cs-moh154\"> </a></td><td>Ganewatta MOH</td></tr><tr><td style=\"white-space:nowrap\">moh155<a name=\"lk-core-moh-area-cs-moh155\"> </a></td><td>Giribawa MOH</td></tr><tr><td style=\"white-space:nowrap\">moh156<a name=\"lk-core-moh-area-cs-moh156\"> </a></td><td>Ibbagamuwa (Gokarella) MOH</td></tr><tr><td style=\"white-space:nowrap\">moh157<a name=\"lk-core-moh-area-cs-moh157\"> </a></td><td>Kobeigane MOH</td></tr><tr><td style=\"white-space:nowrap\">moh158<a name=\"lk-core-moh-area-cs-moh158\"> </a></td><td>Kotawehera MOH</td></tr><tr><td style=\"white-space:nowrap\">moh159<a name=\"lk-core-moh-area-cs-moh159\"> </a></td><td>Kuliyapitiya East MOH</td></tr><tr><td style=\"white-space:nowrap\">moh160<a name=\"lk-core-moh-area-cs-moh160\"> </a></td><td>Kuliyapitiya West MOH</td></tr><tr><td style=\"white-space:nowrap\">moh161<a name=\"lk-core-moh-area-cs-moh161\"> </a></td><td>Kurunegala MOH</td></tr><tr><td style=\"white-space:nowrap\">moh162<a name=\"lk-core-moh-area-cs-moh162\"> </a></td><td>Kurunegala MC MOH</td></tr><tr><td style=\"white-space:nowrap\">moh163<a name=\"lk-core-moh-area-cs-moh163\"> </a></td><td>Maho MOH</td></tr><tr><td style=\"white-space:nowrap\">moh164<a name=\"lk-core-moh-area-cs-moh164\"> </a></td><td>Mallawapitiya MOH</td></tr><tr><td style=\"white-space:nowrap\">moh165<a name=\"lk-core-moh-area-cs-moh165\"> </a></td><td>Maspotha MOH</td></tr><tr><td style=\"white-space:nowrap\">moh166<a name=\"lk-core-moh-area-cs-moh166\"> </a></td><td>Mawathagama MOH</td></tr><tr><td style=\"white-space:nowrap\">moh167<a name=\"lk-core-moh-area-cs-moh167\"> </a></td><td>Narammala MOH</td></tr><tr><td style=\"white-space:nowrap\">moh168<a name=\"lk-core-moh-area-cs-moh168\"> </a></td><td>Nikaweratiya MOH</td></tr><tr><td style=\"white-space:nowrap\">moh169<a name=\"lk-core-moh-area-cs-moh169\"> </a></td><td>Paduwasnuwara West MOH</td></tr><tr><td style=\"white-space:nowrap\">moh170<a name=\"lk-core-moh-area-cs-moh170\"> </a></td><td>Panduwasnuwara East MOH</td></tr><tr><td style=\"white-space:nowrap\">moh171<a name=\"lk-core-moh-area-cs-moh171\"> </a></td><td>Pannala MOH</td></tr><tr><td style=\"white-space:nowrap\">moh172<a name=\"lk-core-moh-area-cs-moh172\"> </a></td><td>Polgahawela MOH</td></tr><tr><td style=\"white-space:nowrap\">moh173<a name=\"lk-core-moh-area-cs-moh173\"> </a></td><td>Polpithigama MOH</td></tr><tr><td style=\"white-space:nowrap\">moh174<a name=\"lk-core-moh-area-cs-moh174\"> </a></td><td>Rasnayakapura MOH</td></tr><tr><td style=\"white-space:nowrap\">moh175<a name=\"lk-core-moh-area-cs-moh175\"> </a></td><td>Rideegama MOH</td></tr><tr><td style=\"white-space:nowrap\">moh176<a name=\"lk-core-moh-area-cs-moh176\"> </a></td><td>Udubaddawa MOH</td></tr><tr><td style=\"white-space:nowrap\">moh177<a name=\"lk-core-moh-area-cs-moh177\"> </a></td><td>Wariyapola MOH</td></tr><tr><td style=\"white-space:nowrap\">moh178<a name=\"lk-core-moh-area-cs-moh178\"> </a></td><td>Weerabugedara MOH</td></tr><tr><td style=\"white-space:nowrap\">moh179<a name=\"lk-core-moh-area-cs-moh179\"> </a></td><td>Addalachchenai MOH</td></tr><tr><td style=\"white-space:nowrap\">moh180<a name=\"lk-core-moh-area-cs-moh180\"> </a></td><td>Akkaraipathu MOH</td></tr><tr><td style=\"white-space:nowrap\">moh181<a name=\"lk-core-moh-area-cs-moh181\"> </a></td><td>Alayadivembu MOH</td></tr><tr><td style=\"white-space:nowrap\">moh182<a name=\"lk-core-moh-area-cs-moh182\"> </a></td><td>Irakkamam MOH</td></tr><tr><td style=\"white-space:nowrap\">moh183<a name=\"lk-core-moh-area-cs-moh183\"> </a></td><td>Kalmunai North MOH</td></tr><tr><td style=\"white-space:nowrap\">moh184<a name=\"lk-core-moh-area-cs-moh184\"> </a></td><td>Kalmunai South MOH</td></tr><tr><td style=\"white-space:nowrap\">moh185<a name=\"lk-core-moh-area-cs-moh185\"> </a></td><td>Karaitivu MOH</td></tr><tr><td style=\"white-space:nowrap\">moh186<a name=\"lk-core-moh-area-cs-moh186\"> </a></td><td>Navithanveli MOH</td></tr><tr><td style=\"white-space:nowrap\">moh187<a name=\"lk-core-moh-area-cs-moh187\"> </a></td><td>Ninthavur MOH</td></tr><tr><td style=\"white-space:nowrap\">moh188<a name=\"lk-core-moh-area-cs-moh188\"> </a></td><td>Pottuvil MOH</td></tr><tr><td style=\"white-space:nowrap\">moh189<a name=\"lk-core-moh-area-cs-moh189\"> </a></td><td>Sainthamaruthu MOH</td></tr><tr><td style=\"white-space:nowrap\">moh190<a name=\"lk-core-moh-area-cs-moh190\"> </a></td><td>Sammanthurai MOH</td></tr><tr><td style=\"white-space:nowrap\">moh191<a name=\"lk-core-moh-area-cs-moh191\"> </a></td><td>Thirukkovil MOH</td></tr><tr><td style=\"white-space:nowrap\">moh192<a name=\"lk-core-moh-area-cs-moh192\"> </a></td><td>Kandawalai MOH</td></tr><tr><td style=\"white-space:nowrap\">moh193<a name=\"lk-core-moh-area-cs-moh193\"> </a></td><td>Karachchi (Kilinochchci) MOH</td></tr><tr><td style=\"white-space:nowrap\">moh194<a name=\"lk-core-moh-area-cs-moh194\"> </a></td><td>Pallai MOH</td></tr><tr><td style=\"white-space:nowrap\">moh195<a name=\"lk-core-moh-area-cs-moh195\"> </a></td><td>Poonakery MOH</td></tr><tr><td style=\"white-space:nowrap\">moh196<a name=\"lk-core-moh-area-cs-moh196\"> </a></td><td>Agalawatta MOH</td></tr><tr><td style=\"white-space:nowrap\">moh197<a name=\"lk-core-moh-area-cs-moh197\"> </a></td><td>Bandaragama MOH</td></tr><tr><td style=\"white-space:nowrap\">moh198<a name=\"lk-core-moh-area-cs-moh198\"> </a></td><td>Bulathsinhala MOH</td></tr><tr><td style=\"white-space:nowrap\">moh199<a name=\"lk-core-moh-area-cs-moh199\"> </a></td><td>Dodangoda MOH</td></tr><tr><td style=\"white-space:nowrap\">moh200<a name=\"lk-core-moh-area-cs-moh200\"> </a></td><td>Horana MOH</td></tr><tr><td style=\"white-space:nowrap\">moh201<a name=\"lk-core-moh-area-cs-moh201\"> </a></td><td>Ingiriya MOH</td></tr><tr><td style=\"white-space:nowrap\">moh202<a name=\"lk-core-moh-area-cs-moh202\"> </a></td><td>Madurawala MOH</td></tr><tr><td style=\"white-space:nowrap\">moh203<a name=\"lk-core-moh-area-cs-moh203\"> </a></td><td>Mathugama MOH</td></tr><tr><td style=\"white-space:nowrap\">moh204<a name=\"lk-core-moh-area-cs-moh204\"> </a></td><td>Millaniya MOH</td></tr><tr><td style=\"white-space:nowrap\">moh205<a name=\"lk-core-moh-area-cs-moh205\"> </a></td><td>Palindanuwara MOH</td></tr><tr><td style=\"white-space:nowrap\">moh206<a name=\"lk-core-moh-area-cs-moh206\"> </a></td><td>Panadura MOH</td></tr><tr><td style=\"white-space:nowrap\">moh207<a name=\"lk-core-moh-area-cs-moh207\"> </a></td><td>Wadduwa MOH</td></tr><tr><td style=\"white-space:nowrap\">moh208<a name=\"lk-core-moh-area-cs-moh208\"> </a></td><td>Walallawita MOH</td></tr><tr><td style=\"white-space:nowrap\">moh209<a name=\"lk-core-moh-area-cs-moh209\"> </a></td><td>Akurana MOH</td></tr><tr><td style=\"white-space:nowrap\">moh210<a name=\"lk-core-moh-area-cs-moh210\"> </a></td><td>Bambaradeniya MOH</td></tr><tr><td style=\"white-space:nowrap\">moh211<a name=\"lk-core-moh-area-cs-moh211\"> </a></td><td>Doluwa MOH</td></tr><tr><td style=\"white-space:nowrap\">moh212<a name=\"lk-core-moh-area-cs-moh212\"> </a></td><td>Galagedara MOH</td></tr><tr><td style=\"white-space:nowrap\">moh213<a name=\"lk-core-moh-area-cs-moh213\"> </a></td><td>Galaha MOH</td></tr><tr><td style=\"white-space:nowrap\">moh214<a name=\"lk-core-moh-area-cs-moh214\"> </a></td><td>Gampola (Udapalatha) MOH</td></tr><tr><td style=\"white-space:nowrap\">moh215<a name=\"lk-core-moh-area-cs-moh215\"> </a></td><td>Gangawata Korale MOH</td></tr><tr><td style=\"white-space:nowrap\">moh216<a name=\"lk-core-moh-area-cs-moh216\"> </a></td><td>Hasalaka MOH</td></tr><tr><td style=\"white-space:nowrap\">moh217<a name=\"lk-core-moh-area-cs-moh217\"> </a></td><td>Hatharaliyadda MOH</td></tr><tr><td style=\"white-space:nowrap\">moh218<a name=\"lk-core-moh-area-cs-moh218\"> </a></td><td>Kandy MC MOH</td></tr><tr><td style=\"white-space:nowrap\">moh219<a name=\"lk-core-moh-area-cs-moh219\"> </a></td><td>Kundasale MOH</td></tr><tr><td style=\"white-space:nowrap\">moh220<a name=\"lk-core-moh-area-cs-moh220\"> </a></td><td>Kurunduwaththa (Gangaihala) MOH</td></tr><tr><td style=\"white-space:nowrap\">moh221<a name=\"lk-core-moh-area-cs-moh221\"> </a></td><td>Medadumbara (Medamahanuwara) MOH</td></tr><tr><td style=\"white-space:nowrap\">moh222<a name=\"lk-core-moh-area-cs-moh222\"> </a></td><td>Menikhinna MOH</td></tr><tr><td style=\"white-space:nowrap\">moh223<a name=\"lk-core-moh-area-cs-moh223\"> </a></td><td>Panvila MOH</td></tr><tr><td style=\"white-space:nowrap\">moh224<a name=\"lk-core-moh-area-cs-moh224\"> </a></td><td>Pasbage (Nawalapitiya) MOH</td></tr><tr><td style=\"white-space:nowrap\">moh225<a name=\"lk-core-moh-area-cs-moh225\"> </a></td><td>Poojapitiya MOH</td></tr><tr><td style=\"white-space:nowrap\">moh226<a name=\"lk-core-moh-area-cs-moh226\"> </a></td><td>Thalathuoya MOH</td></tr><tr><td style=\"white-space:nowrap\">moh227<a name=\"lk-core-moh-area-cs-moh227\"> </a></td><td>Udadumbara MOH</td></tr><tr><td style=\"white-space:nowrap\">moh228<a name=\"lk-core-moh-area-cs-moh228\"> </a></td><td>Udunuwara MOH</td></tr><tr><td style=\"white-space:nowrap\">moh229<a name=\"lk-core-moh-area-cs-moh229\"> </a></td><td>Waththegama (Pathadumbara) MOH</td></tr><tr><td style=\"white-space:nowrap\">moh230<a name=\"lk-core-moh-area-cs-moh230\"> </a></td><td>Werellagama (Harispattuwa) MOH</td></tr><tr><td style=\"white-space:nowrap\">moh231<a name=\"lk-core-moh-area-cs-moh231\"> </a></td><td>Yatinuwara (Kadugannawa) MOH</td></tr><tr><td style=\"white-space:nowrap\">moh232<a name=\"lk-core-moh-area-cs-moh232\"> </a></td><td>Badalkumbura MOH</td></tr><tr><td style=\"white-space:nowrap\">moh233<a name=\"lk-core-moh-area-cs-moh233\"> </a></td><td>Bibile MOH</td></tr><tr><td style=\"white-space:nowrap\">moh234<a name=\"lk-core-moh-area-cs-moh234\"> </a></td><td>Buttala MOH</td></tr><tr><td style=\"white-space:nowrap\">moh235<a name=\"lk-core-moh-area-cs-moh235\"> </a></td><td>Kataragama MOH</td></tr><tr><td style=\"white-space:nowrap\">moh236<a name=\"lk-core-moh-area-cs-moh236\"> </a></td><td>Madulla MOH</td></tr><tr><td style=\"white-space:nowrap\">moh237<a name=\"lk-core-moh-area-cs-moh237\"> </a></td><td>Medagama MOH</td></tr><tr><td style=\"white-space:nowrap\">moh238<a name=\"lk-core-moh-area-cs-moh238\"> </a></td><td>Moneragala MOH</td></tr><tr><td style=\"white-space:nowrap\">moh239<a name=\"lk-core-moh-area-cs-moh239\"> </a></td><td>Sevanagala MOH</td></tr><tr><td style=\"white-space:nowrap\">moh240<a name=\"lk-core-moh-area-cs-moh240\"> </a></td><td>Siyambalanduwa MOH</td></tr><tr><td style=\"white-space:nowrap\">moh241<a name=\"lk-core-moh-area-cs-moh241\"> </a></td><td>Thanamalwila MOH</td></tr><tr><td style=\"white-space:nowrap\">moh242<a name=\"lk-core-moh-area-cs-moh242\"> </a></td><td>Wellawaya MOH</td></tr><tr><td style=\"white-space:nowrap\">moh243<a name=\"lk-core-moh-area-cs-moh243\"> </a></td><td>Mallavi MOH</td></tr><tr><td style=\"white-space:nowrap\">moh244<a name=\"lk-core-moh-area-cs-moh244\"> </a></td><td>Manthai East MOH</td></tr><tr><td style=\"white-space:nowrap\">moh245<a name=\"lk-core-moh-area-cs-moh245\"> </a></td><td>Mullaitivu MOH</td></tr><tr><td style=\"white-space:nowrap\">moh246<a name=\"lk-core-moh-area-cs-moh246\"> </a></td><td>Oddusudan MOH</td></tr><tr><td style=\"white-space:nowrap\">moh247<a name=\"lk-core-moh-area-cs-moh247\"> </a></td><td>Puthukkudyiruppu MOH</td></tr><tr><td style=\"white-space:nowrap\">moh248<a name=\"lk-core-moh-area-cs-moh248\"> </a></td><td>Welioya MOH</td></tr><tr><td style=\"white-space:nowrap\">moh249<a name=\"lk-core-moh-area-cs-moh249\"> </a></td><td>Adampan MOH</td></tr><tr><td style=\"white-space:nowrap\">moh250<a name=\"lk-core-moh-area-cs-moh250\"> </a></td><td>Madhu MOH</td></tr><tr><td style=\"white-space:nowrap\">moh251<a name=\"lk-core-moh-area-cs-moh251\"> </a></td><td>Mannar MOH</td></tr><tr><td style=\"white-space:nowrap\">moh252<a name=\"lk-core-moh-area-cs-moh252\"> </a></td><td>Murunkan MOH</td></tr><tr><td style=\"white-space:nowrap\">moh253<a name=\"lk-core-moh-area-cs-moh253\"> </a></td><td>Musali MOH</td></tr><tr><td style=\"white-space:nowrap\">moh254<a name=\"lk-core-moh-area-cs-moh254\"> </a></td><td>Akuressa MOH</td></tr><tr><td style=\"white-space:nowrap\">moh255<a name=\"lk-core-moh-area-cs-moh255\"> </a></td><td>Athuraliya MOH</td></tr><tr><td style=\"white-space:nowrap\">moh256<a name=\"lk-core-moh-area-cs-moh256\"> </a></td><td>Deniyaya (Kotapola) MOH</td></tr><tr><td style=\"white-space:nowrap\">moh257<a name=\"lk-core-moh-area-cs-moh257\"> </a></td><td>Devinuwara MOH</td></tr><tr><td style=\"white-space:nowrap\">moh258<a name=\"lk-core-moh-area-cs-moh258\"> </a></td><td>Dickwella MOH</td></tr><tr><td style=\"white-space:nowrap\">moh259<a name=\"lk-core-moh-area-cs-moh259\"> </a></td><td>Hakmana MOH</td></tr><tr><td style=\"white-space:nowrap\">moh260<a name=\"lk-core-moh-area-cs-moh260\"> </a></td><td>Kamburupitiya MOH</td></tr><tr><td style=\"white-space:nowrap\">moh261<a name=\"lk-core-moh-area-cs-moh261\"> </a></td><td>Kirinda-Puhulwella MOH</td></tr><tr><td style=\"white-space:nowrap\">moh262<a name=\"lk-core-moh-area-cs-moh262\"> </a></td><td>Malimbada MOH</td></tr><tr><td style=\"white-space:nowrap\">moh263<a name=\"lk-core-moh-area-cs-moh263\"> </a></td><td>Matara MC MOH</td></tr><tr><td style=\"white-space:nowrap\">moh264<a name=\"lk-core-moh-area-cs-moh264\"> </a></td><td>Matara PS Kekanadura MOH</td></tr><tr><td style=\"white-space:nowrap\">moh265<a name=\"lk-core-moh-area-cs-moh265\"> </a></td><td>Morawaka MOH</td></tr><tr><td style=\"white-space:nowrap\">moh266<a name=\"lk-core-moh-area-cs-moh266\"> </a></td><td>Mulatiyana MOH</td></tr><tr><td style=\"white-space:nowrap\">moh267<a name=\"lk-core-moh-area-cs-moh267\"> </a></td><td>Pasgoda (Urubokka) MOH</td></tr><tr><td style=\"white-space:nowrap\">moh268<a name=\"lk-core-moh-area-cs-moh268\"> </a></td><td>Thihagoda MOH</td></tr><tr><td style=\"white-space:nowrap\">moh269<a name=\"lk-core-moh-area-cs-moh269\"> </a></td><td>Weligama MOH</td></tr><tr><td style=\"white-space:nowrap\">moh270<a name=\"lk-core-moh-area-cs-moh270\"> </a></td><td>Welipitiya MOH</td></tr><tr><td style=\"white-space:nowrap\">moh271<a name=\"lk-core-moh-area-cs-moh271\"> </a></td><td>Ambanganga Korale MOH</td></tr><tr><td style=\"white-space:nowrap\">moh272<a name=\"lk-core-moh-area-cs-moh272\"> </a></td><td>Dambulla MOH</td></tr><tr><td style=\"white-space:nowrap\">moh273<a name=\"lk-core-moh-area-cs-moh273\"> </a></td><td>Dambulla MC MOH</td></tr><tr><td style=\"white-space:nowrap\">moh274<a name=\"lk-core-moh-area-cs-moh274\"> </a></td><td>Galewela MOH</td></tr><tr><td style=\"white-space:nowrap\">moh275<a name=\"lk-core-moh-area-cs-moh275\"> </a></td><td>Laggala-Pallegama MOH</td></tr><tr><td style=\"white-space:nowrap\">moh276<a name=\"lk-core-moh-area-cs-moh276\"> </a></td><td>Matale MOH</td></tr><tr><td style=\"white-space:nowrap\">moh277<a name=\"lk-core-moh-area-cs-moh277\"> </a></td><td>Matale MC MOH</td></tr><tr><td style=\"white-space:nowrap\">moh278<a name=\"lk-core-moh-area-cs-moh278\"> </a></td><td>Naula MOH</td></tr><tr><td style=\"white-space:nowrap\">moh279<a name=\"lk-core-moh-area-cs-moh279\"> </a></td><td>Pallepola MOH</td></tr><tr><td style=\"white-space:nowrap\">moh280<a name=\"lk-core-moh-area-cs-moh280\"> </a></td><td>Rattota MOH</td></tr><tr><td style=\"white-space:nowrap\">moh281<a name=\"lk-core-moh-area-cs-moh281\"> </a></td><td>Ukuwela MOH</td></tr><tr><td style=\"white-space:nowrap\">moh282<a name=\"lk-core-moh-area-cs-moh282\"> </a></td><td>Wilgamuwa MOH</td></tr><tr><td style=\"white-space:nowrap\">moh283<a name=\"lk-core-moh-area-cs-moh283\"> </a></td><td>Yatawatta MOH</td></tr><tr><td style=\"white-space:nowrap\">moh284<a name=\"lk-core-moh-area-cs-moh284\"> </a></td><td>Ambagamuwa (Ginigathhena) MOH</td></tr><tr><td style=\"white-space:nowrap\">moh285<a name=\"lk-core-moh-area-cs-moh285\"> </a></td><td>Bogawanthalawa MOH</td></tr><tr><td style=\"white-space:nowrap\">moh286<a name=\"lk-core-moh-area-cs-moh286\"> </a></td><td>Kotagala MOH</td></tr><tr><td style=\"white-space:nowrap\">moh287<a name=\"lk-core-moh-area-cs-moh287\"> </a></td><td>Kothmale MOH</td></tr><tr><td style=\"white-space:nowrap\">moh288<a name=\"lk-core-moh-area-cs-moh288\"> </a></td><td>Lidula (Thalawakale) MOH</td></tr><tr><td style=\"white-space:nowrap\">moh289<a name=\"lk-core-moh-area-cs-moh289\"> </a></td><td>Maskeliya MOH</td></tr><tr><td style=\"white-space:nowrap\">moh290<a name=\"lk-core-moh-area-cs-moh290\"> </a></td><td>Maturata MOH</td></tr><tr><td style=\"white-space:nowrap\">moh291<a name=\"lk-core-moh-area-cs-moh291\"> </a></td><td>Nawathispane MOH</td></tr><tr><td style=\"white-space:nowrap\">moh292<a name=\"lk-core-moh-area-cs-moh292\"> </a></td><td>Nuwara Eliya MOH</td></tr><tr><td style=\"white-space:nowrap\">moh293<a name=\"lk-core-moh-area-cs-moh293\"> </a></td><td>Nuwara Eliya MC MOH</td></tr><tr><td style=\"white-space:nowrap\">moh294<a name=\"lk-core-moh-area-cs-moh294\"> </a></td><td>Ragala MOH</td></tr><tr><td style=\"white-space:nowrap\">moh295<a name=\"lk-core-moh-area-cs-moh295\"> </a></td><td>Rikillagaskada (Hanguranketha) MOH</td></tr><tr><td style=\"white-space:nowrap\">moh296<a name=\"lk-core-moh-area-cs-moh296\"> </a></td><td>Walapane MOH</td></tr><tr><td style=\"white-space:nowrap\">moh297<a name=\"lk-core-moh-area-cs-moh297\"> </a></td><td>Bakamuna (Elahera) MOH</td></tr><tr><td style=\"white-space:nowrap\">moh298<a name=\"lk-core-moh-area-cs-moh298\"> </a></td><td>Dimbulagala MOH</td></tr><tr><td style=\"white-space:nowrap\">moh299<a name=\"lk-core-moh-area-cs-moh299\"> </a></td><td>Hingurakgoda MOH</td></tr><tr><td style=\"white-space:nowrap\">moh300<a name=\"lk-core-moh-area-cs-moh300\"> </a></td><td>Lankapura MOH</td></tr><tr><td style=\"white-space:nowrap\">moh301<a name=\"lk-core-moh-area-cs-moh301\"> </a></td><td>Medirigiriya MOH</td></tr><tr><td style=\"white-space:nowrap\">moh302<a name=\"lk-core-moh-area-cs-moh302\"> </a></td><td>Siripura MOH</td></tr><tr><td style=\"white-space:nowrap\">moh303<a name=\"lk-core-moh-area-cs-moh303\"> </a></td><td>Thamankaduwa MOH</td></tr><tr><td style=\"white-space:nowrap\">moh304<a name=\"lk-core-moh-area-cs-moh304\"> </a></td><td>Welikanda MOH</td></tr><tr><td style=\"white-space:nowrap\">moh305<a name=\"lk-core-moh-area-cs-moh305\"> </a></td><td>Anamaduwa MOH</td></tr><tr><td style=\"white-space:nowrap\">moh306<a name=\"lk-core-moh-area-cs-moh306\"> </a></td><td>Arachchikattuwa MOH</td></tr><tr><td style=\"white-space:nowrap\">moh307<a name=\"lk-core-moh-area-cs-moh307\"> </a></td><td>Chilaw MOH</td></tr><tr><td style=\"white-space:nowrap\">moh308<a name=\"lk-core-moh-area-cs-moh308\"> </a></td><td>Dankotuwa MOH</td></tr><tr><td style=\"white-space:nowrap\">moh309<a name=\"lk-core-moh-area-cs-moh309\"> </a></td><td>Kalpitiya MOH</td></tr><tr><td style=\"white-space:nowrap\">moh310<a name=\"lk-core-moh-area-cs-moh310\"> </a></td><td>Karuwalagaswewa MOH</td></tr><tr><td style=\"white-space:nowrap\">moh311<a name=\"lk-core-moh-area-cs-moh311\"> </a></td><td>Madampe MOH</td></tr><tr><td style=\"white-space:nowrap\">moh312<a name=\"lk-core-moh-area-cs-moh312\"> </a></td><td>Mahawewa MOH</td></tr><tr><td style=\"white-space:nowrap\">moh313<a name=\"lk-core-moh-area-cs-moh313\"> </a></td><td>Mundalama MOH</td></tr><tr><td style=\"white-space:nowrap\">moh314<a name=\"lk-core-moh-area-cs-moh314\"> </a></td><td>Nattandiya MOH</td></tr><tr><td style=\"white-space:nowrap\">moh315<a name=\"lk-core-moh-area-cs-moh315\"> </a></td><td>Nawagarththegama MOH</td></tr><tr><td style=\"white-space:nowrap\">moh316<a name=\"lk-core-moh-area-cs-moh316\"> </a></td><td>Pallama MOH</td></tr><tr><td style=\"white-space:nowrap\">moh317<a name=\"lk-core-moh-area-cs-moh317\"> </a></td><td>Puttalam MOH</td></tr><tr><td style=\"white-space:nowrap\">moh318<a name=\"lk-core-moh-area-cs-moh318\"> </a></td><td>Wanathawilluwa MOH</td></tr><tr><td style=\"white-space:nowrap\">moh319<a name=\"lk-core-moh-area-cs-moh319\"> </a></td><td>Wennappuwa MOH</td></tr><tr><td style=\"white-space:nowrap\">moh320<a name=\"lk-core-moh-area-cs-moh320\"> </a></td><td>Ayagama MOH</td></tr><tr><td style=\"white-space:nowrap\">moh321<a name=\"lk-core-moh-area-cs-moh321\"> </a></td><td>Balangoda MOH</td></tr><tr><td style=\"white-space:nowrap\">moh322<a name=\"lk-core-moh-area-cs-moh322\"> </a></td><td>Eheliyagoda MOH</td></tr><tr><td style=\"white-space:nowrap\">moh323<a name=\"lk-core-moh-area-cs-moh323\"> </a></td><td>Elapatha MOH</td></tr><tr><td style=\"white-space:nowrap\">moh324<a name=\"lk-core-moh-area-cs-moh324\"> </a></td><td>Embilipitiya MOH</td></tr><tr><td style=\"white-space:nowrap\">moh325<a name=\"lk-core-moh-area-cs-moh325\"> </a></td><td>Godakawela MOH</td></tr><tr><td style=\"white-space:nowrap\">moh326<a name=\"lk-core-moh-area-cs-moh326\"> </a></td><td>Imbulpe MOH</td></tr><tr><td style=\"white-space:nowrap\">moh327<a name=\"lk-core-moh-area-cs-moh327\"> </a></td><td>Kahawatta MOH</td></tr><tr><td style=\"white-space:nowrap\">moh328<a name=\"lk-core-moh-area-cs-moh328\"> </a></td><td>Kalawana MOH</td></tr><tr><td style=\"white-space:nowrap\">moh329<a name=\"lk-core-moh-area-cs-moh329\"> </a></td><td>Kiriella MOH</td></tr><tr><td style=\"white-space:nowrap\">moh330<a name=\"lk-core-moh-area-cs-moh330\"> </a></td><td>Kolonna MOH</td></tr><tr><td style=\"white-space:nowrap\">moh331<a name=\"lk-core-moh-area-cs-moh331\"> </a></td><td>Kuruvita MOH</td></tr><tr><td style=\"white-space:nowrap\">moh332<a name=\"lk-core-moh-area-cs-moh332\"> </a></td><td>Nivithigala MOH</td></tr><tr><td style=\"white-space:nowrap\">moh333<a name=\"lk-core-moh-area-cs-moh333\"> </a></td><td>Openayaka MOH</td></tr><tr><td style=\"white-space:nowrap\">moh334<a name=\"lk-core-moh-area-cs-moh334\"> </a></td><td>Pelmadulla MOH</td></tr><tr><td style=\"white-space:nowrap\">moh335<a name=\"lk-core-moh-area-cs-moh335\"> </a></td><td>Rathnapura MC MOH</td></tr><tr><td style=\"white-space:nowrap\">moh336<a name=\"lk-core-moh-area-cs-moh336\"> </a></td><td>Ratnapura MOH</td></tr><tr><td style=\"white-space:nowrap\">moh337<a name=\"lk-core-moh-area-cs-moh337\"> </a></td><td>Weligepola MOH</td></tr><tr><td style=\"white-space:nowrap\">moh338<a name=\"lk-core-moh-area-cs-moh338\"> </a></td><td>Gomarankadavala MOH</td></tr><tr><td style=\"white-space:nowrap\">moh339<a name=\"lk-core-moh-area-cs-moh339\"> </a></td><td>Ichchilampathai MOH</td></tr><tr><td style=\"white-space:nowrap\">moh340<a name=\"lk-core-moh-area-cs-moh340\"> </a></td><td>Kantalai MOH</td></tr><tr><td style=\"white-space:nowrap\">moh341<a name=\"lk-core-moh-area-cs-moh341\"> </a></td><td>Kinniya MOH</td></tr><tr><td style=\"white-space:nowrap\">moh342<a name=\"lk-core-moh-area-cs-moh342\"> </a></td><td>Kuchchavelly MOH</td></tr><tr><td style=\"white-space:nowrap\">moh343<a name=\"lk-core-moh-area-cs-moh343\"> </a></td><td>Muthur MOH</td></tr><tr><td style=\"white-space:nowrap\">moh344<a name=\"lk-core-moh-area-cs-moh344\"> </a></td><td>Padavisripura MOH</td></tr><tr><td style=\"white-space:nowrap\">moh345<a name=\"lk-core-moh-area-cs-moh345\"> </a></td><td>Seruwila MOH</td></tr><tr><td style=\"white-space:nowrap\">moh346<a name=\"lk-core-moh-area-cs-moh346\"> </a></td><td>Thampalakamam MOH</td></tr><tr><td style=\"white-space:nowrap\">moh347<a name=\"lk-core-moh-area-cs-moh347\"> </a></td><td>Trincomalee MOH</td></tr><tr><td style=\"white-space:nowrap\">moh348<a name=\"lk-core-moh-area-cs-moh348\"> </a></td><td>Uppuveli MOH</td></tr><tr><td style=\"white-space:nowrap\">moh349<a name=\"lk-core-moh-area-cs-moh349\"> </a></td><td>Cheddikulam MOH</td></tr><tr><td style=\"white-space:nowrap\">moh350<a name=\"lk-core-moh-area-cs-moh350\"> </a></td><td>Vavuniya MOH</td></tr><tr><td style=\"white-space:nowrap\">moh351<a name=\"lk-core-moh-area-cs-moh351\"> </a></td><td>Vavuniya North MOH</td></tr><tr><td style=\"white-space:nowrap\">moh352<a name=\"lk-core-moh-area-cs-moh352\"> </a></td><td>Vavuniya South MOH</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://fhir.health.gov.lk/CodeSystem/lk-core-moh-area-cs"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "LKCoreMOHAreaCS"] ; # 
+  fhir:title [ fhir:v "LK Core MOH Area Code System"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:date [ fhir:v "2023-08-11T10:37:20+05:30"^^xsd:dateTime] ; # 
+  fhir:description [ fhir:v "LK Core MOH Area Code System"] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "352"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "moh001" ] ;
+     fhir:display [ fhir:v "Beruwala MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh002" ] ;
+     fhir:display [ fhir:v "Kalutara MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh003" ] ;
+     fhir:display [ fhir:v "Galenbindunuwewa MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh004" ] ;
+     fhir:display [ fhir:v "Galkiriyagama (Palagala) MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh005" ] ;
+     fhir:display [ fhir:v "Galnewa MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh006" ] ;
+     fhir:display [ fhir:v "Horowpothana MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh007" ] ;
+     fhir:display [ fhir:v "Ipalogama MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh008" ] ;
+     fhir:display [ fhir:v "Kahatagasdigiliya MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh009" ] ;
+     fhir:display [ fhir:v "Kebithigollewa MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh010" ] ;
+     fhir:display [ fhir:v "Kekirawa MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh011" ] ;
+     fhir:display [ fhir:v "Medawachchiya MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh012" ] ;
+     fhir:display [ fhir:v "Mihinthale MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh013" ] ;
+     fhir:display [ fhir:v "Nachchiyadoowa MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh014" ] ;
+     fhir:display [ fhir:v "Nochchiyagama MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh015" ] ;
+     fhir:display [ fhir:v "Nuwaragam Palatha Central MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh016" ] ;
+     fhir:display [ fhir:v "Nuwaragam Palatha East MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh017" ] ;
+     fhir:display [ fhir:v "Padaviya MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh018" ] ;
+     fhir:display [ fhir:v "Palugaswewa MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh019" ] ;
+     fhir:display [ fhir:v "Rajanganaya MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh020" ] ;
+     fhir:display [ fhir:v "Rambewa MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh021" ] ;
+     fhir:display [ fhir:v "Thalawa MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh022" ] ;
+     fhir:display [ fhir:v "Thambuttegama MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh023" ] ;
+     fhir:display [ fhir:v "Thirappane MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh024" ] ;
+     fhir:display [ fhir:v "Wilachchiya MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh025" ] ;
+     fhir:display [ fhir:v "Ampara MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh026" ] ;
+     fhir:display [ fhir:v "Damana MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh027" ] ;
+     fhir:display [ fhir:v "Dehiattakandiya MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh028" ] ;
+     fhir:display [ fhir:v "Lahugala MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh029" ] ;
+     fhir:display [ fhir:v "Maha Oya MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh030" ] ;
+     fhir:display [ fhir:v "Padiyatalawa MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh031" ] ;
+     fhir:display [ fhir:v "Uhana MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh032" ] ;
+     fhir:display [ fhir:v "Arayampathy MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh033" ] ;
+     fhir:display [ fhir:v "Batticoloa MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh034" ] ;
+     fhir:display [ fhir:v "Chenkalady MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh035" ] ;
+     fhir:display [ fhir:v "Eravur MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh036" ] ;
+     fhir:display [ fhir:v "Kalawanchikudy MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh037" ] ;
+     fhir:display [ fhir:v "Katankudy MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh038" ] ;
+     fhir:display [ fhir:v "Kiran MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh039" ] ;
+     fhir:display [ fhir:v "Koralaipattu Central MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh040" ] ;
+     fhir:display [ fhir:v "Oddamavadi MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh041" ] ;
+     fhir:display [ fhir:v "Paddipallai MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh042" ] ;
+     fhir:display [ fhir:v "Vakarai MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh043" ] ;
+     fhir:display [ fhir:v "Valaichcheni MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh044" ] ;
+     fhir:display [ fhir:v "Vavunativu MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh045" ] ;
+     fhir:display [ fhir:v "Vellavelly MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh046" ] ;
+     fhir:display [ fhir:v "Badulla MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh047" ] ;
+     fhir:display [ fhir:v "Bandarawela MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh048" ] ;
+     fhir:display [ fhir:v "Ella MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh049" ] ;
+     fhir:display [ fhir:v "Girandurukotte MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh050" ] ;
+     fhir:display [ fhir:v "Haldummulla MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh051" ] ;
+     fhir:display [ fhir:v "Hali-Ela MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh052" ] ;
+     fhir:display [ fhir:v "Haputale MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh053" ] ;
+     fhir:display [ fhir:v "Kandaketiya MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh054" ] ;
+     fhir:display [ fhir:v "Lunugala MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh055" ] ;
+     fhir:display [ fhir:v "Mahiyanganaya MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh056" ] ;
+     fhir:display [ fhir:v "Meegahakivula MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh057" ] ;
+     fhir:display [ fhir:v "Passara MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh058" ] ;
+     fhir:display [ fhir:v "Rideemaliyadda MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh059" ] ;
+     fhir:display [ fhir:v "Soranathota MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh060" ] ;
+     fhir:display [ fhir:v "Uva Paranagama MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh061" ] ;
+     fhir:display [ fhir:v "Welimada MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh062" ] ;
+     fhir:display [ fhir:v "Baththaramulla MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh063" ] ;
+     fhir:display [ fhir:v "Boralesgamuwa MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh064" ] ;
+     fhir:display [ fhir:v "Colombo MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh065" ] ;
+     fhir:display [ fhir:v "Dehiwala MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh066" ] ;
+     fhir:display [ fhir:v "Hanwella MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh067" ] ;
+     fhir:display [ fhir:v "Homagama MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh068" ] ;
+     fhir:display [ fhir:v "Kaduwela MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh069" ] ;
+     fhir:display [ fhir:v "Kahathuduwa MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh070" ] ;
+     fhir:display [ fhir:v "Kolonnawa MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh071" ] ;
+     fhir:display [ fhir:v "Maharagama MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh072" ] ;
+     fhir:display [ fhir:v "Moratuwa MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh073" ] ;
+     fhir:display [ fhir:v "Nugegoda MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh074" ] ;
+     fhir:display [ fhir:v "Padukka MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh075" ] ;
+     fhir:display [ fhir:v "Piliyandala (Kesbewa) MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh076" ] ;
+     fhir:display [ fhir:v "Pitakotte (Kotte) MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh077" ] ;
+     fhir:display [ fhir:v "Rathmalana MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh078" ] ;
+     fhir:display [ fhir:v "Akmeemana MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh079" ] ;
+     fhir:display [ fhir:v "Ambalangoda MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh080" ] ;
+     fhir:display [ fhir:v "Baddegama MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh081" ] ;
+     fhir:display [ fhir:v "Balapitiya MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh082" ] ;
+     fhir:display [ fhir:v "Bentota (Induruwa) MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh083" ] ;
+     fhir:display [ fhir:v "Bope - Poddala MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh084" ] ;
+     fhir:display [ fhir:v "Elpitiya MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh085" ] ;
+     fhir:display [ fhir:v "Galle MC MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh086" ] ;
+     fhir:display [ fhir:v "Gonapinuwala MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh087" ] ;
+     fhir:display [ fhir:v "Habaraduwa MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh088" ] ;
+     fhir:display [ fhir:v "Hikkaduwa MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh089" ] ;
+     fhir:display [ fhir:v "Imaduwa MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh090" ] ;
+     fhir:display [ fhir:v "Karandeniya MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh091" ] ;
+     fhir:display [ fhir:v "Nagoda (Udugama) MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh092" ] ;
+     fhir:display [ fhir:v "Neluwa MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh093" ] ;
+     fhir:display [ fhir:v "Niyagama MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh094" ] ;
+     fhir:display [ fhir:v "Rathganga MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh095" ] ;
+     fhir:display [ fhir:v "Thawalama MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh096" ] ;
+     fhir:display [ fhir:v "Walivitiya (Divithura) MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh097" ] ;
+     fhir:display [ fhir:v "Yakkalamulla MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh098" ] ;
+     fhir:display [ fhir:v "Attanagalla MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh099" ] ;
+     fhir:display [ fhir:v "Biyagama MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh100" ] ;
+     fhir:display [ fhir:v "Divulapitiya MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh101" ] ;
+     fhir:display [ fhir:v "Gampaha MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh102" ] ;
+     fhir:display [ fhir:v "Ja-Ela MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh103" ] ;
+     fhir:display [ fhir:v "Katana MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh104" ] ;
+     fhir:display [ fhir:v "Katunayake (BOI) MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh105" ] ;
+     fhir:display [ fhir:v "Kelaniya MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh106" ] ;
+     fhir:display [ fhir:v "Mahara MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh107" ] ;
+     fhir:display [ fhir:v "Minuwangoda MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh108" ] ;
+     fhir:display [ fhir:v "Mirigama MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh109" ] ;
+     fhir:display [ fhir:v "Negombo MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh110" ] ;
+     fhir:display [ fhir:v "Pugoda (Dompe) MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh111" ] ;
+     fhir:display [ fhir:v "Ragama MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh112" ] ;
+     fhir:display [ fhir:v "Seeduwa MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh113" ] ;
+     fhir:display [ fhir:v "Wattala MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh114" ] ;
+     fhir:display [ fhir:v "Ambalanthota MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh115" ] ;
+     fhir:display [ fhir:v "Angunakolapelessa MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh116" ] ;
+     fhir:display [ fhir:v "Beliatta MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh117" ] ;
+     fhir:display [ fhir:v "Hambantota MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh118" ] ;
+     fhir:display [ fhir:v "Katuwana MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh119" ] ;
+     fhir:display [ fhir:v "Lunugamvehera MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh120" ] ;
+     fhir:display [ fhir:v "Okewela MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh121" ] ;
+     fhir:display [ fhir:v "Sooriyawewa MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh122" ] ;
+     fhir:display [ fhir:v "Tangalle MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh123" ] ;
+     fhir:display [ fhir:v "Thissamaharama MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh124" ] ;
+     fhir:display [ fhir:v "Walasmulla MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh125" ] ;
+     fhir:display [ fhir:v "Weeraketiya MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh126" ] ;
+     fhir:display [ fhir:v "Ampan (Point Pedro) MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh127" ] ;
+     fhir:display [ fhir:v "Chankanai - Walikamam West MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh128" ] ;
+     fhir:display [ fhir:v "Chavakachchari MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh129" ] ;
+     fhir:display [ fhir:v "Jaffna MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh130" ] ;
+     fhir:display [ fhir:v "Karaveddy MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh131" ] ;
+     fhir:display [ fhir:v "Kayts MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh132" ] ;
+     fhir:display [ fhir:v "Kopay MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh133" ] ;
+     fhir:display [ fhir:v "Nallur MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh134" ] ;
+     fhir:display [ fhir:v "Sandilipay MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh135" ] ;
+     fhir:display [ fhir:v "Telippalai MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh136" ] ;
+     fhir:display [ fhir:v "Uduvil MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh137" ] ;
+     fhir:display [ fhir:v "Velanai (Island South) MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh138" ] ;
+     fhir:display [ fhir:v "Aranayaka MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh139" ] ;
+     fhir:display [ fhir:v "Bulathkohupitiya MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh140" ] ;
+     fhir:display [ fhir:v "Dehiovita MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh141" ] ;
+     fhir:display [ fhir:v "Deraniyagala MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh142" ] ;
+     fhir:display [ fhir:v "Galigamuwa MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh143" ] ;
+     fhir:display [ fhir:v "Kegalle MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh144" ] ;
+     fhir:display [ fhir:v "Mawanella MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh145" ] ;
+     fhir:display [ fhir:v "Rambukkana MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh146" ] ;
+     fhir:display [ fhir:v "Ruwanwella MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh147" ] ;
+     fhir:display [ fhir:v "Warakapola MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh148" ] ;
+     fhir:display [ fhir:v "Yatiyanthota MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh149" ] ;
+     fhir:display [ fhir:v "Alawwa MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh150" ] ;
+     fhir:display [ fhir:v "Ambanpola MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh151" ] ;
+     fhir:display [ fhir:v "Bamunukotuwa MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh152" ] ;
+     fhir:display [ fhir:v "Bingiriya MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh153" ] ;
+     fhir:display [ fhir:v "Galgamuwa MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh154" ] ;
+     fhir:display [ fhir:v "Ganewatta MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh155" ] ;
+     fhir:display [ fhir:v "Giribawa MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh156" ] ;
+     fhir:display [ fhir:v "Ibbagamuwa (Gokarella) MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh157" ] ;
+     fhir:display [ fhir:v "Kobeigane MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh158" ] ;
+     fhir:display [ fhir:v "Kotawehera MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh159" ] ;
+     fhir:display [ fhir:v "Kuliyapitiya East MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh160" ] ;
+     fhir:display [ fhir:v "Kuliyapitiya West MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh161" ] ;
+     fhir:display [ fhir:v "Kurunegala MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh162" ] ;
+     fhir:display [ fhir:v "Kurunegala MC MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh163" ] ;
+     fhir:display [ fhir:v "Maho MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh164" ] ;
+     fhir:display [ fhir:v "Mallawapitiya MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh165" ] ;
+     fhir:display [ fhir:v "Maspotha MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh166" ] ;
+     fhir:display [ fhir:v "Mawathagama MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh167" ] ;
+     fhir:display [ fhir:v "Narammala MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh168" ] ;
+     fhir:display [ fhir:v "Nikaweratiya MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh169" ] ;
+     fhir:display [ fhir:v "Paduwasnuwara West MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh170" ] ;
+     fhir:display [ fhir:v "Panduwasnuwara East MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh171" ] ;
+     fhir:display [ fhir:v "Pannala MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh172" ] ;
+     fhir:display [ fhir:v "Polgahawela MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh173" ] ;
+     fhir:display [ fhir:v "Polpithigama MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh174" ] ;
+     fhir:display [ fhir:v "Rasnayakapura MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh175" ] ;
+     fhir:display [ fhir:v "Rideegama MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh176" ] ;
+     fhir:display [ fhir:v "Udubaddawa MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh177" ] ;
+     fhir:display [ fhir:v "Wariyapola MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh178" ] ;
+     fhir:display [ fhir:v "Weerabugedara MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh179" ] ;
+     fhir:display [ fhir:v "Addalachchenai MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh180" ] ;
+     fhir:display [ fhir:v "Akkaraipathu MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh181" ] ;
+     fhir:display [ fhir:v "Alayadivembu MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh182" ] ;
+     fhir:display [ fhir:v "Irakkamam MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh183" ] ;
+     fhir:display [ fhir:v "Kalmunai North MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh184" ] ;
+     fhir:display [ fhir:v "Kalmunai South MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh185" ] ;
+     fhir:display [ fhir:v "Karaitivu MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh186" ] ;
+     fhir:display [ fhir:v "Navithanveli MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh187" ] ;
+     fhir:display [ fhir:v "Ninthavur MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh188" ] ;
+     fhir:display [ fhir:v "Pottuvil MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh189" ] ;
+     fhir:display [ fhir:v "Sainthamaruthu MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh190" ] ;
+     fhir:display [ fhir:v "Sammanthurai MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh191" ] ;
+     fhir:display [ fhir:v "Thirukkovil MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh192" ] ;
+     fhir:display [ fhir:v "Kandawalai MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh193" ] ;
+     fhir:display [ fhir:v "Karachchi (Kilinochchci) MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh194" ] ;
+     fhir:display [ fhir:v "Pallai MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh195" ] ;
+     fhir:display [ fhir:v "Poonakery MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh196" ] ;
+     fhir:display [ fhir:v "Agalawatta MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh197" ] ;
+     fhir:display [ fhir:v "Bandaragama MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh198" ] ;
+     fhir:display [ fhir:v "Bulathsinhala MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh199" ] ;
+     fhir:display [ fhir:v "Dodangoda MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh200" ] ;
+     fhir:display [ fhir:v "Horana MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh201" ] ;
+     fhir:display [ fhir:v "Ingiriya MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh202" ] ;
+     fhir:display [ fhir:v "Madurawala MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh203" ] ;
+     fhir:display [ fhir:v "Mathugama MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh204" ] ;
+     fhir:display [ fhir:v "Millaniya MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh205" ] ;
+     fhir:display [ fhir:v "Palindanuwara MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh206" ] ;
+     fhir:display [ fhir:v "Panadura MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh207" ] ;
+     fhir:display [ fhir:v "Wadduwa MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh208" ] ;
+     fhir:display [ fhir:v "Walallawita MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh209" ] ;
+     fhir:display [ fhir:v "Akurana MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh210" ] ;
+     fhir:display [ fhir:v "Bambaradeniya MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh211" ] ;
+     fhir:display [ fhir:v "Doluwa MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh212" ] ;
+     fhir:display [ fhir:v "Galagedara MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh213" ] ;
+     fhir:display [ fhir:v "Galaha MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh214" ] ;
+     fhir:display [ fhir:v "Gampola (Udapalatha) MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh215" ] ;
+     fhir:display [ fhir:v "Gangawata Korale MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh216" ] ;
+     fhir:display [ fhir:v "Hasalaka MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh217" ] ;
+     fhir:display [ fhir:v "Hatharaliyadda MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh218" ] ;
+     fhir:display [ fhir:v "Kandy MC MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh219" ] ;
+     fhir:display [ fhir:v "Kundasale MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh220" ] ;
+     fhir:display [ fhir:v "Kurunduwaththa (Gangaihala) MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh221" ] ;
+     fhir:display [ fhir:v "Medadumbara (Medamahanuwara) MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh222" ] ;
+     fhir:display [ fhir:v "Menikhinna MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh223" ] ;
+     fhir:display [ fhir:v "Panvila MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh224" ] ;
+     fhir:display [ fhir:v "Pasbage (Nawalapitiya) MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh225" ] ;
+     fhir:display [ fhir:v "Poojapitiya MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh226" ] ;
+     fhir:display [ fhir:v "Thalathuoya MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh227" ] ;
+     fhir:display [ fhir:v "Udadumbara MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh228" ] ;
+     fhir:display [ fhir:v "Udunuwara MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh229" ] ;
+     fhir:display [ fhir:v "Waththegama (Pathadumbara) MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh230" ] ;
+     fhir:display [ fhir:v "Werellagama (Harispattuwa) MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh231" ] ;
+     fhir:display [ fhir:v "Yatinuwara (Kadugannawa) MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh232" ] ;
+     fhir:display [ fhir:v "Badalkumbura MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh233" ] ;
+     fhir:display [ fhir:v "Bibile MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh234" ] ;
+     fhir:display [ fhir:v "Buttala MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh235" ] ;
+     fhir:display [ fhir:v "Kataragama MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh236" ] ;
+     fhir:display [ fhir:v "Madulla MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh237" ] ;
+     fhir:display [ fhir:v "Medagama MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh238" ] ;
+     fhir:display [ fhir:v "Moneragala MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh239" ] ;
+     fhir:display [ fhir:v "Sevanagala MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh240" ] ;
+     fhir:display [ fhir:v "Siyambalanduwa MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh241" ] ;
+     fhir:display [ fhir:v "Thanamalwila MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh242" ] ;
+     fhir:display [ fhir:v "Wellawaya MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh243" ] ;
+     fhir:display [ fhir:v "Mallavi MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh244" ] ;
+     fhir:display [ fhir:v "Manthai East MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh245" ] ;
+     fhir:display [ fhir:v "Mullaitivu MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh246" ] ;
+     fhir:display [ fhir:v "Oddusudan MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh247" ] ;
+     fhir:display [ fhir:v "Puthukkudyiruppu MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh248" ] ;
+     fhir:display [ fhir:v "Welioya MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh249" ] ;
+     fhir:display [ fhir:v "Adampan MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh250" ] ;
+     fhir:display [ fhir:v "Madhu MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh251" ] ;
+     fhir:display [ fhir:v "Mannar MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh252" ] ;
+     fhir:display [ fhir:v "Murunkan MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh253" ] ;
+     fhir:display [ fhir:v "Musali MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh254" ] ;
+     fhir:display [ fhir:v "Akuressa MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh255" ] ;
+     fhir:display [ fhir:v "Athuraliya MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh256" ] ;
+     fhir:display [ fhir:v "Deniyaya (Kotapola) MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh257" ] ;
+     fhir:display [ fhir:v "Devinuwara MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh258" ] ;
+     fhir:display [ fhir:v "Dickwella MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh259" ] ;
+     fhir:display [ fhir:v "Hakmana MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh260" ] ;
+     fhir:display [ fhir:v "Kamburupitiya MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh261" ] ;
+     fhir:display [ fhir:v "Kirinda-Puhulwella MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh262" ] ;
+     fhir:display [ fhir:v "Malimbada MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh263" ] ;
+     fhir:display [ fhir:v "Matara MC MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh264" ] ;
+     fhir:display [ fhir:v "Matara PS Kekanadura MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh265" ] ;
+     fhir:display [ fhir:v "Morawaka MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh266" ] ;
+     fhir:display [ fhir:v "Mulatiyana MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh267" ] ;
+     fhir:display [ fhir:v "Pasgoda (Urubokka) MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh268" ] ;
+     fhir:display [ fhir:v "Thihagoda MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh269" ] ;
+     fhir:display [ fhir:v "Weligama MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh270" ] ;
+     fhir:display [ fhir:v "Welipitiya MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh271" ] ;
+     fhir:display [ fhir:v "Ambanganga Korale MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh272" ] ;
+     fhir:display [ fhir:v "Dambulla MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh273" ] ;
+     fhir:display [ fhir:v "Dambulla MC MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh274" ] ;
+     fhir:display [ fhir:v "Galewela MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh275" ] ;
+     fhir:display [ fhir:v "Laggala-Pallegama MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh276" ] ;
+     fhir:display [ fhir:v "Matale MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh277" ] ;
+     fhir:display [ fhir:v "Matale MC MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh278" ] ;
+     fhir:display [ fhir:v "Naula MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh279" ] ;
+     fhir:display [ fhir:v "Pallepola MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh280" ] ;
+     fhir:display [ fhir:v "Rattota MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh281" ] ;
+     fhir:display [ fhir:v "Ukuwela MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh282" ] ;
+     fhir:display [ fhir:v "Wilgamuwa MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh283" ] ;
+     fhir:display [ fhir:v "Yatawatta MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh284" ] ;
+     fhir:display [ fhir:v "Ambagamuwa (Ginigathhena) MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh285" ] ;
+     fhir:display [ fhir:v "Bogawanthalawa MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh286" ] ;
+     fhir:display [ fhir:v "Kotagala MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh287" ] ;
+     fhir:display [ fhir:v "Kothmale MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh288" ] ;
+     fhir:display [ fhir:v "Lidula (Thalawakale) MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh289" ] ;
+     fhir:display [ fhir:v "Maskeliya MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh290" ] ;
+     fhir:display [ fhir:v "Maturata MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh291" ] ;
+     fhir:display [ fhir:v "Nawathispane MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh292" ] ;
+     fhir:display [ fhir:v "Nuwara Eliya MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh293" ] ;
+     fhir:display [ fhir:v "Nuwara Eliya MC MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh294" ] ;
+     fhir:display [ fhir:v "Ragala MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh295" ] ;
+     fhir:display [ fhir:v "Rikillagaskada (Hanguranketha) MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh296" ] ;
+     fhir:display [ fhir:v "Walapane MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh297" ] ;
+     fhir:display [ fhir:v "Bakamuna (Elahera) MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh298" ] ;
+     fhir:display [ fhir:v "Dimbulagala MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh299" ] ;
+     fhir:display [ fhir:v "Hingurakgoda MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh300" ] ;
+     fhir:display [ fhir:v "Lankapura MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh301" ] ;
+     fhir:display [ fhir:v "Medirigiriya MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh302" ] ;
+     fhir:display [ fhir:v "Siripura MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh303" ] ;
+     fhir:display [ fhir:v "Thamankaduwa MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh304" ] ;
+     fhir:display [ fhir:v "Welikanda MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh305" ] ;
+     fhir:display [ fhir:v "Anamaduwa MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh306" ] ;
+     fhir:display [ fhir:v "Arachchikattuwa MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh307" ] ;
+     fhir:display [ fhir:v "Chilaw MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh308" ] ;
+     fhir:display [ fhir:v "Dankotuwa MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh309" ] ;
+     fhir:display [ fhir:v "Kalpitiya MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh310" ] ;
+     fhir:display [ fhir:v "Karuwalagaswewa MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh311" ] ;
+     fhir:display [ fhir:v "Madampe MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh312" ] ;
+     fhir:display [ fhir:v "Mahawewa MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh313" ] ;
+     fhir:display [ fhir:v "Mundalama MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh314" ] ;
+     fhir:display [ fhir:v "Nattandiya MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh315" ] ;
+     fhir:display [ fhir:v "Nawagarththegama MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh316" ] ;
+     fhir:display [ fhir:v "Pallama MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh317" ] ;
+     fhir:display [ fhir:v "Puttalam MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh318" ] ;
+     fhir:display [ fhir:v "Wanathawilluwa MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh319" ] ;
+     fhir:display [ fhir:v "Wennappuwa MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh320" ] ;
+     fhir:display [ fhir:v "Ayagama MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh321" ] ;
+     fhir:display [ fhir:v "Balangoda MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh322" ] ;
+     fhir:display [ fhir:v "Eheliyagoda MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh323" ] ;
+     fhir:display [ fhir:v "Elapatha MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh324" ] ;
+     fhir:display [ fhir:v "Embilipitiya MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh325" ] ;
+     fhir:display [ fhir:v "Godakawela MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh326" ] ;
+     fhir:display [ fhir:v "Imbulpe MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh327" ] ;
+     fhir:display [ fhir:v "Kahawatta MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh328" ] ;
+     fhir:display [ fhir:v "Kalawana MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh329" ] ;
+     fhir:display [ fhir:v "Kiriella MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh330" ] ;
+     fhir:display [ fhir:v "Kolonna MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh331" ] ;
+     fhir:display [ fhir:v "Kuruvita MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh332" ] ;
+     fhir:display [ fhir:v "Nivithigala MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh333" ] ;
+     fhir:display [ fhir:v "Openayaka MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh334" ] ;
+     fhir:display [ fhir:v "Pelmadulla MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh335" ] ;
+     fhir:display [ fhir:v "Rathnapura MC MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh336" ] ;
+     fhir:display [ fhir:v "Ratnapura MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh337" ] ;
+     fhir:display [ fhir:v "Weligepola MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh338" ] ;
+     fhir:display [ fhir:v "Gomarankadavala MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh339" ] ;
+     fhir:display [ fhir:v "Ichchilampathai MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh340" ] ;
+     fhir:display [ fhir:v "Kantalai MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh341" ] ;
+     fhir:display [ fhir:v "Kinniya MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh342" ] ;
+     fhir:display [ fhir:v "Kuchchavelly MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh343" ] ;
+     fhir:display [ fhir:v "Muthur MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh344" ] ;
+     fhir:display [ fhir:v "Padavisripura MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh345" ] ;
+     fhir:display [ fhir:v "Seruwila MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh346" ] ;
+     fhir:display [ fhir:v "Thampalakamam MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh347" ] ;
+     fhir:display [ fhir:v "Trincomalee MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh348" ] ;
+     fhir:display [ fhir:v "Uppuveli MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh349" ] ;
+     fhir:display [ fhir:v "Cheddikulam MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh350" ] ;
+     fhir:display [ fhir:v "Vavuniya MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh351" ] ;
+     fhir:display [ fhir:v "Vavuniya North MOH" ]
+  ] [
+     fhir:code [ fhir:v "moh352" ] ;
+     fhir:display [ fhir:v "Vavuniya South MOH" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

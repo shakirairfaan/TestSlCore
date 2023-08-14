@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="lk-core-institution-type-vs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-lk-core-institution-type-cs.html"><code>http://fhir.health.gov.lk/CodeSystem/lk-core-institution-type-cs</code></a></li></ul></div>
+  </text>
+  <url value="http://fhir.health.gov.lk/ValueSet/lk-core-institution-type-vs"/>
+  <version value="0.1.0"/>
+  <name value="LKCoreInstitutionTypeVS"/>
+  <title value="LK Core Institution Type Value Set"/>
+  <status value="draft"/>
+  <date value="2023-08-11T10:37:20+05:30"/>
+  <description value="LK Core Institution Type Value Set"/>
+  <compose>
+    <include>
+      <system value="http://fhir.health.gov.lk/CodeSystem/lk-core-institution-type-cs"/>
+    </include>
+  </compose>
+</ValueSet>

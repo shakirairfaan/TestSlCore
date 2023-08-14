@@ -1,0 +1,31 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.health.gov.lk/CodeSystem/lk-core-allergyintolerance-code-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "lk-core-allergyintolerance-code-cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://fhir.health.gov.lk/CodeSystem/allergy-intolerance-code-cs</code> defines the following code:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">Sub-1<a name=\"lk-core-allergyintolerance-code-cs-Sub-1\"> </a></td><td>Example substance</td><td>Level 1 is the bottom level, below the lower edge of the pectoralis minor muscle.</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://fhir.health.gov.lk/CodeSystem/allergy-intolerance-code-cs"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "LKCoreAllergyIntoleranceCodeCS"] ; # 
+  fhir:title [ fhir:v "LK Core Allergy Intolerance Code System"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:date [ fhir:v "2023-08-11T10:37:20+05:30"^^xsd:dateTime] ; # 
+  fhir:description [ fhir:v "Substances, medciations and other allergens for Sri Lanka"] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "1"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "Sub-1" ] ;
+     fhir:display [ fhir:v "Example substance" ] ;
+     fhir:definition [ fhir:v "Level 1 is the bottom level, below the lower edge of the pectoralis minor muscle." ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

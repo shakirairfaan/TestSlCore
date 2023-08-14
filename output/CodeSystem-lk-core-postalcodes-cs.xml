@@ -1,0 +1,921 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="lk-core-postalcodes-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>http://fhir.health.gov.lk/CodeSystem/lk-core-postalcodes-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">100<a name="lk-core-postalcodes-cs-100"> </a></td><td>Colombo 02-Colombo</td></tr><tr><td style="white-space:nowrap">200<a name="lk-core-postalcodes-cs-200"> </a></td><td>Colombo 03-Colombo</td></tr><tr><td style="white-space:nowrap">300<a name="lk-core-postalcodes-cs-300"> </a></td><td>Colombo 04-Colombo</td></tr><tr><td style="white-space:nowrap">400<a name="lk-core-postalcodes-cs-400"> </a></td><td>Colombo 05-Colombo</td></tr><tr><td style="white-space:nowrap">500<a name="lk-core-postalcodes-cs-500"> </a></td><td>Colombo 06-Colombo</td></tr><tr><td style="white-space:nowrap">600<a name="lk-core-postalcodes-cs-600"> </a></td><td>Colombo 07-Colombo</td></tr><tr><td style="white-space:nowrap">700<a name="lk-core-postalcodes-cs-700"> </a></td><td>Colombo 08-Colombo</td></tr><tr><td style="white-space:nowrap">800<a name="lk-core-postalcodes-cs-800"> </a></td><td>Colombo 09-Colombo</td></tr><tr><td style="white-space:nowrap">900<a name="lk-core-postalcodes-cs-900"> </a></td><td>Colombo 10-Colombo</td></tr><tr><td style="white-space:nowrap">1000<a name="lk-core-postalcodes-cs-1000"> </a></td><td>Colombo 11-Colombo</td></tr><tr><td style="white-space:nowrap">1100<a name="lk-core-postalcodes-cs-1100"> </a></td><td>Colombo 12-Colombo</td></tr><tr><td style="white-space:nowrap">1200<a name="lk-core-postalcodes-cs-1200"> </a></td><td>Colombo 13-Colombo</td></tr><tr><td style="white-space:nowrap">1300<a name="lk-core-postalcodes-cs-1300"> </a></td><td>Colombo 14-Colombo</td></tr><tr><td style="white-space:nowrap">1400<a name="lk-core-postalcodes-cs-1400"> </a></td><td>Colombo 15-Colombo</td></tr><tr><td style="white-space:nowrap">1500<a name="lk-core-postalcodes-cs-1500"> </a></td><td>Akarawita-Colombo</td></tr><tr><td style="white-space:nowrap">10732<a name="lk-core-postalcodes-cs-10732"> </a></td><td>Athurugiriya-Colombo</td></tr><tr><td style="white-space:nowrap">10150<a name="lk-core-postalcodes-cs-10150"> </a></td><td>Avissawella-Colombo</td></tr><tr><td style="white-space:nowrap">10700<a name="lk-core-postalcodes-cs-10700"> </a></td><td>Batawala-Colombo</td></tr><tr><td style="white-space:nowrap">10513<a name="lk-core-postalcodes-cs-10513"> </a></td><td>Battaramulla-Colombo</td></tr><tr><td style="white-space:nowrap">10120<a name="lk-core-postalcodes-cs-10120"> </a></td><td>Batugampola-Colombo</td></tr><tr><td style="white-space:nowrap">10526<a name="lk-core-postalcodes-cs-10526"> </a></td><td>Bope-Colombo</td></tr><tr><td style="white-space:nowrap">10522<a name="lk-core-postalcodes-cs-10522"> </a></td><td>Boralesgamuwa-Colombo</td></tr><tr><td style="white-space:nowrap">10290<a name="lk-core-postalcodes-cs-10290"> </a></td><td>Dedigamuwa-Colombo</td></tr><tr><td style="white-space:nowrap">10656<a name="lk-core-postalcodes-cs-10656"> </a></td><td>Dehiwala-Colombo</td></tr><tr><td style="white-space:nowrap">10350<a name="lk-core-postalcodes-cs-10350"> </a></td><td>Deltara-Colombo</td></tr><tr><td style="white-space:nowrap">10302<a name="lk-core-postalcodes-cs-10302"> </a></td><td>Habarakada-Colombo</td></tr><tr><td style="white-space:nowrap">10204<a name="lk-core-postalcodes-cs-10204"> </a></td><td>Handapangoda-Colombo</td></tr><tr><td style="white-space:nowrap">10524<a name="lk-core-postalcodes-cs-10524"> </a></td><td>Hanwella-Colombo</td></tr><tr><td style="white-space:nowrap">10650<a name="lk-core-postalcodes-cs-10650"> </a></td><td>Hewainna-Colombo</td></tr><tr><td style="white-space:nowrap">10714<a name="lk-core-postalcodes-cs-10714"> </a></td><td>Hiripitya-Colombo</td></tr><tr><td style="white-space:nowrap">10232<a name="lk-core-postalcodes-cs-10232"> </a></td><td>Hokandara-Colombo</td></tr><tr><td style="white-space:nowrap">10118<a name="lk-core-postalcodes-cs-10118"> </a></td><td>Homagama-Colombo</td></tr><tr><td style="white-space:nowrap">10200<a name="lk-core-postalcodes-cs-10200"> </a></td><td>Horagala-Colombo</td></tr><tr><td style="white-space:nowrap">10502<a name="lk-core-postalcodes-cs-10502"> </a></td><td>Kaduwela-Colombo</td></tr><tr><td style="white-space:nowrap">10640<a name="lk-core-postalcodes-cs-10640"> </a></td><td>Kahawala-Colombo</td></tr><tr><td style="white-space:nowrap">10508<a name="lk-core-postalcodes-cs-10508"> </a></td><td>Kalatuwawa-Colombo</td></tr><tr><td style="white-space:nowrap">10718<a name="lk-core-postalcodes-cs-10718"> </a></td><td>Kiriwattuduwa-Colombo</td></tr><tr><td style="white-space:nowrap">10208<a name="lk-core-postalcodes-cs-10208"> </a></td><td>Kolonnawa-Colombo</td></tr><tr><td style="white-space:nowrap">10600<a name="lk-core-postalcodes-cs-10600"> </a></td><td>Kosgama-Colombo</td></tr><tr><td style="white-space:nowrap">10730<a name="lk-core-postalcodes-cs-10730"> </a></td><td>Madapatha-Colombo</td></tr><tr><td style="white-space:nowrap">10306<a name="lk-core-postalcodes-cs-10306"> </a></td><td>Maharagama-Colombo</td></tr><tr><td style="white-space:nowrap">10280<a name="lk-core-postalcodes-cs-10280"> </a></td><td>Malabe-Colombo</td></tr><tr><td style="white-space:nowrap">10115<a name="lk-core-postalcodes-cs-10115"> </a></td><td>Meegoda-Colombo</td></tr><tr><td style="white-space:nowrap">10504<a name="lk-core-postalcodes-cs-10504"> </a></td><td>Moratuwa-Colombo</td></tr><tr><td style="white-space:nowrap">10400<a name="lk-core-postalcodes-cs-10400"> </a></td><td>Mount Lavinia-Colombo</td></tr><tr><td style="white-space:nowrap">10370<a name="lk-core-postalcodes-cs-10370"> </a></td><td>Mullegama-Colombo</td></tr><tr><td style="white-space:nowrap">10202<a name="lk-core-postalcodes-cs-10202"> </a></td><td>Mulleriyawa New Town-Colombo</td></tr><tr><td style="white-space:nowrap">10620<a name="lk-core-postalcodes-cs-10620"> </a></td><td>Mutwal-Colombo</td></tr><tr><td style="white-space:nowrap">10704<a name="lk-core-postalcodes-cs-10704"> </a></td><td>Nugegoda-Colombo</td></tr><tr><td style="white-space:nowrap">10250<a name="lk-core-postalcodes-cs-10250"> </a></td><td>Padukka-Colombo</td></tr><tr><td style="white-space:nowrap">10500<a name="lk-core-postalcodes-cs-10500"> </a></td><td>Pannipitiya-Colombo</td></tr><tr><td style="white-space:nowrap">10230<a name="lk-core-postalcodes-cs-10230"> </a></td><td>Piliyandala-Colombo</td></tr><tr><td style="white-space:nowrap">10300<a name="lk-core-postalcodes-cs-10300"> </a></td><td>Pitipana Homagama-Colombo</td></tr><tr><td style="white-space:nowrap">10206<a name="lk-core-postalcodes-cs-10206"> </a></td><td>Polgasowita-Colombo</td></tr><tr><td style="white-space:nowrap">10320<a name="lk-core-postalcodes-cs-10320"> </a></td><td>Puwakpitiya-Colombo</td></tr><tr><td style="white-space:nowrap">10712<a name="lk-core-postalcodes-cs-10712"> </a></td><td>Ranala-Colombo</td></tr><tr><td style="white-space:nowrap">10654<a name="lk-core-postalcodes-cs-10654"> </a></td><td>Siddamulla-Colombo</td></tr><tr><td style="white-space:nowrap">10304<a name="lk-core-postalcodes-cs-10304"> </a></td><td>Sri Jayawardenepu-Colombo</td></tr><tr><td style="white-space:nowrap">10100<a name="lk-core-postalcodes-cs-10100"> </a></td><td>Talawatugoda-Colombo</td></tr><tr><td style="white-space:nowrap">10116<a name="lk-core-postalcodes-cs-10116"> </a></td><td>Tummodara-Colombo</td></tr><tr><td style="white-space:nowrap">10682<a name="lk-core-postalcodes-cs-10682"> </a></td><td>Waga-Colombo</td></tr><tr><td style="white-space:nowrap">10680<a name="lk-core-postalcodes-cs-10680"> </a></td><td>Watareka-Colombo</td></tr><tr><td style="white-space:nowrap">10511<a name="lk-core-postalcodes-cs-10511"> </a></td><td>Akurana-Kandy</td></tr><tr><td style="white-space:nowrap">20850<a name="lk-core-postalcodes-cs-20850"> </a></td><td>Alawatugoda-Kandy</td></tr><tr><td style="white-space:nowrap">20140<a name="lk-core-postalcodes-cs-20140"> </a></td><td>Aludeniya-Kandy</td></tr><tr><td style="white-space:nowrap">20062<a name="lk-core-postalcodes-cs-20062"> </a></td><td>Ambagahapelessa-Kandy</td></tr><tr><td style="white-space:nowrap">20986<a name="lk-core-postalcodes-cs-20986"> </a></td><td>Ambatenna-Kandy</td></tr><tr><td style="white-space:nowrap">20136<a name="lk-core-postalcodes-cs-20136"> </a></td><td>Ampitiya-Kandy</td></tr><tr><td style="white-space:nowrap">20160<a name="lk-core-postalcodes-cs-20160"> </a></td><td>Ankumbura-Kandy</td></tr><tr><td style="white-space:nowrap">20150<a name="lk-core-postalcodes-cs-20150"> </a></td><td>Atabage-Kandy</td></tr><tr><td style="white-space:nowrap">20574<a name="lk-core-postalcodes-cs-20574"> </a></td><td>Balana-Kandy</td></tr><tr><td style="white-space:nowrap">20308<a name="lk-core-postalcodes-cs-20308"> </a></td><td>Bambaragahaela-Kandy</td></tr><tr><td style="white-space:nowrap">20644<a name="lk-core-postalcodes-cs-20644"> </a></td><td>Barawardhana Oya-Kandy</td></tr><tr><td style="white-space:nowrap">20967<a name="lk-core-postalcodes-cs-20967"> </a></td><td>Batagolladeniya-Kandy</td></tr><tr><td style="white-space:nowrap">20154<a name="lk-core-postalcodes-cs-20154"> </a></td><td>Batugoda-Kandy</td></tr><tr><td style="white-space:nowrap">20132<a name="lk-core-postalcodes-cs-20132"> </a></td><td>Batumulla-Kandy</td></tr><tr><td style="white-space:nowrap">20966<a name="lk-core-postalcodes-cs-20966"> </a></td><td>Bawlana-Kandy</td></tr><tr><td style="white-space:nowrap">20218<a name="lk-core-postalcodes-cs-20218"> </a></td><td>Bopana-Kandy</td></tr><tr><td style="white-space:nowrap">20932<a name="lk-core-postalcodes-cs-20932"> </a></td><td>Danture-Kandy</td></tr><tr><td style="white-space:nowrap">20465<a name="lk-core-postalcodes-cs-20465"> </a></td><td>Dedunupitiya-Kandy</td></tr><tr><td style="white-space:nowrap">20068<a name="lk-core-postalcodes-cs-20068"> </a></td><td>Dekinda-Kandy</td></tr><tr><td style="white-space:nowrap">20658<a name="lk-core-postalcodes-cs-20658"> </a></td><td>Deltota-Kandy</td></tr><tr><td style="white-space:nowrap">20430<a name="lk-core-postalcodes-cs-20430"> </a></td><td>Dolapihilla-Kandy</td></tr><tr><td style="white-space:nowrap">20126<a name="lk-core-postalcodes-cs-20126"> </a></td><td>Dolosbage-Kandy</td></tr><tr><td style="white-space:nowrap">20510<a name="lk-core-postalcodes-cs-20510"> </a></td><td>Doluwa-Kandy</td></tr><tr><td style="white-space:nowrap">20532<a name="lk-core-postalcodes-cs-20532"> </a></td><td>Doragamuwa-Kandy</td></tr><tr><td style="white-space:nowrap">20816<a name="lk-core-postalcodes-cs-20816"> </a></td><td>Dunuwila-Kandy</td></tr><tr><td style="white-space:nowrap">20824<a name="lk-core-postalcodes-cs-20824"> </a></td><td>Ekiriya-Kandy</td></tr><tr><td style="white-space:nowrap">20732<a name="lk-core-postalcodes-cs-20732"> </a></td><td>Elamulla-Kandy</td></tr><tr><td style="white-space:nowrap">20742<a name="lk-core-postalcodes-cs-20742"> </a></td><td>Etulgama-Kandy</td></tr><tr><td style="white-space:nowrap">20202<a name="lk-core-postalcodes-cs-20202"> </a></td><td>Galaboda-Kandy</td></tr><tr><td style="white-space:nowrap">20664<a name="lk-core-postalcodes-cs-20664"> </a></td><td>Galagedara-Kandy</td></tr><tr><td style="white-space:nowrap">20100<a name="lk-core-postalcodes-cs-20100"> </a></td><td>Galaha-Kandy</td></tr><tr><td style="white-space:nowrap">20420<a name="lk-core-postalcodes-cs-20420"> </a></td><td>Galhinna-Kandy</td></tr><tr><td style="white-space:nowrap">20152<a name="lk-core-postalcodes-cs-20152"> </a></td><td>Gallellagama-Kandy</td></tr><tr><td style="white-space:nowrap">20095<a name="lk-core-postalcodes-cs-20095"> </a></td><td>Gampola-Kandy</td></tr><tr><td style="white-space:nowrap">20500<a name="lk-core-postalcodes-cs-20500"> </a></td><td>Gelioya-Kandy</td></tr><tr><td style="white-space:nowrap">20620<a name="lk-core-postalcodes-cs-20620"> </a></td><td>Godamunna-Kandy</td></tr><tr><td style="white-space:nowrap">20214<a name="lk-core-postalcodes-cs-20214"> </a></td><td>Gomagoda-Kandy</td></tr><tr><td style="white-space:nowrap">20184<a name="lk-core-postalcodes-cs-20184"> </a></td><td>Gonagantenna-Kandy</td></tr><tr><td style="white-space:nowrap">20712<a name="lk-core-postalcodes-cs-20712"> </a></td><td>Gonawalapatana-Kandy</td></tr><tr><td style="white-space:nowrap">20656<a name="lk-core-postalcodes-cs-20656"> </a></td><td>Gunnepana-Kandy</td></tr><tr><td style="white-space:nowrap">20270<a name="lk-core-postalcodes-cs-20270"> </a></td><td>Gurudeniya-Kandy</td></tr><tr><td style="white-space:nowrap">20189<a name="lk-core-postalcodes-cs-20189"> </a></td><td>Halloluwa-Kandy</td></tr><tr><td style="white-space:nowrap">20032<a name="lk-core-postalcodes-cs-20032"> </a></td><td>Handaganawa-Kandy</td></tr><tr><td style="white-space:nowrap">20984<a name="lk-core-postalcodes-cs-20984"> </a></td><td>Handawalapitiya-Kandy</td></tr><tr><td style="white-space:nowrap">20438<a name="lk-core-postalcodes-cs-20438"> </a></td><td>Handessa-Kandy</td></tr><tr><td style="white-space:nowrap">20480<a name="lk-core-postalcodes-cs-20480"> </a></td><td>Hanguranketha-Kandy</td></tr><tr><td style="white-space:nowrap">20710<a name="lk-core-postalcodes-cs-20710"> </a></td><td>Harankahawa-Kandy</td></tr><tr><td style="white-space:nowrap">20092<a name="lk-core-postalcodes-cs-20092"> </a></td><td>Hasalaka-Kandy</td></tr><tr><td style="white-space:nowrap">20960<a name="lk-core-postalcodes-cs-20960"> </a></td><td>Hataraliyadda-Kandy</td></tr><tr><td style="white-space:nowrap">20060<a name="lk-core-postalcodes-cs-20060"> </a></td><td>Hewaheta-Kandy</td></tr><tr><td style="white-space:nowrap">20440<a name="lk-core-postalcodes-cs-20440"> </a></td><td>Hindagala-Kandy</td></tr><tr><td style="white-space:nowrap">20414<a name="lk-core-postalcodes-cs-20414"> </a></td><td>Hondiyadeniya-Kandy</td></tr><tr><td style="white-space:nowrap">20524<a name="lk-core-postalcodes-cs-20524"> </a></td><td>Hunnasgiriya-Kandy</td></tr><tr><td style="white-space:nowrap">20948<a name="lk-core-postalcodes-cs-20948"> </a></td><td>lhala Kobbekaduwa-Kandy</td></tr><tr><td style="white-space:nowrap">20042<a name="lk-core-postalcodes-cs-20042"> </a></td><td>lllagolla-Kandy</td></tr><tr><td style="white-space:nowrap">20724<a name="lk-core-postalcodes-cs-20724"> </a></td><td>Jambugahapitiya-Kandy</td></tr><tr><td style="white-space:nowrap">20822<a name="lk-core-postalcodes-cs-20822"> </a></td><td>Kadugannawa-Kandy</td></tr><tr><td style="white-space:nowrap">20300<a name="lk-core-postalcodes-cs-20300"> </a></td><td>Kahataliyadda-Kandy</td></tr><tr><td style="white-space:nowrap">20924<a name="lk-core-postalcodes-cs-20924"> </a></td><td>Kalugala-Kandy</td></tr><tr><td style="white-space:nowrap">20926<a name="lk-core-postalcodes-cs-20926"> </a></td><td>Kandy-Kandy</td></tr><tr><td style="white-space:nowrap">20000<a name="lk-core-postalcodes-cs-20000"> </a></td><td>Kapuliyadde-Kandy</td></tr><tr><td style="white-space:nowrap">20206<a name="lk-core-postalcodes-cs-20206"> </a></td><td>Karandagolla-Kandy</td></tr><tr><td style="white-space:nowrap">20738<a name="lk-core-postalcodes-cs-20738"> </a></td><td>Katugastota-Kandy</td></tr><tr><td style="white-space:nowrap">20800<a name="lk-core-postalcodes-cs-20800"> </a></td><td>Kengalla-Kandy</td></tr><tr><td style="white-space:nowrap">20186<a name="lk-core-postalcodes-cs-20186"> </a></td><td>Ketakumbura-Kandy</td></tr><tr><td style="white-space:nowrap">20306<a name="lk-core-postalcodes-cs-20306"> </a></td><td>Ketawala Leula-Kandy</td></tr><tr><td style="white-space:nowrap">20198<a name="lk-core-postalcodes-cs-20198"> </a></td><td>Kiribathkumbura-Kandy</td></tr><tr><td style="white-space:nowrap">20442<a name="lk-core-postalcodes-cs-20442"> </a></td><td>Kobonila-Kandy</td></tr><tr><td style="white-space:nowrap">20928<a name="lk-core-postalcodes-cs-20928"> </a></td><td>Kolabissa-Kandy</td></tr><tr><td style="white-space:nowrap">20212<a name="lk-core-postalcodes-cs-20212"> </a></td><td>Kolongoda-Kandy</td></tr><tr><td style="white-space:nowrap">20971<a name="lk-core-postalcodes-cs-20971"> </a></td><td>Kulugammana-Kandy</td></tr><tr><td style="white-space:nowrap">20048<a name="lk-core-postalcodes-cs-20048"> </a></td><td>Kumbukkandura-Kandy</td></tr><tr><td style="white-space:nowrap">20902<a name="lk-core-postalcodes-cs-20902"> </a></td><td>Kumburegama-Kandy</td></tr><tr><td style="white-space:nowrap">20086<a name="lk-core-postalcodes-cs-20086"> </a></td><td>Kundasale-Kandy</td></tr><tr><td style="white-space:nowrap">20168<a name="lk-core-postalcodes-cs-20168"> </a></td><td>Leemagahakotuwa-Kandy</td></tr><tr><td style="white-space:nowrap">20482<a name="lk-core-postalcodes-cs-20482"> </a></td><td>Lunuketiya Maditta-Kandy</td></tr><tr><td style="white-space:nowrap">20172<a name="lk-core-postalcodes-cs-20172"> </a></td><td>Madawala Bazaar-Kandy</td></tr><tr><td style="white-space:nowrap">20260<a name="lk-core-postalcodes-cs-20260"> </a></td><td>Madugalla-Kandy</td></tr><tr><td style="white-space:nowrap">20938<a name="lk-core-postalcodes-cs-20938"> </a></td><td>Madulkele-Kandy</td></tr><tr><td style="white-space:nowrap">20840<a name="lk-core-postalcodes-cs-20840"> </a></td><td>Mahadoraliyadda-Kandy</td></tr><tr><td style="white-space:nowrap">20945<a name="lk-core-postalcodes-cs-20945"> </a></td><td>Mahamedagama-Kandy</td></tr><tr><td style="white-space:nowrap">20216<a name="lk-core-postalcodes-cs-20216"> </a></td><td>Mailapitiya-Kandy</td></tr><tr><td style="white-space:nowrap">20702<a name="lk-core-postalcodes-cs-20702"> </a></td><td>Makkanigama-Kandy</td></tr><tr><td style="white-space:nowrap">20828<a name="lk-core-postalcodes-cs-20828"> </a></td><td>Makuldeniya-Kandy</td></tr><tr><td style="white-space:nowrap">20921<a name="lk-core-postalcodes-cs-20921"> </a></td><td>Mandaram Nuwara-Kandy</td></tr><tr><td style="white-space:nowrap">20744<a name="lk-core-postalcodes-cs-20744"> </a></td><td>Mapakanda-Kandy</td></tr><tr><td style="white-space:nowrap">20662<a name="lk-core-postalcodes-cs-20662"> </a></td><td>Marassana-Kandy</td></tr><tr><td style="white-space:nowrap">20210<a name="lk-core-postalcodes-cs-20210"> </a></td><td>Marymount Colony-Kandy</td></tr><tr><td style="white-space:nowrap">20714<a name="lk-core-postalcodes-cs-20714"> </a></td><td>Maturata-Kandy</td></tr><tr><td style="white-space:nowrap">20748<a name="lk-core-postalcodes-cs-20748"> </a></td><td>Mawatura-Kandy</td></tr><tr><td style="white-space:nowrap">20564<a name="lk-core-postalcodes-cs-20564"> </a></td><td>Medamahanuwara-Kandy</td></tr><tr><td style="white-space:nowrap">20940<a name="lk-core-postalcodes-cs-20940"> </a></td><td>Medawala Harispattuwa-Kandy</td></tr><tr><td style="white-space:nowrap">20120<a name="lk-core-postalcodes-cs-20120"> </a></td><td>Meetalawa-Kandy</td></tr><tr><td style="white-space:nowrap">20512<a name="lk-core-postalcodes-cs-20512"> </a></td><td>Megoda Kalugamuwa-Kandy</td></tr><tr><td style="white-space:nowrap">20409<a name="lk-core-postalcodes-cs-20409"> </a></td><td>Menikdiwela-Kandy</td></tr><tr><td style="white-space:nowrap">20470<a name="lk-core-postalcodes-cs-20470"> </a></td><td>Menikhinna-Kandy</td></tr><tr><td style="white-space:nowrap">20170<a name="lk-core-postalcodes-cs-20170"> </a></td><td>Mimure-Kandy</td></tr><tr><td style="white-space:nowrap">20923<a name="lk-core-postalcodes-cs-20923"> </a></td><td>Minigamuwa-Kandy</td></tr><tr><td style="white-space:nowrap">20109<a name="lk-core-postalcodes-cs-20109"> </a></td><td>Minipe-Kandy</td></tr><tr><td style="white-space:nowrap">20983<a name="lk-core-postalcodes-cs-20983"> </a></td><td>Murutalawa-Kandy</td></tr><tr><td style="white-space:nowrap">20232<a name="lk-core-postalcodes-cs-20232"> </a></td><td>Muruthagahamulla-Kandy</td></tr><tr><td style="white-space:nowrap">20526<a name="lk-core-postalcodes-cs-20526"> </a></td><td>Naranpanawa-Kandy</td></tr><tr><td style="white-space:nowrap">20176<a name="lk-core-postalcodes-cs-20176"> </a></td><td>Nattarampotha-Kandy</td></tr><tr><td style="white-space:nowrap">20194<a name="lk-core-postalcodes-cs-20194"> </a></td><td>Nawalapitiya-Kandy</td></tr><tr><td style="white-space:nowrap">20650<a name="lk-core-postalcodes-cs-20650"> </a></td><td>Nillambe-Kandy</td></tr><tr><td style="white-space:nowrap">20418<a name="lk-core-postalcodes-cs-20418"> </a></td><td>Nugaliyadda-Kandy</td></tr><tr><td style="white-space:nowrap">20204<a name="lk-core-postalcodes-cs-20204"> </a></td><td>Nugawela-Kandy</td></tr><tr><td style="white-space:nowrap">20072<a name="lk-core-postalcodes-cs-20072"> </a></td><td>Pallebowala-Kandy</td></tr><tr><td style="white-space:nowrap">20734<a name="lk-core-postalcodes-cs-20734"> </a></td><td>Pallekotuwa-Kandy</td></tr><tr><td style="white-space:nowrap">20084<a name="lk-core-postalcodes-cs-20084"> </a></td><td>Panvila-Kandy</td></tr><tr><td style="white-space:nowrap">20830<a name="lk-core-postalcodes-cs-20830"> </a></td><td>Panwilatenna-Kandy</td></tr><tr><td style="white-space:nowrap">20544<a name="lk-core-postalcodes-cs-20544"> </a></td><td>Paradeka-Kandy</td></tr><tr><td style="white-space:nowrap">20578<a name="lk-core-postalcodes-cs-20578"> </a></td><td>Pasbage-Kandy</td></tr><tr><td style="white-space:nowrap">20654<a name="lk-core-postalcodes-cs-20654"> </a></td><td>Pattitalawa-Kandy</td></tr><tr><td style="white-space:nowrap">20511<a name="lk-core-postalcodes-cs-20511"> </a></td><td>Pattiya Watta-Kandy</td></tr><tr><td style="white-space:nowrap">20118<a name="lk-core-postalcodes-cs-20118"> </a></td><td>Peradeniya-Kandy</td></tr><tr><td style="white-space:nowrap">20400<a name="lk-core-postalcodes-cs-20400"> </a></td><td>Pilawala-Kandy</td></tr><tr><td style="white-space:nowrap">20196<a name="lk-core-postalcodes-cs-20196"> </a></td><td>Pilimatalawa-Kandy</td></tr><tr><td style="white-space:nowrap">20450<a name="lk-core-postalcodes-cs-20450"> </a></td><td>Poholiyadda-Kandy</td></tr><tr><td style="white-space:nowrap">20106<a name="lk-core-postalcodes-cs-20106"> </a></td><td>Polgolla-Kandy</td></tr><tr><td style="white-space:nowrap">20250<a name="lk-core-postalcodes-cs-20250"> </a></td><td>Pujapitiya-Kandy</td></tr><tr><td style="white-space:nowrap">20112<a name="lk-core-postalcodes-cs-20112"> </a></td><td>Pupuressa-Kandy</td></tr><tr><td style="white-space:nowrap">20546<a name="lk-core-postalcodes-cs-20546"> </a></td><td>Pussellawa-Kandy</td></tr><tr><td style="white-space:nowrap">20580<a name="lk-core-postalcodes-cs-20580"> </a></td><td>Putuhapuwa-Kandy</td></tr><tr><td style="white-space:nowrap">20906<a name="lk-core-postalcodes-cs-20906"> </a></td><td>Rajawella-Kandy</td></tr><tr><td style="white-space:nowrap">20180<a name="lk-core-postalcodes-cs-20180"> </a></td><td>Rambukpitiya-Kandy</td></tr><tr><td style="white-space:nowrap">20676<a name="lk-core-postalcodes-cs-20676"> </a></td><td>Rambukwella-Kandy</td></tr><tr><td style="white-space:nowrap">20128<a name="lk-core-postalcodes-cs-20128"> </a></td><td>Rangala-Kandy</td></tr><tr><td style="white-space:nowrap">20922<a name="lk-core-postalcodes-cs-20922"> </a></td><td>Rantembe-Kandy</td></tr><tr><td style="white-space:nowrap">20990<a name="lk-core-postalcodes-cs-20990"> </a></td><td>Rathukohodigala-Kandy</td></tr><tr><td style="white-space:nowrap">20818<a name="lk-core-postalcodes-cs-20818"> </a></td><td>Rikillagaskada-Kandy</td></tr><tr><td style="white-space:nowrap">20730<a name="lk-core-postalcodes-cs-20730"> </a></td><td>Sangarajapura-Kandy</td></tr><tr><td style="white-space:nowrap">20044<a name="lk-core-postalcodes-cs-20044"> </a></td><td>Senarathwela-Kandy</td></tr><tr><td style="white-space:nowrap">20904<a name="lk-core-postalcodes-cs-20904"> </a></td><td>Talatuoya-Kandy</td></tr><tr><td style="white-space:nowrap">20200<a name="lk-core-postalcodes-cs-20200"> </a></td><td>Tawalantenna-Kandy</td></tr><tr><td style="white-space:nowrap">20838<a name="lk-core-postalcodes-cs-20838"> </a></td><td>Teldeniya-Kandy</td></tr><tr><td style="white-space:nowrap">20900<a name="lk-core-postalcodes-cs-20900"> </a></td><td>Tennekumbura-Kandy</td></tr><tr><td style="white-space:nowrap">20166<a name="lk-core-postalcodes-cs-20166"> </a></td><td>Uda Peradeniya-Kandy</td></tr><tr><td style="white-space:nowrap">20404<a name="lk-core-postalcodes-cs-20404"> </a></td><td>Udahentenna-Kandy</td></tr><tr><td style="white-space:nowrap">20506<a name="lk-core-postalcodes-cs-20506"> </a></td><td>Udahingulwala-Kandy</td></tr><tr><td style="white-space:nowrap">20094<a name="lk-core-postalcodes-cs-20094"> </a></td><td>Udatalawinna-Kandy</td></tr><tr><td style="white-space:nowrap">20802<a name="lk-core-postalcodes-cs-20802"> </a></td><td>Udawatta-Kandy</td></tr><tr><td style="white-space:nowrap">20722<a name="lk-core-postalcodes-cs-20722"> </a></td><td>Udispattuwa-Kandy</td></tr><tr><td style="white-space:nowrap">20916<a name="lk-core-postalcodes-cs-20916"> </a></td><td>Ududumbara-Kandy</td></tr><tr><td style="white-space:nowrap">20950<a name="lk-core-postalcodes-cs-20950"> </a></td><td>Uduwa-Kandy</td></tr><tr><td style="white-space:nowrap">20052<a name="lk-core-postalcodes-cs-20052"> </a></td><td>Uduwahinna-Kandy</td></tr><tr><td style="white-space:nowrap">20934<a name="lk-core-postalcodes-cs-20934"> </a></td><td>Uduwela-Kandy</td></tr><tr><td style="white-space:nowrap">20164<a name="lk-core-postalcodes-cs-20164"> </a></td><td>Ulapane-Kandy</td></tr><tr><td style="white-space:nowrap">20562<a name="lk-core-postalcodes-cs-20562"> </a></td><td>Ulpothagama-Kandy</td></tr><tr><td style="white-space:nowrap">20965<a name="lk-core-postalcodes-cs-20965"> </a></td><td>Unuwinna-Kandy</td></tr><tr><td style="white-space:nowrap">20708<a name="lk-core-postalcodes-cs-20708"> </a></td><td>Velamboda-Kandy</td></tr><tr><td style="white-space:nowrap">20640<a name="lk-core-postalcodes-cs-20640"> </a></td><td>Wattappola-Kandy</td></tr><tr><td style="white-space:nowrap">20454<a name="lk-core-postalcodes-cs-20454"> </a></td><td>Wattegama-Kandy</td></tr><tr><td style="white-space:nowrap">20810<a name="lk-core-postalcodes-cs-20810"> </a></td><td>Watagoda Harispattuwa-Kandy</td></tr><tr><td style="white-space:nowrap">20134<a name="lk-core-postalcodes-cs-20134"> </a></td><td>Weligalla-Kandy</td></tr><tr><td style="white-space:nowrap">20610<a name="lk-core-postalcodes-cs-20610"> </a></td><td>Weligampola-Kandy</td></tr><tr><td style="white-space:nowrap">20666<a name="lk-core-postalcodes-cs-20666"> </a></td><td>Wendaruwa-Kandy</td></tr><tr><td style="white-space:nowrap">20914<a name="lk-core-postalcodes-cs-20914"> </a></td><td>Weragantota-Kandy</td></tr><tr><td style="white-space:nowrap">20982<a name="lk-core-postalcodes-cs-20982"> </a></td><td>Werapitya-Kandy</td></tr><tr><td style="white-space:nowrap">20908<a name="lk-core-postalcodes-cs-20908"> </a></td><td>Werellagama-Kandy</td></tr><tr><td style="white-space:nowrap">20080<a name="lk-core-postalcodes-cs-20080"> </a></td><td>Wettawa-Kandy</td></tr><tr><td style="white-space:nowrap">20108<a name="lk-core-postalcodes-cs-20108"> </a></td><td>Wilanagama-Kandy</td></tr><tr><td style="white-space:nowrap">20142<a name="lk-core-postalcodes-cs-20142"> </a></td><td>Yahalatenna-Kandy</td></tr><tr><td style="white-space:nowrap">20234<a name="lk-core-postalcodes-cs-20234"> </a></td><td>Yatihalagala-Kandy</td></tr></table></div>
+  </text>
+  <url value="http://fhir.health.gov.lk/CodeSystem/lk-core-postalcodes-cs"/>
+  <version value="0.1.0"/>
+  <name value="LKCorePostalCodesCS"/>
+  <title value="LK Core Postalcodes Code System"/>
+  <status value="draft"/>
+  <date value="2023-08-11T10:37:20+05:30"/>
+  <description value="LK Core Postalcodes Code System"/>
+  <content value="complete"/>
+  <count value="226"/>
+  <concept>
+    <code value="100"/>
+    <display value="Colombo 02-Colombo"/>
+  </concept>
+  <concept>
+    <code value="200"/>
+    <display value="Colombo 03-Colombo"/>
+  </concept>
+  <concept>
+    <code value="300"/>
+    <display value="Colombo 04-Colombo"/>
+  </concept>
+  <concept>
+    <code value="400"/>
+    <display value="Colombo 05-Colombo"/>
+  </concept>
+  <concept>
+    <code value="500"/>
+    <display value="Colombo 06-Colombo"/>
+  </concept>
+  <concept>
+    <code value="600"/>
+    <display value="Colombo 07-Colombo"/>
+  </concept>
+  <concept>
+    <code value="700"/>
+    <display value="Colombo 08-Colombo"/>
+  </concept>
+  <concept>
+    <code value="800"/>
+    <display value="Colombo 09-Colombo"/>
+  </concept>
+  <concept>
+    <code value="900"/>
+    <display value="Colombo 10-Colombo"/>
+  </concept>
+  <concept>
+    <code value="1000"/>
+    <display value="Colombo 11-Colombo"/>
+  </concept>
+  <concept>
+    <code value="1100"/>
+    <display value="Colombo 12-Colombo"/>
+  </concept>
+  <concept>
+    <code value="1200"/>
+    <display value="Colombo 13-Colombo"/>
+  </concept>
+  <concept>
+    <code value="1300"/>
+    <display value="Colombo 14-Colombo"/>
+  </concept>
+  <concept>
+    <code value="1400"/>
+    <display value="Colombo 15-Colombo"/>
+  </concept>
+  <concept>
+    <code value="1500"/>
+    <display value="Akarawita-Colombo"/>
+  </concept>
+  <concept>
+    <code value="10732"/>
+    <display value="Athurugiriya-Colombo"/>
+  </concept>
+  <concept>
+    <code value="10150"/>
+    <display value="Avissawella-Colombo"/>
+  </concept>
+  <concept>
+    <code value="10700"/>
+    <display value="Batawala-Colombo"/>
+  </concept>
+  <concept>
+    <code value="10513"/>
+    <display value="Battaramulla-Colombo"/>
+  </concept>
+  <concept>
+    <code value="10120"/>
+    <display value="Batugampola-Colombo"/>
+  </concept>
+  <concept>
+    <code value="10526"/>
+    <display value="Bope-Colombo"/>
+  </concept>
+  <concept>
+    <code value="10522"/>
+    <display value="Boralesgamuwa-Colombo"/>
+  </concept>
+  <concept>
+    <code value="10290"/>
+    <display value="Dedigamuwa-Colombo"/>
+  </concept>
+  <concept>
+    <code value="10656"/>
+    <display value="Dehiwala-Colombo"/>
+  </concept>
+  <concept>
+    <code value="10350"/>
+    <display value="Deltara-Colombo"/>
+  </concept>
+  <concept>
+    <code value="10302"/>
+    <display value="Habarakada-Colombo"/>
+  </concept>
+  <concept>
+    <code value="10204"/>
+    <display value="Handapangoda-Colombo"/>
+  </concept>
+  <concept>
+    <code value="10524"/>
+    <display value="Hanwella-Colombo"/>
+  </concept>
+  <concept>
+    <code value="10650"/>
+    <display value="Hewainna-Colombo"/>
+  </concept>
+  <concept>
+    <code value="10714"/>
+    <display value="Hiripitya-Colombo"/>
+  </concept>
+  <concept>
+    <code value="10232"/>
+    <display value="Hokandara-Colombo"/>
+  </concept>
+  <concept>
+    <code value="10118"/>
+    <display value="Homagama-Colombo"/>
+  </concept>
+  <concept>
+    <code value="10200"/>
+    <display value="Horagala-Colombo"/>
+  </concept>
+  <concept>
+    <code value="10502"/>
+    <display value="Kaduwela-Colombo"/>
+  </concept>
+  <concept>
+    <code value="10640"/>
+    <display value="Kahawala-Colombo"/>
+  </concept>
+  <concept>
+    <code value="10508"/>
+    <display value="Kalatuwawa-Colombo"/>
+  </concept>
+  <concept>
+    <code value="10718"/>
+    <display value="Kiriwattuduwa-Colombo"/>
+  </concept>
+  <concept>
+    <code value="10208"/>
+    <display value="Kolonnawa-Colombo"/>
+  </concept>
+  <concept>
+    <code value="10600"/>
+    <display value="Kosgama-Colombo"/>
+  </concept>
+  <concept>
+    <code value="10730"/>
+    <display value="Madapatha-Colombo"/>
+  </concept>
+  <concept>
+    <code value="10306"/>
+    <display value="Maharagama-Colombo"/>
+  </concept>
+  <concept>
+    <code value="10280"/>
+    <display value="Malabe-Colombo"/>
+  </concept>
+  <concept>
+    <code value="10115"/>
+    <display value="Meegoda-Colombo"/>
+  </concept>
+  <concept>
+    <code value="10504"/>
+    <display value="Moratuwa-Colombo"/>
+  </concept>
+  <concept>
+    <code value="10400"/>
+    <display value="Mount Lavinia-Colombo"/>
+  </concept>
+  <concept>
+    <code value="10370"/>
+    <display value="Mullegama-Colombo"/>
+  </concept>
+  <concept>
+    <code value="10202"/>
+    <display value="Mulleriyawa New Town-Colombo"/>
+  </concept>
+  <concept>
+    <code value="10620"/>
+    <display value="Mutwal-Colombo"/>
+  </concept>
+  <concept>
+    <code value="10704"/>
+    <display value="Nugegoda-Colombo"/>
+  </concept>
+  <concept>
+    <code value="10250"/>
+    <display value="Padukka-Colombo"/>
+  </concept>
+  <concept>
+    <code value="10500"/>
+    <display value="Pannipitiya-Colombo"/>
+  </concept>
+  <concept>
+    <code value="10230"/>
+    <display value="Piliyandala-Colombo"/>
+  </concept>
+  <concept>
+    <code value="10300"/>
+    <display value="Pitipana Homagama-Colombo"/>
+  </concept>
+  <concept>
+    <code value="10206"/>
+    <display value="Polgasowita-Colombo"/>
+  </concept>
+  <concept>
+    <code value="10320"/>
+    <display value="Puwakpitiya-Colombo"/>
+  </concept>
+  <concept>
+    <code value="10712"/>
+    <display value="Ranala-Colombo"/>
+  </concept>
+  <concept>
+    <code value="10654"/>
+    <display value="Siddamulla-Colombo"/>
+  </concept>
+  <concept>
+    <code value="10304"/>
+    <display value="Sri Jayawardenepu-Colombo"/>
+  </concept>
+  <concept>
+    <code value="10100"/>
+    <display value="Talawatugoda-Colombo"/>
+  </concept>
+  <concept>
+    <code value="10116"/>
+    <display value="Tummodara-Colombo"/>
+  </concept>
+  <concept>
+    <code value="10682"/>
+    <display value="Waga-Colombo"/>
+  </concept>
+  <concept>
+    <code value="10680"/>
+    <display value="Watareka-Colombo"/>
+  </concept>
+  <concept>
+    <code value="10511"/>
+    <display value="Akurana-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20850"/>
+    <display value="Alawatugoda-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20140"/>
+    <display value="Aludeniya-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20062"/>
+    <display value="Ambagahapelessa-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20986"/>
+    <display value="Ambatenna-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20136"/>
+    <display value="Ampitiya-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20160"/>
+    <display value="Ankumbura-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20150"/>
+    <display value="Atabage-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20574"/>
+    <display value="Balana-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20308"/>
+    <display value="Bambaragahaela-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20644"/>
+    <display value="Barawardhana Oya-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20967"/>
+    <display value="Batagolladeniya-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20154"/>
+    <display value="Batugoda-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20132"/>
+    <display value="Batumulla-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20966"/>
+    <display value="Bawlana-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20218"/>
+    <display value="Bopana-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20932"/>
+    <display value="Danture-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20465"/>
+    <display value="Dedunupitiya-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20068"/>
+    <display value="Dekinda-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20658"/>
+    <display value="Deltota-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20430"/>
+    <display value="Dolapihilla-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20126"/>
+    <display value="Dolosbage-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20510"/>
+    <display value="Doluwa-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20532"/>
+    <display value="Doragamuwa-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20816"/>
+    <display value="Dunuwila-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20824"/>
+    <display value="Ekiriya-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20732"/>
+    <display value="Elamulla-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20742"/>
+    <display value="Etulgama-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20202"/>
+    <display value="Galaboda-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20664"/>
+    <display value="Galagedara-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20100"/>
+    <display value="Galaha-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20420"/>
+    <display value="Galhinna-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20152"/>
+    <display value="Gallellagama-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20095"/>
+    <display value="Gampola-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20500"/>
+    <display value="Gelioya-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20620"/>
+    <display value="Godamunna-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20214"/>
+    <display value="Gomagoda-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20184"/>
+    <display value="Gonagantenna-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20712"/>
+    <display value="Gonawalapatana-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20656"/>
+    <display value="Gunnepana-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20270"/>
+    <display value="Gurudeniya-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20189"/>
+    <display value="Halloluwa-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20032"/>
+    <display value="Handaganawa-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20984"/>
+    <display value="Handawalapitiya-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20438"/>
+    <display value="Handessa-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20480"/>
+    <display value="Hanguranketha-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20710"/>
+    <display value="Harankahawa-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20092"/>
+    <display value="Hasalaka-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20960"/>
+    <display value="Hataraliyadda-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20060"/>
+    <display value="Hewaheta-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20440"/>
+    <display value="Hindagala-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20414"/>
+    <display value="Hondiyadeniya-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20524"/>
+    <display value="Hunnasgiriya-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20948"/>
+    <display value="lhala Kobbekaduwa-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20042"/>
+    <display value="lllagolla-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20724"/>
+    <display value="Jambugahapitiya-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20822"/>
+    <display value="Kadugannawa-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20300"/>
+    <display value="Kahataliyadda-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20924"/>
+    <display value="Kalugala-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20926"/>
+    <display value="Kandy-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20000"/>
+    <display value="Kapuliyadde-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20206"/>
+    <display value="Karandagolla-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20738"/>
+    <display value="Katugastota-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20800"/>
+    <display value="Kengalla-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20186"/>
+    <display value="Ketakumbura-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20306"/>
+    <display value="Ketawala Leula-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20198"/>
+    <display value="Kiribathkumbura-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20442"/>
+    <display value="Kobonila-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20928"/>
+    <display value="Kolabissa-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20212"/>
+    <display value="Kolongoda-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20971"/>
+    <display value="Kulugammana-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20048"/>
+    <display value="Kumbukkandura-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20902"/>
+    <display value="Kumburegama-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20086"/>
+    <display value="Kundasale-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20168"/>
+    <display value="Leemagahakotuwa-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20482"/>
+    <display value="Lunuketiya Maditta-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20172"/>
+    <display value="Madawala Bazaar-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20260"/>
+    <display value="Madugalla-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20938"/>
+    <display value="Madulkele-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20840"/>
+    <display value="Mahadoraliyadda-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20945"/>
+    <display value="Mahamedagama-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20216"/>
+    <display value="Mailapitiya-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20702"/>
+    <display value="Makkanigama-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20828"/>
+    <display value="Makuldeniya-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20921"/>
+    <display value="Mandaram Nuwara-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20744"/>
+    <display value="Mapakanda-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20662"/>
+    <display value="Marassana-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20210"/>
+    <display value="Marymount Colony-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20714"/>
+    <display value="Maturata-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20748"/>
+    <display value="Mawatura-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20564"/>
+    <display value="Medamahanuwara-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20940"/>
+    <display value="Medawala Harispattuwa-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20120"/>
+    <display value="Meetalawa-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20512"/>
+    <display value="Megoda Kalugamuwa-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20409"/>
+    <display value="Menikdiwela-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20470"/>
+    <display value="Menikhinna-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20170"/>
+    <display value="Mimure-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20923"/>
+    <display value="Minigamuwa-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20109"/>
+    <display value="Minipe-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20983"/>
+    <display value="Murutalawa-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20232"/>
+    <display value="Muruthagahamulla-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20526"/>
+    <display value="Naranpanawa-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20176"/>
+    <display value="Nattarampotha-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20194"/>
+    <display value="Nawalapitiya-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20650"/>
+    <display value="Nillambe-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20418"/>
+    <display value="Nugaliyadda-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20204"/>
+    <display value="Nugawela-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20072"/>
+    <display value="Pallebowala-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20734"/>
+    <display value="Pallekotuwa-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20084"/>
+    <display value="Panvila-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20830"/>
+    <display value="Panwilatenna-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20544"/>
+    <display value="Paradeka-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20578"/>
+    <display value="Pasbage-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20654"/>
+    <display value="Pattitalawa-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20511"/>
+    <display value="Pattiya Watta-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20118"/>
+    <display value="Peradeniya-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20400"/>
+    <display value="Pilawala-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20196"/>
+    <display value="Pilimatalawa-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20450"/>
+    <display value="Poholiyadda-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20106"/>
+    <display value="Polgolla-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20250"/>
+    <display value="Pujapitiya-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20112"/>
+    <display value="Pupuressa-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20546"/>
+    <display value="Pussellawa-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20580"/>
+    <display value="Putuhapuwa-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20906"/>
+    <display value="Rajawella-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20180"/>
+    <display value="Rambukpitiya-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20676"/>
+    <display value="Rambukwella-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20128"/>
+    <display value="Rangala-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20922"/>
+    <display value="Rantembe-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20990"/>
+    <display value="Rathukohodigala-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20818"/>
+    <display value="Rikillagaskada-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20730"/>
+    <display value="Sangarajapura-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20044"/>
+    <display value="Senarathwela-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20904"/>
+    <display value="Talatuoya-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20200"/>
+    <display value="Tawalantenna-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20838"/>
+    <display value="Teldeniya-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20900"/>
+    <display value="Tennekumbura-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20166"/>
+    <display value="Uda Peradeniya-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20404"/>
+    <display value="Udahentenna-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20506"/>
+    <display value="Udahingulwala-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20094"/>
+    <display value="Udatalawinna-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20802"/>
+    <display value="Udawatta-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20722"/>
+    <display value="Udispattuwa-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20916"/>
+    <display value="Ududumbara-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20950"/>
+    <display value="Uduwa-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20052"/>
+    <display value="Uduwahinna-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20934"/>
+    <display value="Uduwela-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20164"/>
+    <display value="Ulapane-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20562"/>
+    <display value="Ulpothagama-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20965"/>
+    <display value="Unuwinna-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20708"/>
+    <display value="Velamboda-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20640"/>
+    <display value="Wattappola-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20454"/>
+    <display value="Wattegama-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20810"/>
+    <display value="Watagoda Harispattuwa-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20134"/>
+    <display value="Weligalla-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20610"/>
+    <display value="Weligampola-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20666"/>
+    <display value="Wendaruwa-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20914"/>
+    <display value="Weragantota-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20982"/>
+    <display value="Werapitya-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20908"/>
+    <display value="Werellagama-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20080"/>
+    <display value="Wettawa-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20108"/>
+    <display value="Wilanagama-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20142"/>
+    <display value="Yahalatenna-Kandy"/>
+  </concept>
+  <concept>
+    <code value="20234"/>
+    <display value="Yatihalagala-Kandy"/>
+  </concept>
+</CodeSystem>
