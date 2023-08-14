@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "LKCorePatient"] ; # 
   fhir:title [ fhir:v "LK Core Patient"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2023-08-11T10:37:20+05:30"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-08-14T13:12:37+05:30"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "National core Patient FHIR profile published by the Ministry of Health Sri Lanka"] ; # 
   fhir:fhirVersion [ fhir:v "4.0.1"] ; # 
   fhir:mapping ( [
