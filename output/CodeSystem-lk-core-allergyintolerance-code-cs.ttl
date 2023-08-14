@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "LKCoreAllergyIntoleranceCodeCS"] ; # 
   fhir:title [ fhir:v "LK Core Allergy Intolerance Code System"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2023-08-11T10:37:20+05:30"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-08-14T13:12:37+05:30"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "Substances, medciations and other allergens for Sri Lanka"] ; # 
   fhir:content [ fhir:v "complete"] ; # 
   fhir:count [ fhir:v "1"^^xsd:nonNegativeInteger] ; # 

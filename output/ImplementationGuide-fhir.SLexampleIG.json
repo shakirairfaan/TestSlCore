@@ -10,7 +10,7 @@
   "name" : "SLCoreexampleIG",
   "title" : "SL Core",
   "status" : "draft",
-  "date" : "2023-08-11T10:37:20+05:30",
+  "date" : "2023-08-14T13:12:37+05:30",
   "description" : "A test IG for SL Core",
   "packageId" : "fhir.SLexampleIG",
   "license" : "CC0-1.0",

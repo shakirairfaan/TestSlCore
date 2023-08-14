@@ -3,7 +3,7 @@
   "name" : "SLCoreexampleIG",
   "package-id" : "fhir.SLexampleIG",
   "ig-ver" : "0.1.0",
-  "date" : "Fri, 11 Aug, 2023 10:37:20 +0530",
+  "date" : "Mon, 14 Aug, 2023 13:12:37 +0530",
   "errs" : 9,
   "warnings" : 42,
   "hints" : 9,
